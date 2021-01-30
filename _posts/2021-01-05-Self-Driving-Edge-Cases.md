@@ -12,6 +12,8 @@ header:
 
 This is the front of my car after driving for about 20 minutes on the road in average weather conditions on the 401 between Toronto and Waterloo in December 2020.
 
+The sludge is so thick you can't even easily scrape it off with your finger, so tiny little wipers won't work, *no matter how cute they are*.
+
 This was not an uncommon storm.
 The weather was perfect for sticky sleet (that's a kind of very wet snow for you 
 **California dwellers**).
@@ -21,7 +23,7 @@ We propose a solution, then we get it working on the easy case, and then we **st
 
 We say that **'extreme weather'** will need to be dealt with, *of course it will*, one day. But it never happens.  This is a problem for *ever* getting AI solutions out into the real world.
 
-![The sludge is so thick you can't even easily scrape it off with your finger, so tiny little wipers won't work, no matter how cute they are.](/assets/radar1.jpg)
+![](/assets/radar1.jpg)
 
 And because the real world has many challenging situations like this that are rare enough to seem like edge cases, but frequent enough to completely invalidate the "autonomous" nature of the system.
 
