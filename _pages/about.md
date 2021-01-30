@@ -3,6 +3,15 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+My name is Mark Crowley.
+This is my blog about the world from a computational point of view, which is *in a way*, the only point of view there is.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Different versions of me you may be looking for
+
+- Academic: 
+  - my [AI/ML Research Lab](https://uwaterloo.ca/scholar/mcrowley) as an Assistant Professor at the [University of Waterloo](https://uwaterloo.ca/electrical-computer-engineering/about/people/mcrowley)
+  - [Google Scholar](http://scholar.google.com/citations?hl=en&user=eL_y80EAAAAJ)
+  - [LinkedIn](http://www.linkedin.com/in/markanthonycrowley)
+
+- Politics: I have opinions, mostly on democratic systems and Canadian politics. Find them at [PopTheStack](http://popthestack.wordpress.com/)
+
