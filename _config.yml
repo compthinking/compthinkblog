@@ -53,6 +53,12 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-31267662-1"
+    anonymize_ip: false # default
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
