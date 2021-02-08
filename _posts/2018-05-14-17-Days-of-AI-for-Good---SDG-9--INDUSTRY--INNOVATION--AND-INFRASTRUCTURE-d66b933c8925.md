@@ -1,17 +1,16 @@
 ---
-title: '17 Days of AI for Good — SDG 9— INDUSTRY, INNOVATION, AND INFRASTRUCTURE'
-description: >-
-  Build resilient infrastructure, promote inclusive and sustainable
-  industrialization and foster innovation.
-date: '2018-05-14T14:11:01.216Z'
+title: 17 Days of AI for Good — SDG 9— INDUSTRY, INNOVATION, AND INFRASTRUCTURE
+description: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.
+date: 2018-05-14
 tags: 
-    - aiforgood
-    - conference notes
+- AIForGood
+- conference review
+header:
+  image: /assets/1__jDykNpqamaCb53razhrVlA.jpeg
 ---
 
 > “ New hybrid manufacturing incorporating AI, IoT sensors, and 4D printing is reshaping industries, representing the ’A Triple C’, and yielding exponential innovation unprecedented in world history.” — [AI XPRIZE](https://ai.xprize.org/AI-For-Good/sustainable-development-goals)
 
-![](/assets/1__jDykNpqamaCb53razhrVlA.jpeg)
 
 #### My Take
 

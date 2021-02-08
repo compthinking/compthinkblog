@@ -6,12 +6,16 @@ description: >-
   machines.
 date: '2018-04-15T13:31:00.822Z'
 
-tags: []
+tags:
+- artificial intellgience
+- general artificial intellgience
+- regulation
+- europe
 ---
 
 The European Parliament has apparently been discussing giving rights to machines.
 
-> European lawmakers called on Thursday for EU-wide legislation to regulate the rise of robots, including an ethical framework for their development and deployment and the establishment of liability for the actions of robots including self-driving cars. — [Reuters](https://www.reuters.com/article/us-europe-robots-lawmaking/european-parliament-calls-for-robot-law-rejects-robot-tax-idUSKBN15V2KM)
+> European lawmakers called on Thursday for EU-wide legislation to regulate the rise of robots, including an ethical framework for their development and deployment and the establishment of liability for the actions of robots including autonomous driving cars. — [Reuters](https://www.reuters.com/article/us-europe-robots-lawmaking/european-parliament-calls-for-robot-law-rejects-robot-tax-idUSKBN15V2KM)
 
 So a bit more detail. The EU Parliament, bless it’s heart, is really trying to get ahead of the curve and not let other jurisdictions set rules which they react to. That’s fantastic, and on privacy and human rights the EU have led in many ways. They motivated this helpful initiative in this way:
 

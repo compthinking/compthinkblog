@@ -1,7 +1,10 @@
 ---
 title:	"A New Year's Proposal for Ontario for Autonomous Driving"
 date:	2021-01-07
-tags: autonomous driving, ontario, weather, self-driving 
+tags: 
+- autonomous driving
+- weather
+- autonomous driving 
 show_tags: true
 toc: false
 header:

@@ -2,10 +2,11 @@
 title: Computational Sustainability at AAAI
 description: ''
 date: '2014-07-30T14:31:00.000Z'
-tags: conference-review
+tags: 
+- conference review
+header:
+    image: /assets/0__k__gh3PYlw__0gXlZR.jpg
 ---
-
-![](/assets/0__k__gh3PYlw__0gXlZR.jpg)
 
 This week in Québec City the [Twenty-Eighth AAAI Conference](http://www.aaai.org/Conferences/AAAI/aaai14.php) is being held and for the fourth year running there is a special track on [Computational Sustainability](http://www.computational-sustainability.org/). The range of talks look at ways to apply and extend ideas in Artificial Intelligence and Machine Learning for solving complex problems in Electric Vehicle Management, Bird Tracking, Disease Mapping, Power Management and Urban Emergency Preparedness.
 

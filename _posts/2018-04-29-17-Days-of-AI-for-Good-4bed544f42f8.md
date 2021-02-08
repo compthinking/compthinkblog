@@ -1,15 +1,14 @@
 ---
 title: 17 Days of AI for Good
 
-description: >-
-  In a couple weeks I will have the good fortune to be attending the second AI
-  for Good Summit in Geneva. The summit is run through…
-date: '2018-04-29T03:17:49.576Z'
-
-tags: []
+description: In a couple weeks I will have the good fortune to be attending the second AI for Good Summit in Geneva. The summit is run through…
+date: 2018-04-29
+tags: 
+- AIForGood
+header:
+  image: /assets/1____SXM4ufiw9W3s2boIyS8og.jpeg
 ---
 
-![](/assets/1____SXM4ufiw9W3s2boIyS8og.jpeg)
 
 In a couple weeks I will have the good fortune to be attending the second [**AI for Good Summit**](https://www.itu.int/en/ITU-T/AI/2018/Pages/default.aspx) in Geneva. The summit is run through collaboration between the [XPRIZE Foundation](http://If%20you%20consider%20limiting%20the%20objectives%20to%20predicting%20just%20broad%20society-wide%20targets%20such%20as%20poverty%20levels%20you%20can%20just%20about%20imagine%20it’s%20possible%20for%20this%20kind%20of%20agent-based%20model%20learning%20to%20work.), [ACM](http://acm.org) and the [United Nations](https://www.itu.int/en/ITU-T/AI/2018/Pages/default.aspx). I will be attending as a result of being a judge/reviewer for the ongoing [IBM Watson AI XPrize](https://ai.xprize.org/) which incentivizes teams around the world to “develop and demonstrate how humans can collaborate with powerful AI technologies to tackle the world’s grand challenges.”
 

@@ -3,7 +3,8 @@ title: Review of RLDM2013 Conference
 description: ''
 date: '2013-11-01T21:38:00.000Z'
 
-tags: conference-review
+tags: 
+- conference review
 ---
 
 Last week I attended the first multidisciplinary conference on [Reinforcement Learning and Decision Making (RLDM2013)](http://rldm.org/) and I think I speak for most people who attended when I say I hope it becomes a regular event on the academic calendar.  

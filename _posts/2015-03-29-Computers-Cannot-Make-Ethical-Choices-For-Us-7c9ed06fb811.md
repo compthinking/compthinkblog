@@ -6,7 +6,7 @@ date: '2015-03-29T17:11:00.000Z'
 tags: []
 ---
 
-I came across this interesting [post on the legal and insurance implications of Tesla’s upcoming self-driving feature](http://www.huffingtonpost.com/2015/03/28/tesla-self-driving-cars_n_6961922.html). The new feature would only work for interstate highways in the USA but it would be a big step towards automated driving in cars being widely used in regular driving situations. From a technological perspective it is exciting.  
+I came across this interesting [post on the legal and insurance implications of Tesla’s upcoming autonomous driving feature](http://www.huffingtonpost.com/2015/03/28/tesla-autonomous driving-cars_n_6961922.html). The new feature would only work for interstate highways in the USA but it would be a big step towards automated driving in cars being widely used in regular driving situations. From a technological perspective it is exciting.  
   
 The article notes that fully automatous cars are not going to be common in the near future which they followed with this stunning sentence:
 

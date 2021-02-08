@@ -3,7 +3,9 @@ title: Reviewing Papers by Reading Group
 description: ''
 date: '2014-01-31T17:00:00.000Z'
 
-tags: []
+tags:
+- reading groups
+- academia
 ---
 
 I love reading groups, and I just had an idea for how they might be able to save scientific peer review.  

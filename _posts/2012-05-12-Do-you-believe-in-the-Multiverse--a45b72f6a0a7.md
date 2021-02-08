@@ -3,7 +3,9 @@ title: Do you believe in the Multiverse?
 description: ''
 date: '2012-05-12T00:35:00.000Z'
 
-tags: []
+tags:
+- multiverse
+- physics
 ---
 
 Great review article of cosmology by Martin Rees, the British Astronomer Royal : [One universe among many?](http://www.prospectmagazine.co.uk/2012/04/science-big-bang-theory-new-research-astronomy/comment-page-1/#comment-284765)  

@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Computationally Thinking"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Mark Crowley<br>AI Researcher at Univ. Waterloo"
+  bio    : "Mark Crowley (he/him)<br>AI Researcher at Univ. Waterloo<br>Opinions on Democracy, Environment and Science<br>Opinions are all my own, and no one else's"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -77,6 +77,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://uwaterloo.ca/scholar/mcrowley"
     - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
       url: "https://github.com/rateldajer"
 
 footer:

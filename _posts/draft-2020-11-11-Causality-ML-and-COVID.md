@@ -3,7 +3,10 @@ title: Causality, ML and COVID-19
 
 date: '2020-11-11'
 description: 'Blog post on a topic of a presentation on in December 2020.'
-tags: causality machine-learning
+tags: 
+- causality 
+- machine learning
+- COVID-19
 show_tags: true
 aside: 
     toc: true
