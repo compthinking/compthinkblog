@@ -1,5 +1,7 @@
 [drafts] -------- -------- -------- -------- -------- -------- -------- --------
 [draft_template](draft_template)
+
+[2021-03-10-IsAIJustAPassingFad](2021-03-10-IsAIJustAPassingFad)
 [draft-2020-11-11-Causality-ML-and-COVID](draft-2020-11-11-Causality-ML-and-COVID)
 [draft-2019-12-10-the-scream-of-gen-y](draft-2019-12-10-the-scream-of-gen-y)
 [draft-2019-10-04-Testing-Driving-the-Current-Assisted-Driving-Contenders-in-Canada-3bf077091d02](draft-2019-10-04-Testing-Driving-the-Current-Assisted-Driving-Contenders-in-Canada-3bf077091d02)

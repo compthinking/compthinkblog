@@ -1,6 +1,5 @@
 ---
 title: The Scream of Gen Y
-
 tags: climate_change
 date: '2020-09-01'
 show_tags: true
@@ -8,8 +7,7 @@ aside:
     toc: true
 ---
 
-# The Scream of Gen Y
-Where's the  line? 
+Where is the line? 
 
 I don't mean a crisp perfect line, but a kind of General dividing line between people who know the world is fucked and something has to change and those who I've been fighting to keep the old system in place. I was born in 1976. When I was a kid we called ourselves Generation Y oh, now we get lumped in with Generation X in between the Boomers and the millennials. but there is a bit of Distinction between people who were born literally in the shadow of the entitled boomer generation and those born until say 1974 or so grew who up without the world really changing at all expect to get jobs in the same way but with less opportunity in a difficult environment  when they're parents had all the luck in the world. They didn’t learn how to program computers in school at all; the internet didn’t break out into the public until they were out of college or university; they were teenagers when Challenger exploded and they were out in the workforce for the great recession of the early 90s.
 
