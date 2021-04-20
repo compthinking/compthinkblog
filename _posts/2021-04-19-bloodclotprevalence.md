@@ -1,16 +1,14 @@
 ---
 title: Do all COVID Vaccines have the same Blood Clot Risk?
-layout: article
-date: '2021-04-19'
-description: TL;DR - Maybe yes, but this study isn't conclusive, mostly because they are so, incredibly few cases of the blood clot condition.
+date: 2021-04-19
+description: "TL;DR - Maybe yes, but this study isn't conclusive, mostly because they are so, incredibly few cases of the blood clot condition."
 tags: 
 - causality
 - covid19
 - scientific-method
 - understanding-data-analysis
 show_tags: true
-aside: 
-    toc: true
+toc: true
 ---
 
 So, I'm excited today, because I just got my booking for the Astra-Zenica vaccine for this Friday. For context, I'm 44 and living in Ontario. 
