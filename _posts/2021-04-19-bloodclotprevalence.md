@@ -11,7 +11,7 @@ show_tags: true
 toc: true
 ---
 
-So, I'm excited today, because I just got my booking for the Astra-Zenica vaccine for this Friday. For context, I'm 44 and living in Ontario. 
+So, I'm excited today, because I just got my booking for the Astra-Zenica vaccine for this Friday. For context, I'm over 40 and living in Ontario. 
 
 So why am I excited? Well, because until today our province had been limiting vaccine access to people 55 or older, and 50 in some cases or 18+ for very high risk areas. *Apparently*, the Ontario government was under the impression there were not allowed to go against the advice of the **National Advisory Committee on Immunization (NACI)** and give doses to the general population in lower risk areas until the Federal Government approved it. This weekend, the [federal government clarified](https://www.cbc.ca/news/canada/toronto/ontario-pharamcists-astrazeneca-age-eligibility-1.5992514) to them that this was never the case, each province can take the NACI advice as they see fit.
 
