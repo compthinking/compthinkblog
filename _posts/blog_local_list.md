@@ -1,11 +1,17 @@
 [drafts] -------- -------- -------- -------- -------- -------- -------- --------
 [draft_template](draft_template)
+[tempfile](tempfile)
+
+
+
+[draft-13-13 submittedtojournal Causality ML and COVID](draft-2021-13-13-submittedtojournal-Causality-ML-and-COVID)
 
 [2021-03-10-IsAIJustAPassingFad](2021-03-10-IsAIJustAPassingFad)
 [draft-2020-11-11-Causality-ML-and-COVID](draft-2020-11-11-Causality-ML-and-COVID)
 [draft-2019-12-10-the-scream-of-gen-y](draft-2019-12-10-the-scream-of-gen-y)
 [draft-2019-10-04-Testing-Driving-the-Current-Assisted-Driving-Contenders-in-Canada-3bf077091d02](draft-2019-10-04-Testing-Driving-the-Current-Assisted-Driving-Contenders-in-Canada-3bf077091d02)
 [donedraft] -------- -------- -------- -------- -------- -------- -------- --------
+
 [donedraft-The-Future-of-Life-Institute-has-released-a-new-call-for-a-ban-on-Lethal-Autonomous-Weapons--e030976281a8](donedraft-The-Future-of-Life-Institute-has-released-a-new-call-for-a-ban-on-Lethal-Autonomous-Weapons--e030976281a8)
 [donedraft-17-Days-of-AI-for-Good---SDG-T--TITLE-59430839b9ac](donedraft-17-Days-of-AI-for-Good---SDG-T--TITLE-59430839b9ac)
 [donedraft-17-Days-of-AI-for-Good---SDG-17---PARTNERSHIPS-FOR-THE-GOALS-941eb026452](donedraft-17-Days-of-AI-for-Good---SDG-17---PARTNERSHIPS-FOR-THE-GOALS-941eb026452)
@@ -15,6 +21,8 @@
 [donedraft-17-Days-of-AI-for-Good---SDG-13---CLIMATE-ACTION-c39db5e1cdfc](donedraft-17-Days-of-AI-for-Good---SDG-13---CLIMATE-ACTION-c39db5e1cdfc)
 [donedraft-17-Days-of-AI-for-Good---SDG-11---SUSTAINABLE-CITIES-AND-COMMUNITIES-51c0519a4f29](donedraft-17-Days-of-AI-for-Good---SDG-11---SUSTAINABLE-CITIES-AND-COMMUNITIES-51c0519a4f29)
 [2021] -------- -------- -------- -------- -------- -------- -------- --------
+[2021-04-19-bloodclotprevalence](2021-04-19-bloodclotprevalence)
+
 [2021-02-07-Atmospheric-Engineering](2021-02-07-Atmospheric-Engineering)
 [2021-01-07-An Autonomous Driving New Year's Proposal.md](2021-01-07-An Autonomous Driving New Year's Proposal)
 [2021-01-05-Self-Driving-Edge-Cases](2021-01-05-Self-Driving-Edge-Cases)
