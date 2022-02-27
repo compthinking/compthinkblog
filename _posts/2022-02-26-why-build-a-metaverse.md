@@ -1,6 +1,7 @@
 ---
 title:	"Why Build a Meta-Verse?"
 date:	2022-02-26
+excerpt: Some spontaneous thoughts on the multiverse of metaverses and whether it's all worth the effort.
 tags: 
 - metaverse
 - internet
@@ -10,7 +11,8 @@ tags:
 - machine-learning
 - automated-translation
 show_tags: true
-toc: false
+toc: true
+classes: false
 ---
 
 I recently received a survey request from a Pew Research project, usually I ignore these, but today I clicked through. It might have been a combination of avoiding the awful news around the world, or procastrinating on some work I need to get done, or perhaps it was the topic. The survey was about *"The Future of the Metaverse"* (!) (:o) (!). I'm *very* interested in **multiverses** you see, and every time I see something about THE Metaverse, I get excited about the philosophical and scientific implications of different kinds of multiverses, and *then* realize it's just something about this new Facebook rebranding initiative. A more severe intellectual let-down is almost not possible for a cosmology/consciousness/math/philosophy-nerd such as myself. So, after clicking through to this survey about "the meta(verse)", I now found I had opinions!  So here they are, apparently.

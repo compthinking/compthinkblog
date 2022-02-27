@@ -6,8 +6,8 @@ tags:
 - machine learning
 - COVID-19
 show_tags: true
-aside: 
-    toc: true
+toc: true
+classes: wide
 typora-root-url: ../assets/clip_image006.png
 ---
 

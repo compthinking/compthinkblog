@@ -1,7 +1,7 @@
 ---
 title: Do all COVID Vaccines have the same Blood Clot Risk?
 date: 2021-04-19
-description: "TL;DR - Maybe yes, but this study isn't conclusive, mostly because they are so, incredibly few cases of the blood clot condition."
+excerpt: TL;DR - Maybe yes, but this study isn't conclusive, mostly because they are so, incredibly few cases of the blood clot condition.
 tags: 
 - causality
 - covid19
