@@ -108,12 +108,15 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide # note this will remove the toc and make text wider
       author_profile: true
       read_time: true
+      show_date: true
       comments: true
       share: true
       related: true
       toc: true
+      show_tags: true
     #header:
       #image: /assets/conferences/wurzburgpalace_small.jpg
   # _pages
