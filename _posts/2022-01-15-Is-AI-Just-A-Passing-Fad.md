@@ -1,15 +1,16 @@
 ---
 title:	"Is AI Just a Passing Fad"
-date:	2021-03-10
+date:	2022-01-15
 tags: 
 - machine learning
 - artificial intelligence
+- artificial general intelligence
+- agi
 show_tags: true
 toc: true
 header:
     image: /assets/robots_robohub_dressedup_trendy.jpg
 ---
-(see gingko)
 
 Someone important recently expressed a thought to me along the following lines:
 
