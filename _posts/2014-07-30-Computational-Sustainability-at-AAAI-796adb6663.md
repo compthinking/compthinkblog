@@ -3,7 +3,7 @@ title: Computational Sustainability at AAAI
 description: ''
 date: '2014-07-30T14:31:00.000Z'
 tags: 
-- conference review
+- conference-review
 header:
     image: /assets/0__k__gh3PYlw__0gXlZR.jpg
 ---

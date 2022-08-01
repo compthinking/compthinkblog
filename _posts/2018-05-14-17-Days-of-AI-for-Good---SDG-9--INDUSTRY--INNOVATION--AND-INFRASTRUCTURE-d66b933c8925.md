@@ -4,7 +4,7 @@ description: Build resilient infrastructure, promote inclusive and sustainable i
 date: 2018-05-14
 tags: 
 - AIForGood
-- conference review
+- conference-review
 header:
   image: /assets/1__jDykNpqamaCb53razhrVlA.jpeg
 ---

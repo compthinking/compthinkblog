@@ -4,7 +4,7 @@ description: ''
 date: '2014-01-31T17:00:00.000Z'
 
 tags:
-- reading groups
+- reading-groups
 - academia
 ---
 

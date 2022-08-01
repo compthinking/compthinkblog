@@ -2,7 +2,7 @@
 title:	"Infinite Diversity in Infinite Combinations"
 date:	2022-07-31
 tags: 
-- humanssuck
+- humans-suck
 - startrek
 - futurism
 - science-fiction

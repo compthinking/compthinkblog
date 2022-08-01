@@ -1,9 +1,8 @@
 ---
 title: "Self-Driving 'Edge' Cases Aren't All That Edgy"
 tags: 
-- selfdriving 
-- autonomous driving 
-- machine learning
+- autonomous-driving 
+- machine-learning
 date: '2021-01-05'
 show_tags: true
 header:
