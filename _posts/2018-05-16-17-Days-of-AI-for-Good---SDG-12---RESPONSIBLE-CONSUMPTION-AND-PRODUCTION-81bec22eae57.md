@@ -4,10 +4,10 @@ title: 17 Days of AI for Good — SDG 12 — RESPONSIBLE CONSUMPTION AND PRODUCT
 description: Ensure sustainable consumption and production patterns
 date: 2018-05-16
 tags:
-- artificial intellgience
+- artificial-intelligence
 - AIForGood
-- machine learning
-- computational sustainability 
+- machine-learning
+- computational-sustainability 
 ---
 
 > “ AI is yielding optimal consumption and production levels with vertical green farms, eliminating waste, and vastly improving yields and resource efficiency.” — [AI XPRIZE](https://ai.xprize.org/AI-For-Good/sustainable-development-goals)

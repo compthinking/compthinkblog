@@ -5,12 +5,12 @@ tags: autonomous driving
 - canada
 - ontario
 - weather
-- autonomous driving
-- climate emergency
-- climate change
-- machine learning
-- artificial intelligence
-- reinforcement learning
+- autonomous-driving
+- climate-emergency
+- climate-change
+- machine-learning
+- artificial-intelligence
+- reinforcement-learning
 - humanssuck
 show_tags: true
 toc: true

@@ -4,7 +4,8 @@ title: How long ago is long ago? How fast is fast?
 description: ''
 date: '2017-01-08T23:17:00.000Z'
 
-tags: []
+tags:
+- artificial-intelligence
 ---
 
 So apparently, the [first iPhone came out 10 years ago today](http://www.ctvnews.ca/sci-tech/10-years-ago-steve-jobs-presented-apple-s-first-iphone-1.3232137). That kind of hit me.  

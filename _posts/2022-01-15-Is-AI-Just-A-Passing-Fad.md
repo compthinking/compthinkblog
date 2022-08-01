@@ -2,9 +2,9 @@
 title:	"Is AI Just a Passing Fad"
 date:	2022-01-15
 tags: 
-- machine learning
-- artificial intelligence
-- artificial general intelligence
+- machine-learning
+- artificial-intelligence
+- artificial-general-intelligence
 - agi
 show_tags: true
 toc: true

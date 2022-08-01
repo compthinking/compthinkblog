@@ -3,7 +3,8 @@ title: Building the Enterprise? Seriously? Why not?
 description: ''
 date: '2012-05-23T03:20:00.000Z'
 
-tags: []
+tags:
+- artificial-general-intelligence
 ---
 
 I ignored [this](http://www.buildtheenterprise.org/) the first time I saw it and then I was going to make snarky comment that we should just send a bunch of ships to mars instead of [building the Enterprise](http://www.buildtheenterprise.org/) if we’re going to spend $1 trillion. But then I thought, at least look before you ridicule.  

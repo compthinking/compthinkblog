@@ -2,9 +2,10 @@
 title:	"It's Better to Know about Atmospheric Engineering than Be Surprised Later"
 date:	2021-02-08
 tags: 
-- climate emergency
+- climate-emergency
 - geoengineering
-- climate change
+- climate-change
+- humans-suck
 show_tags: true
 toc: false
 ---

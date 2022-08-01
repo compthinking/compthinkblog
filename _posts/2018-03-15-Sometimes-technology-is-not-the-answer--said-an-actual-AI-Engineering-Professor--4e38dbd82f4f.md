@@ -2,9 +2,9 @@
 title: “Sometimes technology is not the answer” said an actual AI Engineering Professor.
 date: 2018-03-15
 tags:
-- artificial intellgience
-- machine learning
-- internet of things
+- artificial-intellgience
+- machine-learning
+- iot
 show_tags: true
 toc: true
 ---

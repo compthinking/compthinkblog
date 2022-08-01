@@ -4,7 +4,7 @@ date: 2021-04-19
 excerpt: TL;DR - Maybe yes, but this study isn't conclusive, mostly because they are so, incredibly few cases of the blood clot condition.
 tags: 
 - causality
-- covid19
+- covid-19
 - scientific-method
 - understanding-data-analysis
 show_tags: true

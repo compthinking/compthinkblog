@@ -7,8 +7,9 @@ description: >-
 date: '2018-04-15T13:31:00.822Z'
 
 tags:
-- artificial intellgience
-- general artificial intellgience
+- artificial-intellgience
+- artificial-general-intellgience
+- agi
 - regulation
 - europe
 ---
