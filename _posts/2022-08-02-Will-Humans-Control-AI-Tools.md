@@ -1,13 +1,13 @@
 ---
 title:	"Will Humans be in Control when using Artificial Intelligence Tools?"
 date:	2022-08-02
+excerpt: Some people ask if AI decision tools will always allow human input by 2035, I think that's two questions in one. 
 tags: 
 - autonomous-driving
 - machine-learning
 - artificial-intelligence
-
-show_tags: true
-toc: false
+- usability
+classes: false
 thumbnail: /assets/images/dalle-car-wheel-brain.png"
 ---
 

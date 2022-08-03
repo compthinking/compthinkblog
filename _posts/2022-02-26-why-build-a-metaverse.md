@@ -10,7 +10,6 @@ tags:
 - nlp
 - machine-learning
 - automated-translation
-show_tags: true
 toc: true
 classes: false
 ---

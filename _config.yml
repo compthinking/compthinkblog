@@ -72,7 +72,7 @@ plugins:
 author:
   name   : "Computationally Thinking"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Mark Crowley (he/him)<br>AI Researcher at Univ. Waterloo<br>Opinions on Democracy, Environment and Science<br>Opinions are all my own, and no one else's"
+  bio    : "Mark Crowley (he/him)<br>Assoc. Professor in AI at Univ. Waterloo<br>Opinions on Democracy, Environment and Science<br>Opinions are all my own, and no one else's"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -80,26 +80,26 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rateldajer"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/markanthonycrowley/"
     - label: "Academic Website"
       icon: "fas fa-fw fa-link"
-      url: "https://uwaterloo.ca/scholar/mcrowley"
+      url: "https://markcrowley.ca"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/rateldajer"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://cybre.space/@compthink"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/compthink"
-      #- label: "Mastodon"
-      #      icon: "fab fa-fw fa-mastodon-square"
-      #      url: "https://twitter.com/compthink"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/rateldajer"
-    - label: "Scholar"
-      icon: "ai ai-google-scholar-square ai-3x"
       url: "https://github.com/rateldajer"
 
 defaults:
@@ -113,7 +113,7 @@ defaults:
       author_profile: true
       read_time: true
       show_date: true
-      comments: true
+      comments: false
       share: true
       related: true
       toc: true
