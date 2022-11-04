@@ -41,7 +41,7 @@ It is also sometimes called [called cerebral venous sinus thrombosis (CVST)](htt
 
 ## What did this study look at?
 
-The study looks very clear and straightforward, but keep in mind, it is not a study experimenting on people so see a *causal effect*. That is, it is not the kind of study we all know about from testing the vaccines themselves for safety and effectiveness. In those studies, thousands of participants are carefully selected from the population, some are given a vaccine, some are not, and they are watched for months to see if they catch the disease randomly in their daily life.
+The study looks very clear and straightforward, but keep in mind, it is not a study experimenting on people to see a *causal effect*. That is, it is not the kind of study we all know about from testing the vaccines themselves for safety and effectiveness. In those studies, thousands of participants are carefully selected from the population, some are given a vaccine, some are not, and they are watched for months to see if they catch the disease randomly in their daily life.
 
 ## So what did they find?
 
