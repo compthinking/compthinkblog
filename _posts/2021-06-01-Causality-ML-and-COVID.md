@@ -3,7 +3,7 @@ title: Prediction and Causality - How Can Machine Learning be Used for COVID-19?
 date: '2021-06-01'
 tags: 
 - causality
-- causal-inference
+- causal-inference	
 - machine-learning
 - COVID-19
 show_tags: true
