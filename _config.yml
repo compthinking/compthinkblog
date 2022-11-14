@@ -91,7 +91,7 @@ author:
       url: "https://github.com/rateldajer"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
-      url: "https://cybre.space/@compthink"
+      url: "https://mastodon.social/@compthink"
 
 footer:
   links:
