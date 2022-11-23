@@ -25,7 +25,7 @@ Different versions of me you may be looking for:
 - Social:
   - [Twitter](https://twitter.com/compthink) (for now...)
   
-  -  <a href="https://mastodon.social/@compthink" rel="me">@compthink@mastodon.social</a> (new hotness!)
+  -  <a href="https://sigmoid.social/@compthink" rel="me">@compthink@sigmoid.social</a> (new hotness!)
   
   - [LinkedIn](http://www.linkedin.com/in/markanthonycrowley) 
   
