@@ -5,7 +5,7 @@ excerpt: Some spontaneous thoughts on the multiverse of metaverses and whether i
 tags: 
 - metaverse
 - internet
-- social-network
+- social-media
 - natural-language-processing
 - nlp
 - machine-learning
