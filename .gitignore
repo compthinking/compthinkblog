@@ -4,6 +4,6 @@ _site
 Gemfile.lock
 .swp
 *.*.swp
-.DS_Store
+*.DS_Store
 .obsidian/
 .tmp.driveupload/
