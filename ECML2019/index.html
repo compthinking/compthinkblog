@@ -1,0 +1,1324 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ECML 2019 Notes - Computationally Thinking</title>
+<meta name="description" content="In September 2019 I had the good fortune to attend ECML 2019 in beautiful Wurzburg, Germany.">
+
+
+  <meta name="author" content="Computationally Thinking">
+  
+  <meta property="article:author" content="Computationally Thinking">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Computationally Thinking">
+<meta property="og:title" content="ECML 2019 Notes">
+<meta property="og:url" content="/ECML2019/">
+
+
+  <meta property="og:description" content="In September 2019 I had the good fortune to attend ECML 2019 in beautiful Wurzburg, Germany.">
+
+
+
+  <meta property="og:image" content="/assets/conferences/wurzburgpalace_small.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2019-10-04T00:00:00-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="/ECML2019/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Computationally Thinking Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Computationally Thinking
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/conferences/wurzburgpalace_small.jpg" alt="ECML 2019 Notes" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/images/bio-photo.jpg" alt="Computationally Thinking" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">Computationally Thinking</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Mark Crowley (he/him)<br />Assoc. Professor in AI at Univ. Waterloo<br />Opinions on Democracy, Environment and Science<br />Opinions are all my own, and no one else’s</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/markanthonycrowley/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://markcrowley.ca" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Academic Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://sigmoid.social/@compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ECML 2019 Notes">
+    <meta itemprop="description" content="In September 2019 I had the good fortune to attend ECML 2019 in beautiful Wurzburg, Germany.">
+    <meta itemprop="datePublished" content="2019-10-04T00:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/ECML2019/" class="u-url" itemprop="url">ECML 2019 Notes
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2019-10-04T00:00:00-04:00">October 4, 2019</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          17 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#monday-talks">Monday Talks</a><ul><li><a href="#sridharmahadevan-tutorial">SridharMahadevan Tutorial</a><ul><li><a href="#imagination-and-causation">Imagination and Causation</a></li><li><a href="#pearls-ladder-of-causality">Pearl’s Ladder of Causality</a><ul><li><a href="#association">Association</a></li><li><a href="#intervention">Intervention</a></li><li><a href="#counterfactuals">Counterfactuals</a></li></ul></li><li><a href="#combining-observation-and-causality">Combining Observation and Causality</a><ul><li><a href="#art-and-imagination">Art and Imagination</a></li></ul></li><li><a href="#relevant-optimization-methods-from-economics-which-would-be-useful-for-gans">Relevant Optimization methods from Economics which would be useful for GANs</a></li><li><a href="#reinforcement-learning-as-a-type-of-causal-learning">Reinforcement Learning as a type of Causal Learning</a></li></ul></li></ul></li><li><a href="#tuesday-talks">Tuesday Talks</a><ul><li><a href="#active-learning-anomaly-detection">Active Learning Anomaly Detection</a></li><li><a href="#oneclass-anomaly-detection">OneClass Anomaly Detection</a></li><li><a href="#autoencoder-anomaly-detection">Autoencoder Anomaly Detection</a></li><li><a href="#counterfactual-justification">Counterfactual Justification</a></li><li><a href="#ranking">Ranking</a></li><li><a href="#hierarchical-dense-anomalies">Hierarchical Dense anomalies</a></li><li><a href="#causal-effects-talk">Causal Effects Talk</a></li><li><a href="#uplift-regression">Uplift Regression</a></li></ul></li><li><a href="#wednesday-talks">Wednesday Talks</a><ul><li><a href="#fast-gradient-boosting">Fast Gradient Boosting</a></li><li><a href="#association-rules">Association Rules</a></li><li><a href="#black-box-explanation">Black Box Explanation</a></li><li><a href="#td-actor-critic">TD Actor Critic</a></li><li><a href="#deep-ordinal-reinforcement-learning">Deep Ordinal Reinforcement Learning</a></li><li><a href="#attentive-multi-task-deep-reinforcement-learning">Attentive Multi-Task Deep Reinforcement Learning</a></li><li><a href="#sample-efficient-model-free-reinforcement-learning-with-off-policy-critics">Sample-Efficient Model-Free Reinforcement Learning with Off-Policy Critics</a></li><li><a href="#policy-prediction-network-model-free-behavior-policy-with-model-based-learning-in-continuous-action-space">Policy Prediction Network: Model-Free Behavior Policy with Model-Based Learning in Continuous Action Space</a></li><li><a href="#safe-policy-improvement-with-soft-baseline-bootstrapping">Safe Policy Improvement with Soft Baseline Bootstrapping</a></li></ul></li><li><a href="#thursday">Thursday</a><ul><li><a href="#stochastic-activation-actor-critic-methods">Stochastic Activation Actor Critic Methods</a></li><li><a href="#compatible-natural-gradient-policy-search">Compatible Natural Gradient Policy Search</a></li><li><a href="#stochastic-one-sided-full-information-bandit">Stochastic One-Sided Full-Information Bandit</a></li><li><a href="#practical-open-loop-optimistic-planning">Practical Open-Loop Optimistic Planning</a></li><li><a href="#an-engineered-empirical-bernstein-bound">An Engineered Empirical Bernstein Bound</a></li></ul></li><li><a href="#maclean-earth-observation-workshop">MACLEAN Earth Observation Workshop</a><ul><li><a href="#earth-orientation-parameters-time-series">Earth Orientation Parameters Time Series</a></li><li><a href="#mvmf-loss-for-prediction-locations-of-an-image-on-earths-surface">MvMF Loss for Prediction locations of an image on Earth’s surface</a></li><li><a href="#deep-learning-for-power-line-inspection">Deep learning for power line inspection</a><ul><li><a href="#few-shot-learning">Few Shot Learning</a></li></ul></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>In September 2019 I had the good fortune to attend <a href="https://ecmlpkdd2019.org">ECML 2019</a> in beautiful Wurzburg, Germany.</p>
+
+<p>I was there to present our paper</p>
+<blockquote>
+  <p>Bhalla, S. et al., 2019. Compact Representation of a Multi-dimensional Combustion Manifold Using Deep Neural Networks. In European Conference on Machine Learning. Wurzburg, Germany, p. 8. <a href="https://uwaterloo.ca/scholar/mcrowley/publications/compact-representation-multi-dimensional-combustion-manifold-using-deep-neural">read more</a> <a href="https://uwaterloo.ca/scholar/sites/ca.scholar/files/mcrowley/files/_ecml_combustion_ml_1.pdf">pdf</a></p>
+</blockquote>
+
+<p>It was a fantastic conference, a nice size and a real diversity of topics, not just a whole bunch of permutations on Deep Learning. What follows are some notes I took at talks which I attended, you can take a look at the <a href="https://ecmlpkdd2019.org/programme/timetable/">full schedule here</a>.</p>
+
+<h1 id="monday-talks">Monday Talks</h1>
+
+<h2 id="sridharmahadevan-tutorial">SridharMahadevan Tutorial</h2>
+
+<ul>
+  <li>he’s  now at AdobeResearch</li>
+  <li>can also see his slides for IJCAI which was longer than this one</li>
+</ul>
+
+<h3 id="imagination-and-causation">Imagination and Causation</h3>
+<ul>
+  <li>ImaginationScience
+    <ul>
+      <li>he wants to do reasoning about future paths and outcomes without having data to back it up</li>
+      <li>how does he distinguish is from counterfactual reasoning <em>it is just one subset part of it</em></li>
+      <li>also includes: analogy, abstraction, spatial/temporal projection</li>
+      <li>what is Combinatorial Creativity? <em>mixing and matching existing compoenets that never occur, like a sphinx</em></li>
+    </ul>
+  </li>
+  <li>example: long term predictions for climate change
+    <ul>
+      <li>not just about predicing the next step but about reasoning baout what society will do for the next few decades</li>
+    </ul>
+  </li>
+  <li>example: search engine
+    <ul>
+      <li>what is the next step?</li>
+      <li>“Improbable” company essentially is trying to simulate reality</li>
+    </ul>
+  </li>
+  <li>he thinks GANs are really only novel thing to come out of Deep learning recently
+    <ul>
+      <li>he doesn’t think ML will be fundamentally different in 20 years, it’s solved essentially</li>
+    </ul>
+  </li>
+  <li>he’s talking about machines creating art
+    <ul>
+      <li>can machines ever create art?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="pearls-ladder-of-causality">Pearl’s Ladder of Causality</h3>
+<ul>
+  <li>This is that new three layered approach by JudeaPearl</li>
+  <li>“The Book of Why” where he explains it in simple approach
+    <h4 id="association">Association</h4>
+  </li>
+  <li>observational machine learning
+    <h4 id="intervention">Intervention</h4>
+  </li>
+  <li>Experimental science</li>
+  <li>Pearl: probabilities are an <em>epiphenomanon</em> resulting from the causal nature of the world</li>
+</ul>
+
+<h4 id="counterfactuals">Counterfactuals</h4>
+<ul>
+  <li>Can be thought of as necessary for Imagination</li>
+</ul>
+
+<h3 id="combining-observation-and-causality">Combining Observation and Causality</h3>
+<ul>
+  <li>GANs - solve problem is visualize imagination
+    <ul>
+      <li>he says GANs are related to Actor-Critic RL problem</li>
+      <li>Actor-Critic models converge but it wasn’t known until 20 years later</li>
+      <li>Wasserstein GANs have more theoretical bassis</li>
+    </ul>
+  </li>
+  <li>Seeing GANs as an optimization problem
+    <ul>
+      <li>min_G max_D V(D,G)</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="art-and-imagination">Art and Imagination</h4>
+<ul>
+  <li>CANs are a new model for simulating creativity</li>
+  <li>Can create fairly nice modern art paintings, but is it art or it sampling a space of images?
+    <ul>
+      <li>Is there a difference?</li>
+      <li>Does it mean anything? does it need to?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="relevant-optimization-methods-from-economics-which-would-be-useful-for-gans">Relevant Optimization methods from Economics which would be useful for GANs</h3>
+<ul>
+  <li>Optimization vs Equilibration
+    <ul>
+      <li>minimize a function in feasible set</li>
+      <li>usually need to assume f(x) is differentiable</li>
+    </ul>
+  </li>
+  <li><em>Equilibration</em> from physics (Stampacchia in the 1960s)
+    <ul>
+      <li>they define the set of partial gradients for a function as a <em>‘vector field’</em></li>
+      <li>assume this field is given rather than f(x) being given</li>
+      <li>means we can solve optimization problems but also other problems</li>
+      <li>eg. there are some vector fields that don’t have a function with a gradient that generates the vector field</li>
+      <li>economists use this for domains where the vector field can be written down easily but no simple function leads to it via derivatives</li>
+    </ul>
+  </li>
+  <li>Variational inequality
+    <ul class="task-list">
+      <li>eg. traffic management</li>
+      <li>GANs are this kind of problem whihc is why they work</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />he thinks game theory, GANs, traffic, RL etc are better solved using this approach</li>
+    </ul>
+  </li>
+  <li>GANs don’t converge if you just do gradient descent
+    <ul>
+      <li>but if you use the Wasserstein loss function then get a nash equilibrium?</li>
+      <li>the surface for a GAN is a saddle so gradient descent is bad, very unlikely to lead to a optimal appoint, you will cycle around</li>
+      <li>a better idea sometimes is to move orthogonal to the gradient because the think you are trying to do is find an equilibrium point</li>
+    </ul>
+  </li>
+  <li>Extragradient Method
+    <ul>
+      <li>Frobenius projection from the gradient</li>
+      <li>Project back to the main function if the negative vector field leads you out of the feasible set</li>
+    </ul>
+  </li>
+  <li>Mirror Descent instead of Gradient Descent
+      - by Nemirovsky and Yudin
+    <ul>
+      <li>gradients are in the dual of the original space, and this happens to line up in euclidean but wouldnt work others, so you can’t add them relaly</li>
+      <li>essentially you convert the state vector to the dual space first, then compute the gradient, update it and project back to the original space via a conjugate function</li>
+      <li>in Euclidean space, this whole mechanism collapses to gradient descent because the conversion is identity</li>
+      <li>this explains why multiplicative updates of gradients work better in many spaces</li>
+      <li>you can explain many ML methods using this idea
+        <ul>
+          <li>boosting</li>
+          <li>natural gradients - gradient descent should be done in reimanian space using the Fischer information matrix
+            <ul>
+              <li>Kakade’s paper on Natural Actor-Critic for playing Tetris</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Mirror-prox
+    <ul>
+      <li>take two gradient steps in the dual space, works even better</li>
+    </ul>
+  </li>
+  <li>He calls the dual space the <em>imagination space</em> because it handles (something)</li>
+  <li>
+    <h3 id="reinforcement-learning-as-a-type-of-causal-learning">Reinforcement Learning as a type of Causal Learning</h3>
+  </li>
+  <li>where you can try out particular actions</li>
+  <li>imagination values
+    <ul>
+      <li>what is the value of deviating from the action the policy advices</li>
+      <li>counterfactural kind of value function</li>
+      <li>not needed for an MDP but for POMDPs yuo need to imagine the possible worlds</li>
+      <li>even for multi-armed bandits it can help, because it leads you outside the existing policy actions</li>
+      <li>is it just exploration? it is related to off-policy exploration, how?</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="tuesday-talks">Tuesday Talks</h1>
+
+<h2 id="active-learning-anomaly-detection">Active Learning Anomaly Detection</h2>
+<ul>
+  <li>Unsupervised and Active Learning using Maximin-based Anomaly Detection</li>
+  <li><em>Zahra Ghafoori</em> (University of Melbourne), James C. Bezdek (University of Melbourne), Christopher Leckie (University of Melbourne), Shanika Karunasekera (University of Melbourne)</li>
+  <li>took some pictures of the AD background description which was very good
+    <ul>
+      <li>semi-supervised which an oracle that can be queried about whether points are anomalies or not</li>
+    </ul>
+  </li>
+  <li>they do active learning and compare to standard AD methods like OCSVM and iForest</li>
+  <li>better quality than iforest and faster because it only builds one model</li>
+</ul>
+
+<h2 id="oneclass-anomaly-detection">OneClass Anomaly Detection</h2>
+<ul>
+  <li>The Elliptical Basis Function Data Descriptor (EBFDD) Network - A One-Class Classification Approach to Anomaly Detection</li>
+  <li><em>MehranBazargani</em> (The Insight Centre for Data Analytics, School of Computer Science, University College Dublin), Brian Mac Namee (The Insight Centre for Data Analytics, School of Computer Science, University College Dublin)</li>
+  <li>a cost functiont hat turns RBF networks in to a one class classifier</li>
+  <li>assumptions
+    <ul>
+      <li>they are interested in <em>streaming data</em></li>
+      <li>training data does not include any anomalies</li>
+    </ul>
+  </li>
+  <li>RBF Networks
+    <ul>
+      <li>overview</li>
+      <li>three layers
+        <ul>
+          <li>input data</li>
+          <li>hidden layer of gaussian kernals, initialize the (m,v) with k-means</li>
+          <li>output layer lineraly combies them via a sigmoid</li>
+        </ul>
+      </li>
+      <li>backprop learns the paramters of the gaussians</li>
+      <li>not applicable to one class</li>
+    </ul>
+  </li>
+  <li>their change
+    <ul>
+      <li><em>main idea:</em> try to tightly fit the gaussians around the subspace of the normal points</li>
+      <li>introduce elliptical kernals instead of spherical</li>
+      <li>the ellipses can be stretched and shaped to adjust the amount of correlation (or not) between the dimensions</li>
+      <li>in stead of  gaussian (m,v) they have cov matrix for each kernel</li>
+    </ul>
+  </li>
+  <li>expeirments
+    <ul>
+      <li>they use the emmot and dietterich paper as their guide
+        <h2 id="autoencoder-anomaly-detection">Autoencoder Anomaly Detection</h2>
+      </li>
+    </ul>
+  </li>
+  <li>Robust Anomaly Detection in Images using Adversarial Autoencoders</li>
+  <li><em>LauraBeggel</em> (Bosch Center for Artificial Intelligence, Renningen; Ludwig-Maximilians-University Munich), Michael Pfeiffer (Bosch Center for Artificial Intelligence, Renningen), Bernd Bischl (Ludwig-Maximilians-University Munich)</li>
+  <li>They use an AutoEnc with an discriminator network instead of using KL divergence</li>
+  <li><em>neat idea</em> : a point is anomalous if either of the following are true
+    <ul>
+      <li>point is in a dense region and has high reconstruction error compared to the data from training</li>
+      <li>point is a lower density with respect to the training distirbution</li>
+      <li>this gets you botht he desnity based and deteailed clasified based approaches, <em>couldn’t any method use this?</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="counterfactual-justification">Counterfactual Justification</h2>
+<ul>
+  <li>Unjustified Classification Regions and Counterfactual Explanations In Machine Learning</li>
+  <li>Thibault Laugel (Sorbonne Université), Marie-Jeanne Lesot (Sorbonne Université), Christophe Marsala (Sorbonne Université), Xavier Renard (AXA, Paris), Marcin Detyniecki (Sorbonne Université; AXA, Paris; Polish Academy of Science)</li>
+  <li>they are trying to infer counterfactual explanations but being careful not to create ones wchih are not jsutified by the data</li>
+  <li><em>Idea</em> : can you use decision trees to do coutnerfactual search for other ways to get the result you found?
+    <ul>
+      <li>some data point goes down the tree to a specific leaf, but then you can infer wether taht is right, maybe it should have gone sligtly elehwere</li>
+      <li>does this imply the tree should be different or that the leaf’s label is wrong?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ranking">Ranking</h2>
+<ul>
+  <li>Fast and Parallelizable Ranking with Outliers from Pairwise Comparisons</li>
+  <li><em>Sungjin Im</em> (University of California), Mahshid Montazer Qaem (University of California)</li>
+  <li>problem: given multiple partial ordering o felemnts/daatpoints, goal is to create a full, single consistent one</li>
+  <li>cycles are a problem, standard methods are well understand from an algorithmic sense, it is NP Hard</li>
+  <li>usually comes down to counting and minimizing the number of baward arcs from a DAg
+    <ul>
+      <li>is it like finding the maximial DAG in a graph?
+        <h2 id="hierarchical-dense-anomalies">Hierarchical Dense anomalies</h2>
+      </li>
+    </ul>
+  </li>
+  <li>CatchCore: Catching Hierarchical Dense Subtensor</li>
+  <li>Wenjie Feng (CAS Key Laboratory of Network Data Science &amp; Technology, Institute of Computing Technology, University of Chinese Academy of Sciences),</li>
+</ul>
+
+<h2 id="causal-effects-talk">Causal Effects Talk</h2>
+<ul>
+  <li>Adjustment Criteria for Recovering Causal Effects from Missing Data</li>
+  <li>Mojdeh Saadati (Iowa State University), <strong><em>JinTian</em></strong> (Iowa State University)</li>
+  <li>Pearl backdoor condition, or ignorablity
+    <ul>
+      <li>allows us to in certain cases, infer a causal effect from observational data</li>
+    </ul>
+  </li>
+  <li><em>but what if there is msising data?</em> <em>or you are concerned about selection bias affecting the outcomes</em></li>
+  <li>they produce two criteria for evaluating only using the causal graph whether the backdoor criterion can be used</li>
+</ul>
+
+<h2 id="uplift-regression">Uplift Regression</h2>
+<ul>
+  <li>Shrinkage Estimators for Uplift Regression</li>
+  <li>Krzysztof Rudaś (Warsaw University of Technology; Institute of Computer Science, Polish Academy of Sciences), Szymon Jaroszewicz (Institute of Computer Science, Polish Academy of Sciences)</li>
+  <li>exmaple: marketing sends out a discount email</li>
+  <li>you get new data about purchases after the discount, <strong>but do any change arise because of the discounts (uplift) or in spite of them?</strong></li>
+  <li>Impact could even be reversed, they buy less because of the dicsount coupon</li>
+  <li>they improve upon the standard double regression approach for this</li>
+</ul>
+
+<h1 id="wednesday-talks">Wednesday Talks</h1>
+
+<h2 id="fast-gradient-boosting">Fast Gradient Boosting</h2>
+<ul class="task-list">
+  <li>Fast Gradient Boosting Decision Trees with Bit-Level Data Structures</li>
+  <li>Laurens Devos (KU Leuven), Wannes Meert (KU Leuven), Jesse Davis (KU Leuven)</li>
+  <li>XGBoost is the most popular now</li>
+  <li>also LightGBM, look that up</li>
+  <li><em>idea</em> - using full ints and floats is too detailed they use bitlevel datascturcures</li>
+  <li>existing gradient updates on decision trees <em>Fast Gradient Boosting</em>
+    <ul>
+      <li>move some datapoints from one leaf to a <em>neighbouring</em> leaf ndoe (logically, it might not be  asimple sibling)</li>
+    </ul>
+  </li>
+  <li><em>BitRoost</em> algorithm <em>(theirs)</em>
+    <ul>
+      <li>bit representation for each leaf? with one hot dncoding</li>
+      <li>then use the fast and/or/counts ability of bits during FGB</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />read this one in more detail, looks like very useful approach</li>
+</ul>
+
+<h2 id="association-rules">Association Rules</h2>
+<ul>
+  <li>Sets of Robust Rules, and How to Find Them</li>
+  <li>Jonas Fischer (Max Planck Institute for Informatics; Saarland University), Jilles Vreeken (CISPA Helmholtz Center for Information Security)</li>
+  <li>still useful in biology</li>
+  <li>people kept working on Apriori algorithm and found you get a lot of that for free by mining conjuctions</li>
+  <li>they are still liked becuase you get clean interpretable models andrules</li>
+  <li>problem is you get millions of rules</li>
+  <li><em>Grab algorithm</em>
+    <ul>
+      <li>heuristics to reduce the rule space</li>
+      <li>so it seems like a smarter, more general version of Apriori algorithm</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="black-box-explanation">Black Box Explanation</h2>
+<ul>
+  <li>Black Box Explanation by Learning Image Exemplars in the Latent Feature Space</li>
+  <li>Riccardo Guidotti (ISTI-CNR, Pisa), Anna Monreale (University of Pisa), Stan Matwin (Dalhousie University; Polish Academy of Sciences), Dino Pedreschi (University of Pisa)</li>
+  <li>Problems if you don’t explain
+    <ul>
+      <li>The Husky-Wolf classifier problem - it was very good but used snow in the background for all wolf images</li>
+    </ul>
+  </li>
+  <li>current explanation approaches in image clasifiers
+    <ul>
+      <li>saliency map, showing which pixels leading to which labels</li>
+      <li>DeepExplain and other gradient based approaches, visualize the gradient, but it is very specific to taht trained network</li>
+      <li>prototype based methods - just show similar types of images that show you what the model is ‘thinking about’</li>
+    </ul>
+  </li>
+  <li><em>ABELE</em> their method
+    <ul>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="td-actor-critic">TD Actor Critic</h2>
+<ul>
+  <li>TD-Regularized Actor-Critic Methods</li>
+  <li><em>SimoneParisi</em>(presented),  Voot Tangkaratt, Jan Peters, <em><a href="EmtiyazKhan">EmtiyazKhan</a></em></li>
+  <li>They are trying to deal with the instability of actor-critic methods when there is little data</li>
+  <li>The problem: using the critic in AC reduces the variance of simple gradient descent
+    <ul>
+      <li>but the critic introduces bias and so it often overshoots good parts of the space</li>
+    </ul>
+  </li>
+  <li><em>their approach (TDRPG)</em> - instead of trying to fix the actor or the critic estimates, they focus on the way they interact and stabilize that
+    <ul>
+      <li>they add a squared regularization penalty to the optimization step</li>
+      <li>they can add their regulazer to the training for any actor critic approach</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="deep-ordinal-reinforcement-learning">Deep Ordinal Reinforcement Learning</h2>
+<ul>
+  <li><em>AlexanderZap</em> (TU Darmstadt), Tobias Joppen (TU Darmstadt), Johannes Fürnkranz (TU Darmstadt)</li>
+  <li><em>problem</em>: numerical rewards are arbitrary, changing the values can lead to completely different optimal policies</li>
+  <li><em>solution</em>: use orginal rewards instead,
+    <ul>
+      <li>map numerical rewards to a dinstinct ordered set</li>
+      <li>scale doesn’t matter anymore, just order</li>
+    </ul>
+  </li>
+  <li><em>issues:</em>
+    <ul>
+      <li>how to accumulate rewards? <em>you don’t add them, you maintain a histogram/prob distribution of getting each reward in the state</em></li>
+      <li>value function uses this prob distribtuion to choose actiopn and return the associated ordinal value</li>
+      <li>how do you maximize it?</li>
+      <li>sometimes you need to know the relative difference between values and this isn’t appropriate</li>
+      <li>very interesting idea</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="attentive-multi-task-deep-reinforcement-learning">Attentive Multi-Task Deep Reinforcement Learning</h2>
+<p>label: ECML2019,RL, skill learning</p>
+<ul>
+  <li>Timo Bräm (ETH Zurich), Gino Brunner (ETH Zurich)</li>
+  <li><em>Problem</em> - Multi-task learning is hard</li>
+  <li>Existing approaches
+    <ul>
+      <li>transfer learning from agents experts at prior tasks - but might forget old skills</li>
+      <li>robust multitask RL (dilstation, teh, 2017) similar to what we are doing</li>
+    </ul>
+  </li>
+  <li><em>Their approach</em> - using attention…
+    <ul>
+      <li>train on all environments at once, but maintain explicit submodules for each task during training</li>
+      <li>can also enforce a smaller number of submodules than ther are tasks</li>
+      <li>this forces generalization just like in autoencoders</li>
+    </ul>
+  </li>
+  <li>There are multiple subnetworks to learn with but they are not explicitly designated to be for a specific task</li>
+  <li>Attention network is used to decide which subnetwork is the most relevant right now</li>
+  <li><em>question</em> - how do you know it isn’t just more paramters that are helping?</li>
+  <li>experiments : grid world</li>
+  <li>criticism -
+    <ul>
+      <li>just 10 random seeds</li>
+      <li>domain very simple</li>
+      <li>are they changing the rewards along the way?</li>
+      <li>still needs lots of work</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="sample-efficient-model-free-reinforcement-learning-with-off-policy-critics">Sample-Efficient Model-Free Reinforcement Learning with Off-Policy Critics</h2>
+<p>label: ECML2019,RL</p>
+<ul>
+  <li><em>DenisSteckelmacher</em> (Vrije Universiteit Brussel), Hélène Plisnier (Vrije Universiteit Brussel), Diederik M. Roijers (VU Amsterdam), Ann Nowé (Vrije Universiteit Brussel)</li>
+  <li><em>Problem</em>: how to learn a policy with a small number of samples without having a model</li>
+  <li>They introduce some ways to speed up learning with policy gradients to reuse prior trajectories like in clipped DQN</li>
+</ul>
+
+<h2 id="policy-prediction-network-model-free-behavior-policy-with-model-based-learning-in-continuous-action-space">Policy Prediction Network: Model-Free Behavior Policy with Model-Based Learning in Continuous Action Space</h2>
+<p>label: ECML2019,RL</p>
+<ul>
+  <li><em>ZacWellmer</em> (Hong Kong University of Science), James T. Kwok (Technology)</li>
+  <li>policy gradients, implicit RL</li>
+  <li><em>problem</em>: want to do model-free, model-based combination for policy gradients</li>
+  <li>PPN : many changes and tricks compined together</li>
+  <li>use similar approach to PPO
+    <ul>
+      <li>clipping, latent space transition models</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="safe-policy-improvement-with-soft-baseline-bootstrapping">Safe Policy Improvement with Soft Baseline Bootstrapping</h2>
+<p>label: ECML2019,RL, safeAI</p>
+<ul>
+  <li><em>KimiaNadjahi</em> (Télécom Paris), Romain Laroche (Microsoft Research Montréal), Rémi Tachet des Combes (Microsoft Research Montréal)</li>
+  <li>to build a model of the uncertainty you can try to do MLE on the transition modle learning</li>
+  <li><em>problem</em> : how to train your RL but focussed on safe outcomes rather than highest performance in a simulation
+    <ul>
+      <li>This is defined as performing <em>at least as well as the baseline with high probability</em>.</li>
+    </ul>
+  </li>
+  <li><em>existing approaches</em>
+    <ul>
+      <li>SOMEMETHOD -</li>
+      <li>SPIBB [Laroche2019, ICML] - if you are not sure enough then you don’t take the action, just use the baseline instead
+        <ul>
+          <li>problem is they have a very binary approach to something being safe or not</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><em>Their Approach</em>
+    <ul>
+      <li>SPIBB but it’s soft, safe or not is not a binary choice</li>
+      <li>They allow an <em>error-budget</em> to control how much error they can safely allow for that domain.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="thursday">Thursday</h1>
+<h2 id="stochastic-activation-actor-critic-methods">Stochastic Activation Actor Critic Methods</h2>
+<ul>
+  <li>Wenling Shang (University of Amsterdam-Bosch-Deltalab), <strong>Herke van Hoof</strong> (University of Amsterdam-Bosch-Deltalab), Max Welling (University of Amsterdam-Bosch-Deltalab)</li>
+  <li><strong>Pertubation</strong> of intenral network weights to encourage exploration is well established.</li>
+  <li>but it doesn’t seem to work so well in Actor-Critic Deep RL</li>
+  <li>they add noise in clever ways to LSTMs to make  it work</li>
+</ul>
+
+<h2 id="compatible-natural-gradient-policy-search">Compatible Natural Gradient Policy Search</h2>
+<ul>
+  <li>Joni Pajarinen, Hong Linh Thai, Riad Akrour, Jan Peters, Gerhard Neumann</li>
+  <li><strong>Trust region policy search</strong> - using greedy updates the entropy drops too fast</li>
+  <li><strong>Their approach</strong>
+    <ul>
+      <li>hard entropy constraint</li>
+      <li>something elseq</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="stochastic-one-sided-full-information-bandit">Stochastic One-Sided Full-Information Bandit</h2>
+<ul>
+  <li><strong>Haoyu Zhao</strong> (Tsinghua University), Wei Chen (Microsoft Research, Beijing)</li>
+  <li><strong>problem:</strong> repeated second price auctions</li>
+  <li><strong>prior work:</strong>
+    <ul>
+      <li>SODA assumes bidders are truthful, and that distritbuion of bidders if iid</li>
+      <li>max bid does not need to be known</li>
+    </ul>
+  </li>
+  <li><strong>their approach:</strong>
+    <ul>
+      <li>iid bidders not required</li>
+      <li>need to know the max value of the bids</li>
+      <li>maintain a set of all good arms : determined by empircal mean</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="practical-open-loop-optimistic-planning">Practical Open-Loop Optimistic Planning</h2>
+<ul>
+  <li><strong>Edouard Leurent</strong> (SequeL team, INRIA Lille - Nord Europe; Renault Group), Odalric-Ambrym Maillard (SequeL team, INRIA Lille - Nord Europe)</li>
+  <li><code class="language-plaintext highlighter-rouge">highway-env</code> environmenta on github for highway driving of human behaviours</li>
+  <li>assume a generative model</li>
+  <li>optimisitic planning - they use this along with tree search</li>
+  <li>
+    <p>they recall people have found out out failing cases of UCT</p>
+
+    <ul>
+      <li>very deep branches where all the choices are bad, the optimisitc bias leads to problems</li>
+    </ul>
+  </li>
+  <li>solution (lots of Munos work in 2008,2010) works for restricted classes of MDPs and works</li>
+  <li>OLOP showed that you can do UCB style planning for stochastic and deterministic MDPs the same
+    <ul>
+      <li>but htere was no empirical vbalidation of it, so this work does that</li>
+      <li>they show it is actually quite difference in pracic</li>
+    </ul>
+  </li>
+  <li>They improve this by using the KL divergneece with OLOP</li>
+</ul>
+
+<h2 id="an-engineered-empirical-bernstein-bound">An Engineered Empirical Bernstein Bound</h2>
+<ul>
+  <li><strong>MarkBurgess</strong> (Australian National University), Archie C. Chapman (University of Sydney), Paul Scott (Australian National University)</li>
+  <li>Hoefding bound - it’s a concentration inequality</li>
+  <li>Empircal Bernstein bound is similar - uses sample vairnces</li>
+  <li>Bennett’s inequality is much stronger and useful, but maybe hard to use? <em>this would give you the perfect bound possible if you knew the full variance?</em></li>
+  <li>they define their own EBB bound, pretty complex formulation</li>
+  <li>they show it provides a tighter bound thatn hoeffding on bernoulli bandits</li>
+</ul>
+
+<h1 id="maclean-earth-observation-workshop">MACLEAN Earth Observation Workshop</h1>
+
+<h2 id="earth-orientation-parameters-time-series">Earth Orientation Parameters Time Series</h2>
+<ul>
+  <li>G. Okhotnikov and N. Golyandina: EOP Time Series Prediction Using Singular Spectrum Analysis</li>
+  <li>The EOP data include 5 numbers that arrive as a time series
+    <ul>
+      <li>pole coordinates</li>
+      <li>lenght of day</li>
+      <li>changes in pole angles over time?</li>
+    </ul>
+  </li>
+  <li>There is a service that publishes the daily values for the time series</li>
+  <li>important for navigation and satellites</li>
+  <li><strong>SSA</strong> - https://en.wikipedia.org/wiki/Singular_spectrum_analysis is a common method used to seperate out trend, noise etc from a time series
+    <ul>
+      <li>time series of lenght L</li>
+      <li>embedding, create a trajectory matrix</li>
+      <li>take SVD</li>
+      <li>Group eigen triples together</li>
+      <li>diagononal averaging</li>
+      <li>then reverse the embedding</li>
+    </ul>
+  </li>
+  <li><strong>uses:</strong> allows you to extract the orignal sine wave if there was one</li>
+</ul>
+
+<h2 id="mvmf-loss-for-prediction-locations-of-an-image-on-earths-surface">MvMF Loss for Prediction locations of an image on Earth’s surface</h2>
+<p>– M. Izbicki, E. Papalexakis and V. Tsotras: The MvMF Loss for Predicting Locations on the Earth’s Surface</p>
+<ul>
+  <li><strong>problem</strong> how to locate the location of an image in the world just by looking at it
+    <ul>
+      <li>easy and hard problems : eiffel tower vs inside of an apple store</li>
+    </ul>
+  </li>
+  <li><strong>data</strong> - data base of fflickr images with gps in them</li>
+  <li><strong>their approach</strong> - Mixture of von Mises-Fisher Distritbuion
+    <ul>
+      <li>vMF is like Gaussian distribution for spheres - (m,s)</li>
+      <li>MvMF is a mixture of these just like a mixture of gaussians but it knows about sphere structure</li>
+      <li>works better for anything about locating predictions on the earth but it assumes the earth is a sphere</li>
+    </ul>
+  </li>
+  <li>so using MvMF as the loss function in one of these algorithm, such as Google PlaNet [Weyland 2019], makes the predcitions much smoother on the earth’s surface</li>
+  <li>other uses
+    <ul>
+      <li>estimate range of animals and birds from people’s social media images</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="deep-learning-for-power-line-inspection">Deep learning for power line inspection</h2>
+<ul class="task-list">
+  <li>Invited Speaker: Prof. Robert Jenssen</li>
+  <li>25 person machine learning group at UIT in Northern Norway</li>
+  <li>they are 70 degree north, very weak magentic field there so they get the strongest northern lights</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Northern Lights Deep Learning Workshop 2020 (January 20-21), about 100 people</li>
+  <li class="task-list-item"><strong>problem:</strong> power line inspection using deep learning
+    <ul>
+      <li>how to use drones to inspect poles in remote regions to assess if maintenance work is needed</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><strong>method</strong>: few shot learning? YOLO.</li>
+  <li class="task-list-item"><strong>other applications</strong>
+    <ul>
+      <li>power lines</li>
+      <li>piplines</li>
+      <li>roads, railways</li>
+    </ul>
+  </li>
+  <li class="task-list-item">simulated data
+    <ul>
+      <li>they generate synthetic of landscapes with power lines, high resoltuion</li>
+      <li>tarin the detector and predictor on this</li>
+      <li>then use the trained model for real drone flight
+        <h3 id="few-shot-learning">Few Shot Learning</h3>
+      </li>
+    </ul>
+  </li>
+  <li class="task-list-item">
+    <p>it is common for this type of domain to find new objects that were never enouctered before</p>
+  </li>
+  <li class="task-list-item">ZhenCVPR2018 - Ring Loss for convex feature normalziation for face revognition
+    <ul>
+      <li>FewShotLearning usually uses protoype points based on few data poiints</li>
+      <li>They think this ring loss approach produces a more natural representation</li>
+      <li>but it has some difficulat input paramters</li>
+    </ul>
+  </li>
+  <li class="task-list-item">Their approach
+    <ul>
+      <li>their paper on improving few shot learning</li>
+      <li>they use a class-conditional dissimilarity measure</li>
+      <li>
+        <ul>
+          <li>they want to mesure distance between them base on the angle of the norms?</li>
+        </ul>
+      </li>
+      <li>result - goal is that all points with hte same class have the same norm</li>
+      <li><em>interesting</em> - they use different scores for distances between points in the same class and ones that are in different classes</li>
+      <li>so it’s kind of like a normalization</li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#conference-review" class="page__taxonomy-item p-category" rel="tag">conference-review</a><span class="sep">, </span>
+    
+      <a href="/tags/#machine-learning" class="page__taxonomy-item p-category" rel="tag">machine-learning</a><span class="sep">, </span>
+    
+      <a href="/tags/#reinforcement-learning" class="page__taxonomy-item p-category" rel="tag">reinforcement-learning</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2019-10-04T00:00:00-04:00">October 4, 2019</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=ECML+2019+Notes%20%2FECML2019%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2FECML2019%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/17-Days-of-AI-for-Good-SDG-12-RESPONSIBLE-CONSUMPTION-AND-PRODUCTION-81bec22eae57/" class="pagination--pager" title="17 Days of AI for Good — SDG 12 — RESPONSIBLE CONSUMPTION AND PRODUCTION
+">Previous</a>
+    
+    
+      <a href="/Self-Driving-Edge-Cases/" class="pagination--pager" title="Self-Driving ‘Edge’ Cases Aren’t All That Edgy
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Jedi-Master-Dijkstra/" rel="permalink">Jedi Master Dijkstra
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-17T00:00:00-05:00">February 17, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Using ChatGPT Stories as Anchors for Teaching
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Twitter-Isnt-Even-A-Social-Network/" rel="permalink">Twitter Isn’t Even A Social Network
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-29T00:00:00-05:00">December 29, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Will-Humans-Control-AI-Tools/" rel="permalink">Will Humans be in Control when using Artificial Intelligence Tools?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-08-02T00:00:00-04:00">August 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Some people ask if AI decision tools will always allow human input by 2035, I think that’s two questions in one.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Infinite-Diversity-Infinite-Combinations/" rel="permalink">Infinite Diversity in Infinite Combinations
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-31T00:00:00-04:00">July 31, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played chara...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Computationally Thinking. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

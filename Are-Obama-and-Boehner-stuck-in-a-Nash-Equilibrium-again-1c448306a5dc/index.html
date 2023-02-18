@@ -1,0 +1,647 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Are Obama and Boehner stuck in a Nash Equilibrium…again? - Computationally Thinking</title>
+<meta name="description" content="It occurred to me that the current train wreck that is carrying out in slow motion in congress this week as the world watches in confusion and horror may have a simple explanation from game theory. This is probably a huge oversimplification but I’ll just put it out there.  In game theory two or more opponents have a number of actions they can take and values they can obtain which depend on their own actions and the action of their opponent. A Nash equilibrium occurs when each party knows that the policy they are following cannot be improved given what they know their opponent is doing.  In a sense Obama and Boehner are in such an equilibrium right now but only if they disagree about values are important. If you look at long term values then no action Obama takes will make him better off, they all lead to reduced respect, increased risk for the future etc. Meanwhile, if you look at the short term values only, then Boehner has nothing to gain from acting differently. He’ll lose support from the people he needs if he changes his mind. These voters and congressmen are willing to support others who are more extreme or simply not vote at all to get what they want. The respect and acceptance he’d gain would only come from people who don’t provide him any benefit such as the media and his opponents.  So I’m saying they are stuck in a Nash equilibrium of sorts, and a pure-strategy one at that, but only because they are playing different games in their heads by disagreeing about whether the short term or long term values are the important ones to take into consideration.  Of course, I’m not the first one to think of this:">
+
+
+  <meta name="author" content="Computationally Thinking">
+  
+  <meta property="article:author" content="Computationally Thinking">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Computationally Thinking">
+<meta property="og:title" content="Are Obama and Boehner stuck in a Nash Equilibrium…again?">
+<meta property="og:url" content="/Are-Obama-and-Boehner-stuck-in-a-Nash-Equilibrium-again-1c448306a5dc/">
+
+
+  <meta property="og:description" content="It occurred to me that the current train wreck that is carrying out in slow motion in congress this week as the world watches in confusion and horror may have a simple explanation from game theory. This is probably a huge oversimplification but I’ll just put it out there.  In game theory two or more opponents have a number of actions they can take and values they can obtain which depend on their own actions and the action of their opponent. A Nash equilibrium occurs when each party knows that the policy they are following cannot be improved given what they know their opponent is doing.  In a sense Obama and Boehner are in such an equilibrium right now but only if they disagree about values are important. If you look at long term values then no action Obama takes will make him better off, they all lead to reduced respect, increased risk for the future etc. Meanwhile, if you look at the short term values only, then Boehner has nothing to gain from acting differently. He’ll lose support from the people he needs if he changes his mind. These voters and congressmen are willing to support others who are more extreme or simply not vote at all to get what they want. The respect and acceptance he’d gain would only come from people who don’t provide him any benefit such as the media and his opponents.  So I’m saying they are stuck in a Nash equilibrium of sorts, and a pure-strategy one at that, but only because they are playing different games in their heads by disagreeing about whether the short term or long term values are the important ones to take into consideration.  Of course, I’m not the first one to think of this:">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2013-10-06T16:17:00-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="/Are-Obama-and-Boehner-stuck-in-a-Nash-Equilibrium-again-1c448306a5dc/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Computationally Thinking Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Computationally Thinking
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/images/bio-photo.jpg" alt="Computationally Thinking" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">Computationally Thinking</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Mark Crowley (he/him)<br />Assoc. Professor in AI at Univ. Waterloo<br />Opinions on Democracy, Environment and Science<br />Opinions are all my own, and no one else’s</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/markanthonycrowley/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://markcrowley.ca" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Academic Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://sigmoid.social/@compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Are Obama and Boehner stuck in a Nash Equilibrium…again?">
+    <meta itemprop="description" content="It occurred to me that the current train wreck that is carrying out in slow motion in congress this week as the world watches in confusion and horror may have a simple explanation from game theory. This is probably a huge oversimplification but I’ll just put it out there.In game theory two or more opponents have a number of actions they can take and values they can obtain which depend on their own actions and the action of their opponent. A Nash equilibrium occurs when each party knows that the policy they are following cannot be improved given what they know their opponent is doing.In a sense Obama and Boehner are in such an equilibrium right now but only if they disagree about values are important. If you look at long term values then no action Obama takes will make him better off, they all lead to reduced respect, increased risk for the future etc. Meanwhile, if you look at the short term values only, then Boehner has nothing to gain from acting differently. He’ll lose support from the people he needs if he changes his mind. These voters and congressmen are willing to support others who are more extreme or simply not vote at all to get what they want. The respect and acceptance he’d gain would only come from people who don’t provide him any benefit such as the media and his opponents.So I’m saying they are stuck in a Nash equilibrium of sorts, and a pure-strategy one at that, but only because they are playing different games in their heads by disagreeing about whether the short term or long term values are the important ones to take into consideration.Of course, I’m not the first one to think of this:">
+    <meta itemprop="datePublished" content="2013-10-06T16:17:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/Are-Obama-and-Boehner-stuck-in-a-Nash-Equilibrium-again-1c448306a5dc/" class="u-url" itemprop="url">Are Obama and Boehner stuck in a Nash Equilibrium…again?
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2013-10-06T16:17:00-04:00">October 6, 2013</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+
+            </nav>
+          </aside>
+        
+        <p>It occurred to me that the <a href="http://www.huffingtonpost.com/2013/10/06/john-boehner-default-debt-ceiling_n_4053537.html">current train wreck</a> that is carrying out in slow motion in congress this week as the world watches in confusion and horror may have a simple explanation from game theory. This is probably a huge oversimplification but I’ll just put it out there.</p>
+
+<p>In game theory two or more opponents have a number of actions they can take and values they can obtain which depend on their own actions and the action of their opponent. A Nash equilibrium occurs when each party knows that the policy they are following cannot be improved given what they know their opponent is doing.</p>
+
+<p>In a sense Obama and Boehner are in such an equilibrium right now but only if they disagree about values are important. If you look at <em>long term values</em> then no action Obama takes will make him better off, they all lead to reduced respect, increased risk for the future etc. Meanwhile, if you look at the <em>short term values</em> only, then Boehner has nothing to gain from acting differently. He’ll lose support from the people he needs if he changes his mind. These voters and congressmen are willing to support others who are more extreme or simply not vote at all to get what they want. The respect and acceptance he’d gain would only come from people who don’t provide him any benefit such as the media and his opponents.</p>
+
+<p>So I’m saying they are stuck in a Nash equilibrium of sorts, and a pure-strategy one at that, but only because they are playing different games in their heads by disagreeing about whether the short term or long term values are the important ones to take into consideration.</p>
+
+<p>Of course, I’m not the first one to think of this:</p>
+
+<ul>
+  <li>here is a short <a href="http://www.whiteoliphaunt.com/duckofminerva/2013/09/game-of-chicken-and-the-us-government-shutdown-what-game-theory-can-tell-us-about-likely-outcomes.html">comparison of this battle in congress to the classic game theory “Game of Chicken”</a></li>
+  <li>Politico has <a href="http://www.politico.com/story/2012/12/why-they-want-to-go-over-the-fiscal-cliff-85544.html">this article from <em>last year’s</em> debt fight that draws attention to the Nash equilibrium the two parties found themselves in for a while</a></li>
+</ul>
+
+<p>Hopefully it’s not really a Nash equilibrium and some more thinking will really lead Boehner to a different decision. But it is really is a mixed strategy, that is a random one, then we should all hold on to our seats.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2013-10-06T16:17:00-04:00">October 6, 2013</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Are+Obama+and+Boehner+stuck+in+a+Nash+Equilibrium%E2%80%A6again%3F%20%2FAre-Obama-and-Boehner-stuck-in-a-Nash-Equilibrium-again-1c448306a5dc%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2FAre-Obama-and-Boehner-stuck-in-a-Nash-Equilibrium-again-1c448306a5dc%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/How-do-the-Distance-to-the-Horizon-and-the-Distance-to-the-Space-Station-Compare-a58e6b0dcf2b/" class="pagination--pager" title="How do the Distance to the Horizon and the Distance to the Space Station Compare?
+">Previous</a>
+    
+    
+      <a href="/Review-of-RLDM2013-Conference-9240817d7f01/" class="pagination--pager" title="Review of RLDM2013 Conference
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Jedi-Master-Dijkstra/" rel="permalink">Jedi Master Dijkstra
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-17T00:00:00-05:00">February 17, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Using ChatGPT Stories as Anchors for Teaching
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Twitter-Isnt-Even-A-Social-Network/" rel="permalink">Twitter Isn’t Even A Social Network
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-29T00:00:00-05:00">December 29, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Will-Humans-Control-AI-Tools/" rel="permalink">Will Humans be in Control when using Artificial Intelligence Tools?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-08-02T00:00:00-04:00">August 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Some people ask if AI decision tools will always allow human input by 2035, I think that’s two questions in one.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Infinite-Diversity-Infinite-Combinations/" rel="permalink">Infinite Diversity in Infinite Combinations
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-31T00:00:00-04:00">July 31, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played chara...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Computationally Thinking. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

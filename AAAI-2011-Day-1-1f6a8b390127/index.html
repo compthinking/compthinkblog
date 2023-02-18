@@ -9,25 +9,24 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Computationally Thinking</title>
-<meta name="description" content="explain( world       science, data, computation, experience)">
+<!-- begin _includes/seo.html --><title>AAAI 2011 — Day 1 - Computationally Thinking</title>
+<meta name="description" content="I skipped the afternoon tutorial sessions to work on my presentation and go around town a bit but I did attend a very interesting morning tutorial on time series. The tutorial was on Time Series and was led by Eamonn Keogh.">
 
 
   <meta name="author" content="Computationally Thinking">
   
+  <meta property="article:author" content="Computationally Thinking">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Computationally Thinking">
-<meta property="og:title" content="Computationally Thinking">
-<meta property="og:url" content="/">
+<meta property="og:title" content="AAAI 2011 — Day 1">
+<meta property="og:url" content="/AAAI-2011-Day-1-1f6a8b390127/">
 
 
-  <meta property="og:description" content="explain( world       science, data, computation, experience)">
-
-
-
+  <meta property="og:description" content="I skipped the afternoon tutorial sessions to work on my presentation and go around town a bit but I did attend a very interesting morning tutorial on time series. The tutorial was on Time Series and was led by Eamonn Keogh.">
 
 
 
@@ -35,13 +34,16 @@
 
 
 
+  <meta property="article:published_time" content="2011-08-08T00:02:00-04:00">
 
 
-<link rel="canonical" href="/">
 
 
 
-  <link rel="next" href="/page2/">
+
+<link rel="canonical" href="/AAAI-2011-Day-1-1f6a8b390127/">
+
+
 
 
 <script type="application/ld+json">
@@ -90,7 +92,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -136,6 +138,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -264,25 +268,137 @@
 
 
 
-  <div class="archive">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="AAAI 2011 — Day 1">
+    <meta itemprop="description" content="I skipped the afternoon tutorial sessions to work on my presentation and go around town a bit but I did attend a very interesting morning tutorial on time series. The tutorial was on Time Series and was led by Eamonn Keogh.">
+    <meta itemprop="datePublished" content="2011-08-08T00:02:00-04:00">
     
-      <h1 id="page-title" class="page__title"></h1>
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/AAAI-2011-Day-1-1f6a8b390127/" class="u-url" itemprop="url">AAAI 2011 — Day 1
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
     
-    We're all just computational systems, trying to make our way in the world, aren't we? Well, here are some of my thoughts on, anything, from that point of view. <a href="/about/">Get in touch</a> if you want to talk, or <a href="https://mastodon.social/@compthink" rel="me">toot</a>, about it more. 
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2011-08-08T00:02:00-04:00">August 8, 2011</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
 
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+        </header>
+      
 
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
 
+            </nav>
+          </aside>
+        
+        <p>I skipped the afternoon tutorial sessions to work on my presentation and go around town a bit but I did attend a very interesting morning tutorial on time series. The tutorial was on Time Series and was led by Eamonn Keogh.</p>
 
+<p>He makes some bold claims but it was a very informative tutorial and he seems to have a lot of very reasonable and interesting things to say. His basic claim is that a lot of the time people try to fit complex, fully general models to classification and prediction problems when their data is actually linear and simpler methods would be much more effective. A time series is any data set which has data points occurring in a fixed linear ordering. In response to someone’s question he did make clear that you need to make some reasonable assumptions about how much variation there is over time. So data where events can occur in arbitrary order won’t work. Also, if it’s equally likely that some event may occur every 0.1 seconds or occur every 10 hours then it probably won’t work either. But a lot of real data sets actually vary within a small time range. What time series methods can handle, apparently, is almost arbitrary variation in the magnitude of the number, in anomalies in the middle of a set of data, in outliers that don’t fit the average cases and several other types of variation.</p>
 
-<div class="entries-list">
+<p> </p>
+
+<p>This makes time series very powerful for sensor data and medical data of well understood processes. Keogh’s focus is on symbolic analysis of data which has obvious applications for genetic datasets but is apparently also very effective for continuous, real valued data. The basic idea is to cluster the time series into levels and label these levels. Patterns of these labels can then be used to discover motifs in the data which often have an understandable semantic meaning.</p>
+
+<p> </p>
+
+<p>There are several questions that arise with this approach, some of which he answered as well. Basically, he argues that most data can be analysed using simple Euclidean distance and linear transformations on the time series with anomaly detection. The worry with this is that you may just find a pattern when there isn’t really one present if you stretch and shift the data enough. It is important to treat a pattern detected in this way as merely a theory which is then verified by going back to the original data or to some independent data source. He confirmed that this is what they always do but that when such anomalies arise in real datasets they very often are meaningful or can guide further exploration.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
   
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#conference-review" class="page__taxonomy-item p-category" rel="tag">conference-review</a>
+    
+    </span>
+  </p>
 
 
 
-<div class="list__item">
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2011-08-08T00:02:00-04:00">August 8, 2011</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=AAAI+2011+%E2%80%94+Day+1%20%2FAAAI-2011-Day-1-1f6a8b390127%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2FAAAI-2011-Day-1-1f6a8b390127%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/AAAI-2011-Day-2-231ad1ec3b5c/" class="pagination--pager" title="AAAI 2011 — Day 2
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -297,7 +413,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2023-02-17T00:00:00-05:00">February 17, 2023</time>
       </span>
@@ -310,7 +426,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           2 minute read
         
@@ -325,12 +441,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -345,7 +461,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2022-12-29T00:00:00-05:00">December 29, 2022</time>
       </span>
@@ -358,7 +474,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           5 minute read
         
@@ -373,12 +489,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -393,7 +509,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2022-08-02T00:00:00-04:00">August 2, 2022</time>
       </span>
@@ -406,7 +522,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           2 minute read
         
@@ -420,12 +536,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -440,7 +556,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
         <time datetime="2022-07-31T00:00:00-04:00">July 31, 2022</time>
       </span>
@@ -453,7 +569,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           less than 1 minute read
         
@@ -466,114 +582,13 @@
   </article>
 </div>
 
+        
+      </div>
+    </div>
   
-    
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/The-Ancient-Battle-Continues/" rel="permalink">The Ancient Battle Continues
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2022-05-14T00:00:00-04:00">May 14, 2022</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Reposting now given the latest iteration of this neverending battle, because this never gets old.
-
-</p>
-  </article>
-</div>
-
   
 </div>
 
-
-<nav class="pagination">
-  
-  <ul>
-    
-    
-    <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
-    
-
-    
-    
-      <li><a href="#" class="disabled current">1</a></li>
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-        
-        
-        
-        <li><a href="/page2/">2</a></li>
-      
-    
-      
-        
-        
-        
-        <li><a href="/page3/">3</a></li>
-      
-    
-
-    
-    
-      <li><a href="#" class="disabled">&hellip;</a></li>
-    
-
-    
-      <li><a href="/page15/">15</a></li>
-    
-
-    
-    
-      <li><a href="/page2/">Next</a></li>
-    
-  </ul>
-</nav>
-
-
-
-  </div>
-</div>
     </div>
 
     

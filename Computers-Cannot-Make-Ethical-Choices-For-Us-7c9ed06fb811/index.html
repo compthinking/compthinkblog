@@ -1,0 +1,662 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Computers Cannot Make Ethical Choices For Us - Computationally Thinking</title>
+<meta name="description" content="I came across this interesting post on the legal and insurance implications of Tesla’s upcoming autonomous driving feature. The new feature would only work for interstate highways in the USA but it would be a big step towards automated driving in cars being widely used in regular driving situations. From a technological perspective it is exciting.  The article notes that fully automatous cars are not going to be common in the near future which they followed with this stunning sentence:">
+
+
+  <meta name="author" content="Computationally Thinking">
+  
+  <meta property="article:author" content="Computationally Thinking">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Computationally Thinking">
+<meta property="og:title" content="Computers Cannot Make Ethical Choices For Us">
+<meta property="og:url" content="/Computers-Cannot-Make-Ethical-Choices-For-Us-7c9ed06fb811/">
+
+
+  <meta property="og:description" content="I came across this interesting post on the legal and insurance implications of Tesla’s upcoming autonomous driving feature. The new feature would only work for interstate highways in the USA but it would be a big step towards automated driving in cars being widely used in regular driving situations. From a technological perspective it is exciting.  The article notes that fully automatous cars are not going to be common in the near future which they followed with this stunning sentence:">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2015-03-29T13:11:00-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="/Computers-Cannot-Make-Ethical-Choices-For-Us-7c9ed06fb811/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Computationally Thinking Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Computationally Thinking
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/images/bio-photo.jpg" alt="Computationally Thinking" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">Computationally Thinking</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Mark Crowley (he/him)<br />Assoc. Professor in AI at Univ. Waterloo<br />Opinions on Democracy, Environment and Science<br />Opinions are all my own, and no one else’s</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/markanthonycrowley/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://markcrowley.ca" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Academic Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://sigmoid.social/@compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Computers Cannot Make Ethical Choices For Us">
+    <meta itemprop="description" content="I came across this interesting post on the legal and insurance implications of Tesla’s upcoming autonomous driving feature. The new feature would only work for interstate highways in the USA but it would be a big step towards automated driving in cars being widely used in regular driving situations. From a technological perspective it is exciting.The article notes that fully automatous cars are not going to be common in the near future which they followed with this stunning sentence:">
+    <meta itemprop="datePublished" content="2015-03-29T13:11:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/Computers-Cannot-Make-Ethical-Choices-For-Us-7c9ed06fb811/" class="u-url" itemprop="url">Computers Cannot Make Ethical Choices For Us
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2015-03-29T13:11:00-04:00">March 29, 2015</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+
+            </nav>
+          </aside>
+        
+        <p>I came across this interesting <a href="http://www.huffingtonpost.com/2015/03/28/tesla-autonomous driving-cars_n_6961922.html">post on the legal and insurance implications of Tesla’s upcoming autonomous driving feature</a>. The new feature would only work for interstate highways in the USA but it would be a big step towards automated driving in cars being widely used in regular driving situations. From a technological perspective it is exciting.</p>
+
+<p>The article notes that fully automatous cars are not going to be common in the near future which they followed with this stunning sentence:</p>
+
+<blockquote>
+  <p>If a circumstance arises where an accident is unavoidable — say, for instance, a child runs out into the street — the computers that control the car do not yet have the <a href="http://www.wired.com/2014/09/set-the-ethics-robot-car/">ethical reasoning</a> to deduce whether they should sacrifice the driver by suddenly swerving away, or run down the child.</p>
+</blockquote>
+
+<p>Now, this is an obvious oversimplification of a tricky and possibly unsolvable problem. They linked to some Wired articles which actually provide the horrible ethical dilemma in question and some interesting discussion about what the ethics of a robotic car should be and who should decide them. <a href="http://www.wired.com/2014/08/heres-a-terrible-idea-robot-cars-with-adjustable-ethics-settings/">Partick Lin argues that drivers should not have control over ethical settings on cars</a> to be used to make choices in these situations. The idea of these settings is mostly to save companies from liability and somehow make the driver responsible because of a choice they made on a software screen months or years earlier. Meanwhile, <a href="http://www.wired.com/2014/09/set-the-ethics-robot-car/">Jason Millar argues the driver <em>should</em> have some input</a> and the situation should be treated as we do informed consent about impossible choices in healthcare. They both make some good points but either way, asking for these preferences up front, rather than in the context of the moment makes it a different moral question. You can’t really know the answer until you’re there.</p>
+
+<p>Should your car always save you first or pedestrians first, if it computes that there’s no way to save both of you? How do you answer such a question? Perhaps more importantly what if the car is wrong? What if the onboard AI has the wrong assessment of the situation and there <em>was</em> a way to save everyone? Then the ethics settings wouldn’t really matter would they?</p>
+
+<p>Maybe the question designers need to ask themselves is:</p>
+
+<blockquote>
+  <p>“Do you believe in a no win scenario?”</p>
+</blockquote>
+
+<p>We live in an age where the machines we interact with daily are becoming intelligent enough to do complex tasks for us, tasks that require training and licensing like driving. We need to be careful not to fool ourselves into thinking these machines are just like us, that they can make human, ethical choices. We’ve accepted that the fact that machines can play chess better than us doesn’t mean they’re smarter or that we aren’t logical. Driving a car is no different, being able to do it doesn’t mean the car can make the hard choices for us. </p>
+
+<p>A machine can only optimize its decisions based on the values it has been given and based on the information it has. In systems like robotic cars, much of that information is uncertain. It has an estimate of what is going on in the world when it is driving and it detects a person jump into the road. It can estimate the odds of getting around the person, the probability of the driver surviving. It can do this faster than us but it does this using its own model and information, not ours.</p>
+
+<p>At this time, no machine can make ethical choices, they can only give a human the information needed to make an ethical choice. Meanwhile, our onboard intelligent computer, our brain, has infinitely more experience and wiring to help us make ethical choices. We also are able to discuss what morality means, justify values based on our lives and those of people we love or based on our beliefs. A machine can do none of this until it has everything we have, until it is truly alive. We humans still get it wrong, quite a lot actually, but right now only humans <em>can</em> make ethical choices. Machines can only help us do it.</p>
+
+<p>So what does this mean for robotic cars? We need to consider another option these two articles didn’t, that cars cannot be fully automated until this ethical question is solved. It seems to me this ethical question will only be solved in two ways. We can all agree to accept robotic cars making the wrong choice with a certain frequency, as we accept the infrequent failure of a bridge or plane. Or perhaps someday we will have truly living, intelligent machines which understand morality and values just as well as we do. Although in that situation it might be surprising that such entities would be happy to simply drive our cars for us. Perhaps a general purpose self aware butler AI would do it as one of it’s many duties.</p>
+
+<p>Until this happens it would mean the driver of an autonomous robotic car could not take a nap or read a book while the car is driving. They could relax, listen to music or books, or talk on the phone, maybe they could read email on a heads up dash display. But they would need to be alert and aware enough of the situation around them to make a quick ethical choice if the car asks.</p>
+
+<p>This isn’t a solution either of course, since the car will need a default to follow if the human fails to respond in time. Or what if the human makes a decision that is clearly the wrong one, will we really blame only them and not the manufacturer of the car for allowing it? I don’t know.</p>
+
+<p>The important thing in this discussion is to clearly keep in mind the distinction between machines which make optimizing decisions and humans which can make ethical decisions. These are completely separate entities, and no amount of ethical preference settings will make a car, or any machine, ethical until it knows what morality means. So let’s no fool ourselves into thinking it can.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2015-03-29T13:11:00-04:00">March 29, 2015</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Computers+Cannot+Make+Ethical+Choices+For+Us%20%2FComputers-Cannot-Make-Ethical-Choices-For-Us-7c9ed06fb811%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2FComputers-Cannot-Make-Ethical-Choices-For-Us-7c9ed06fb811%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/Computational-Sustainability-at-AAAI-796adb6663/" class="pagination--pager" title="Computational Sustainability at AAAI
+">Previous</a>
+    
+    
+      <a href="/How-Bad-is-it-Going-to-Get-154e2b03c11a/" class="pagination--pager" title="How Bad is it Going to Get?
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Jedi-Master-Dijkstra/" rel="permalink">Jedi Master Dijkstra
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-17T00:00:00-05:00">February 17, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Using ChatGPT Stories as Anchors for Teaching
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Twitter-Isnt-Even-A-Social-Network/" rel="permalink">Twitter Isn’t Even A Social Network
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-29T00:00:00-05:00">December 29, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Will-Humans-Control-AI-Tools/" rel="permalink">Will Humans be in Control when using Artificial Intelligence Tools?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-08-02T00:00:00-04:00">August 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Some people ask if AI decision tools will always allow human input by 2035, I think that’s two questions in one.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Infinite-Diversity-Infinite-Combinations/" rel="permalink">Infinite Diversity in Infinite Combinations
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-31T00:00:00-04:00">July 31, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played chara...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Computationally Thinking. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

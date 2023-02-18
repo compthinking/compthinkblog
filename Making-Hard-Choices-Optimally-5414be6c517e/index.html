@@ -1,0 +1,668 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Making Hard Choices Optimally - Computationally Thinking</title>
+<meta name="description" content="This TED talk by Ruth Chang, a Philosopher at Rutgers University, is really thought provoking and useful. I disagree with some of her logic about non-numerical values being the reason we can’t make the choice, but I agree with her conclusion nonetheless. Hard choices are not just about choosing what will happen next, but about choosing which past we are willing to live with and be happy with.">
+
+
+  <meta name="author" content="Computationally Thinking">
+  
+  <meta property="article:author" content="Computationally Thinking">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Computationally Thinking">
+<meta property="og:title" content="Making Hard Choices Optimally">
+<meta property="og:url" content="/Making-Hard-Choices-Optimally-5414be6c517e/">
+
+
+  <meta property="og:description" content="This TED talk by Ruth Chang, a Philosopher at Rutgers University, is really thought provoking and useful. I disagree with some of her logic about non-numerical values being the reason we can’t make the choice, but I agree with her conclusion nonetheless. Hard choices are not just about choosing what will happen next, but about choosing which past we are willing to live with and be happy with.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2014-07-06T17:25:00-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="/Making-Hard-Choices-Optimally-5414be6c517e/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Computationally Thinking Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Computationally Thinking
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/images/bio-photo.jpg" alt="Computationally Thinking" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">Computationally Thinking</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Mark Crowley (he/him)<br />Assoc. Professor in AI at Univ. Waterloo<br />Opinions on Democracy, Environment and Science<br />Opinions are all my own, and no one else’s</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/markanthonycrowley/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://markcrowley.ca" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Academic Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://sigmoid.social/@compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Making Hard Choices Optimally">
+    <meta itemprop="description" content="This TED talk by Ruth Chang, a Philosopher at Rutgers University, is really thought provoking and useful. I disagree with some of her logic about non-numerical values being the reason we can’t make the choice, but I agree with her conclusion nonetheless. Hard choices are not just about choosing what will happen next, but about choosing which past we are willing to live with and be happy with.">
+    <meta itemprop="datePublished" content="2014-07-06T17:25:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/Making-Hard-Choices-Optimally-5414be6c517e/" class="u-url" itemprop="url">Making Hard Choices Optimally
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2014-07-06T17:25:00-04:00">July 6, 2014</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#life-is-an-optimization-problem">Life is an Optimization Problem</a></li><li><a href="#how-to-make-the-bestdecision">How to make the best decision</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>This <a href="https://youtube.googleapis.com/v/8GQZuzIdeQQ&amp;source=uds">TED talk</a> by <a href="http://ruthchang.net/">Ruth Chang</a>, a Philosopher at Rutgers University, is really thought provoking and useful. I disagree with some of her logic about non-numerical values being the reason we can’t make the choice, but I agree with her conclusion nonetheless. Hard choices are not just about choosing what will happen next, but about choosing which past we are willing to live with and be happy with.</p>
+
+<p><a href="https://youtube.googleapis.com/v/8GQZuzIdeQQ&amp;source=uds">https://youtube.googleapis.com/v/8GQZuzIdeQQ&amp;source=uds</a></p>
+
+<h4 id="life-is-an-optimization-problem">Life is an Optimization Problem</h4>
+
+<p><img src="/assets/0__mAoi5EehMA710bA5.png" alt="" /></p>
+
+<p>Myresearch focuses on understanding the mechanism for making optimal decisions, particularly in situations where there is uncertainty about the world and what will happen next. I look at this not from the context of what humans and animals actually do in their heads, but what a robot or other computer <em>should</em> do for any given decision problem. It’s an area of Artificial Intelligence known as <em>Decision Making Under Uncertainty</em>.</p>
+
+<p>Chang is talking about the hard choices we all face in our lives at some point, choices where is seems impossible to come up with the “right” answer. The hardest choice Chang puts forward in her talk is between two very different jobs. One job is artistic, in the city, with various exciting benefits and pay. The other job is in law, in the country, with more pay and other benefits. These two choices have qualities and possible outcomes which are comparable; you may prefer the country to the city but prefer the city job artistic job more than the law job. So we can draw up our PROS vs CONS list and compare individual qualities of the jobs but the whole choice taken together still seems impossible to decide. Chang says this is because the two options are value choices and <em>are not numerically comparable</em>. One choice <em>could</em> be clearly better or worse than the other, but they could also simply be “on par”. This means they are in the neighbourhood of being equal, but small movements in favour of one or the other won’t change things.</p>
+
+<p>This is where I started shaking my head. I tend to agree with her conclusion, but the reason we cannot make a hard choice is not because the values are incomparable, it is because we lack information, and always will. Consider the hard choice between two jobs. In my field we would say that the value function for these two choices has many dimensions. One dimension is location, another is pay. Other dimensions quantify job satisfaction, health benefits, proximity to friends, the theatre or fresh country air. On each dimension it might be clear that one job is better than the other or they could be equal. Thus <em>they are numerically comparable</em> on each dimension.</p>
+
+<p>The problem comes when you want to compare the entire choice at once. Assuming that there is a single number for each choice that is either less than, equal to or greater than the other, as Chang does, implies that you know how to combine all the numbers in each dimension into a single number. The fact is, we rarely know how to combine these numbers in real world problems.</p>
+
+<p>The simplest solution would be to say that one dimension, salary for example, dominates all others and should be used alone. But this isn’t the reality we are faced with, if it were that easy we’d have made the choice already. The next simplest solution is to do a weighted sum of the dimensions. Assign a number <em>wi</em> to each dimension <em>i</em> indicating how important it is relative to the others. Think of it like a pie that needs to be given out to a group of people. You can decide the size of each slice but you only have one pie to apportion out. Each <em>wi</em> is a slice that indicates the relative importance of salary, location, job satisfaction, proximity to friends. Once you have that you simply multiply each <em>wi</em> weight by the value of that dimension and add them up. The weighted sum that is greater is the best option. That’s how classical economics and decision theory assume people make decisions.</p>
+
+<p>There is growing evidence in <strong>behavioural economics</strong> that in fact humans use a much richer formulation for weighting the dimensions of their values which depends on the <em>probability of events</em> and the gain or loss each outcome would yield them <em>relative to what they currently have</em>. Unfortunately, this still doesn’t help us to make the choice. We’ve just shifted the problem, determining the slices of pie to give to each dimension is just as hard as the original choice itself. However, we <em>are</em> still in the realm of an optimization problem that can be defined with numbers. Chang’s introduction of “on par” values which cannot be numerically compared is not necessary.</p>
+
+<h4 id="how-to-make-the-bestdecision">How to make the best decision</h4>
+
+<p>Given that we are still functioning in an optimization problem, the question is <em>what are we optimizing</em>? What these conundrums are avoiding is that when we make choices we are not really trying to optimize the outcomes of that choice. (<em>Huh?)</em></p>
+
+<p>When human beings make choices they are almost always really optimizing a single, much more mysterious and overarching value. We could call it contentment or we could it satisfaction, maybe we can just call it <em>happiness</em>.</p>
+
+<p>We could be trying to optimize our short term happiness or long term happiness. The options available might directly influence our happiness, such as eating the doughnut; or they might indirectly influence it, such as taking a particular job or making someone else happy. It might be that the events that result from our choice only later lead to our happiness.</p>
+
+<p>Ay, there’s the rub. Computing the expected happiness resulting from a choice requires <em>predicting the future</em> and any number of other events or even other choices we will make in the future. Ruth Chang says the right strategy, when faced with these hard choices, is to <em>choose the one you can get behind</em>.</p>
+
+<p>Psychologists and economists have been talking a lot in recent years about the importance of <em>rationalization</em> in human thinking. Chang’s decision making strategy posits rationalization as a useful tool for navigating towards a happy life. When faced with an intractably hard choice, choose the one that you will be able to successfully rationalize yourself into enjoying the most. Given that, after the fact, you will rationalize your decisions to yourself anyways, it follows that eventually making the choices that will yield the best post-rationalization state will be the life where you are most likely to maximize your happiness. This kind of <strong>counterfactual justification</strong> may be the key to happiness by accepting your intense drive to rationalize your decisions and making it work for you.</p>
+
+<p>I think strategy thisworks even though I don’t agree with Chang that value based choices are non-numerical. We <em>can</em> compare them numerically, but because of the multi-dimensional nature of the choice and the uncertainty about the future we simply do not know, and cannot know, how best to combine all the information we have and compare them. Even if the future were fully determined we still wouldn’t know how best to weigh all the components of each choice. Is it better to live in a city or in the country? Is that part of the comparison more important than the satisfaction I’ll get from the job or from the proximity to loved ones? How <em>much</em> more important…exactly? We simply can’t answer those questions, not because they aren’t comparable, but because we don’t know what our values are and every question implicitly requires knowing how the future will unfold.</p>
+
+<p>So the conclusion is still that hard choices are hard because there is information we do not have and can never have about our own values and about the future. But there is hope, since <em>we’re not actually trying to make the best choice</em> for it’s own sake. We are trying to maximize our own value function, our happiness, and doing that “only” requires making the choices we are most willing to live with, regardless of their outcome.</p>
+
+<p><em>— — This post has been revised and reposted from a few years ago. — —</em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2014-07-06T17:25:00-04:00">July 6, 2014</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Making+Hard+Choices+Optimally%20%2FMaking-Hard-Choices-Optimally-5414be6c517e%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2FMaking-Hard-Choices-Optimally-5414be6c517e%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/You-re-so-vain-you-probably-think-this-algorithm-s-about-you-251926b944df/" class="pagination--pager" title="You’re so vain, you probably think this algorithm’s about you.
+">Previous</a>
+    
+    
+      <a href="/Commentaria-on-an-a-Facebook-Apologia-170d71a6b305/" class="pagination--pager" title="Commentaria on an a Facebook Apologia
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Jedi-Master-Dijkstra/" rel="permalink">Jedi Master Dijkstra
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-17T00:00:00-05:00">February 17, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Using ChatGPT Stories as Anchors for Teaching
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Twitter-Isnt-Even-A-Social-Network/" rel="permalink">Twitter Isn’t Even A Social Network
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-29T00:00:00-05:00">December 29, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Will-Humans-Control-AI-Tools/" rel="permalink">Will Humans be in Control when using Artificial Intelligence Tools?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-08-02T00:00:00-04:00">August 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Some people ask if AI decision tools will always allow human input by 2035, I think that’s two questions in one.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Infinite-Diversity-Infinite-Combinations/" rel="permalink">Infinite Diversity in Infinite Combinations
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-31T00:00:00-04:00">July 31, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played chara...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Computationally Thinking. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

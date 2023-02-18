@@ -1,0 +1,846 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Prediction and Causality - How Can Machine Learning be Used for COVID-19? Causality, ML and COVID-19 - Computationally Thinking</title>
+<meta name="description" content="Abstract">
+
+
+  <meta name="author" content="Computationally Thinking">
+  
+  <meta property="article:author" content="Computationally Thinking">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Computationally Thinking">
+<meta property="og:title" content="Prediction and Causality - How Can Machine Learning be Used for COVID-19? Causality, ML and COVID-19">
+<meta property="og:url" content="/Causality-ML-and-COVID/">
+
+
+  <meta property="og:description" content="Abstract">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-06-01T00:00:00-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="/Causality-ML-and-COVID/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Computationally Thinking Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Computationally Thinking
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/images/bio-photo.jpg" alt="Computationally Thinking" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">Computationally Thinking</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Mark Crowley (he/him)<br />Assoc. Professor in AI at Univ. Waterloo<br />Opinions on Democracy, Environment and Science<br />Opinions are all my own, and no one else’s</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/markanthonycrowley/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://markcrowley.ca" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Academic Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://sigmoid.social/@compthink" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Prediction and Causality - How Can Machine Learning be Used for COVID-19? Causality, ML and COVID-19">
+    <meta itemprop="description" content="Abstract">
+    <meta itemprop="datePublished" content="2021-06-01T00:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/Causality-ML-and-COVID/" class="u-url" itemprop="url">Prediction and Causality - How Can Machine Learning be Used for COVID-19? Causality, ML and COVID-19
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-06-01T00:00:00-04:00">June 1, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          17 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#abstract">Abstract</a></li><li><a href="#what-is-machine-learning">What is Machine Learning?</a><ul><li><a href="#what-is-covid-19-to-a-machine-learning-researcher">What is COVID-19 to a Machine Learning researcher?</a></li><li><a href="#how-ai-and-ml-are-being-used-right-now">How AI and ML are being used right now?</a></li><li><a href="#machine-learnings-dirty-not-so-secret">Machine Learning’s Dirty Not-So-Secret</a></li></ul></li><li><a href="#multiple-routes-to-a-causal-model">Multiple Routes to a Causal Model</a><ul><li><a href="#tiptoeing-towards-causality">Tiptoeing Towards Causality</a></li><li><a href="#a-note-on-the-sir-model">A Note on the SIR Model</a></li><li><a href="#the-causal-hierarchy">The Causal Hierarchy</a></li></ul></li><li><a href="#using-the-experiment-that-we-already-have">Using the Experiment That We Already Have…</a><ul><li><a href="#let-a-thousand-experiments-bloom">Let a Thousand Experiments Bloom</a></li></ul></li><li><a href="#conclusion-and-next-steps">Conclusion and Next Steps</a></li><li><a href="#references">References</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h1 id="abstract">Abstract</h1>
+
+<p>Machine Learning is a very popular and very powerful set of analytical and algorithmic tools for helping human beings understand complex datasets and to take action to achieve their goals. This article will attempt to provide some perspective on the relevance of Machine Learning research for the global struggle with the Covid-19 disease, including understanding how machine learning practitioners and researchers view the usefulness of their toolbox and how they approach a problem such as Covid-19. An interesting fact about the current widely available ML tools is that they are especially good at one particular type of learning, supervised learning, where full knowledge of the “correct” inputs and outputs for the problem are fully known. This is a well-known limitation, which many ML researchers are working hard to rectify, but it means that it is often difficult to ML methods to answer questions in a field such as medicine where the datasets are often small and the amount of full knowledge, labelled input-output data needed is even smaller. There is a vocal, and growing, community within ML research that argues that in order to be truly beneficial to scientific pursuits and society at large, what is needed is for ML to have a greater focus on <em>causality</em>. We provide a basic introduction to the idea behind the causal hierarchy and how the existing ML methods relate to it.</p>
+
+<h1 id="what-is-machine-learning">What is Machine Learning?</h1>
+
+<p>They say that when all you have is a hammer, then all the world is a nail. For machine learning (ML) researchers and data scientists, aiming to help the world adapt and respond to the Covid-19 pandemic, the currently popular hammer is called Deep Learning. But in fact, there is a whole toolbox to available to be used and knowing which to choose requires knowledge about the tools and the domain itself. The potential impact ML methods can have here is tremendous, but so are the challenges, since a rapidly changing pandemic involves a number of very difficult questions and constraints that most other domains, where ML is famously being used, do not have.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>Figure 1:</strong> An overview of the pipeline from data to human decision making which includes AI/ML and many specific algorithms which are applicable depending on the datatype and situation.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="../assets/clip_image002.png" alt="An overview of the pipeline from data to human decision making" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If we start at the beginning, we have to ask what range of techniques and concepts are we talking about when we say, “Machine Learning”, and how do its practitioners see a problem such as the Covid-19 pandemic? Figure 1 provides my own overview of the virtual pipeline from data to human decision making which is the entire point of the study of ML and more broadly, Artificial Intelligence. Data can come in many forms, such as numerical tables, continous signals, gigabytes of images, natural language text documents, etc. For each type of data there are customized ways of preparing, cleaning up, and extracting the essential, or most representative, information to be used for further tasks. There are many specific algorithms which are applicable depending on the datatype and situation. While the field looks vast and complex, there are really only a small number of concepts, or metaphors, underlying most of these algorithms: projections across high dimensional spaces, linear weighted functions with free variables to tune, trees that divide the data dimensions interactively. Of course, most popular right now are models using neural networks, which essentially take the linear weighted functions idea to a combinatorial extreme and add non-linear activation threshold. These are reminiscent of firing neurons triggering in the brain, almost drastically less complex.</p>
+
+<p>Regardless of the metaphor used, all of these approaches can be thought of as boxes that take inputs data instances (images, patient records, sensor readings,…), represented somehow as a collection of numbers, and produce an output, a collection of numbers which can be interpretted as new data or probabilities. There are two important points to notice here. Firstly, there are many more methods in the “supervised” category of algorithms. Secondly, all of these methods are really meant too help humans make decisions in the end. It is easy to become focussed on the particular abilities and outputs of each algorithm or framework. However, when we chose the tools we are going to use and design this pipeline from data to actionable information, somewhere along the way we should ask ourselves “What does the human decision maker actually need? Is there any way to provide that?”</p>
+
+<h2 id="what-is-covid-19-to-a-machine-learning-researcher">What is COVID-19 to a Machine Learning researcher?</h2>
+
+<p>From the point of view of an ML researcher or data scientist, addressing with Covid-19 amounts to a very challenging problem of gathering widely distributed, and diverse datasets, full of confusing variations in standards, full of uncertainty and errors. Then the task is to make <em>very important predictions</em> about outcomes to <em>incredibly complex systems</em> which are <em>not even fully understood</em> by the scientists studying them. To which most AI/ML people would say, “great!”, we love nothing more than <em>almost</em> impossible problems. In a way, that’s what the pursuit of Artificial Intelligence is all about.</p>
+
+<p>However, in the interest of being a bit more practical, there are two aspects here that we’ll highlight. The first, is that we don’t <em>need</em> to have AI/ML solve this problem fully in order to help people, today, on the ground. This fact is exemplified by the kind of practical work being doing by many researchers already, including ourselves. The second point, is that in order to go beyond these short-term, practical solutions to parts of the problem, we may need to rethink what ML is good for and what we actually need.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Figure 2 : A cartoon schematic of how COVID-19 can be seen as a process to analyze and learn about as a machine learning researcher. The tasks of predicting outcomes and choosing appropriate public policy actions are part of a complex web of factors, some of which are very hard to gather data about and to quantify.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="../assets/clip_image004.png" alt="img" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="how-ai-and-ml-are-being-used-right-now">How AI and ML are being used right now?</h2>
+
+<p>The fruits of AI/ML research are being used right now for very practical, on-the-ground tasks using approaches that don’t necessarily require very complex AI/ML algorithms:</p>
+
+<p>·   <em>Spread Prediction:</em> Improving prediction spread models in one region given model of disease using in-region data. For example, in summer 2020, our lab at Waterloo contributed to an improved regression model for prediction of ICU patient levels in Trillium/Peel region hospitals.</p>
+
+<p>·   <em>Mutation:</em> Analyse genetic variation patterns in the disease as it mutates.</p>
+
+<p>·   <em>Logistics:</em> Predict and manage shortfalls and of hospital supplies such as PPE, cleaning supplies and basic medicines.</p>
+
+<p>Of course, more complex challenges and potential solutions exist than these. A particularly promising approach in the prediction/design category is <em>Anti-viral drug discovery</em> which attempt to aid the search for promising chemicals to test in various stages of drug development to speed up the process. Researchers in Mila[<a href="#_ftn1">1]</a>, the machine learning institute in Montreal, are carrying out research on this with projects on learning relationships between drugs, chemicals, proteins on the outcome for good drugs. The main idea is to use machine learning models to propose new candidates, test them in large experimental setups, perhaps even using robotic drug labs. Data from these tests are then fed back into the ML models. Eventually, once confidence in a candidate is high enough, and after extensive human evaluation of the proposal, the decision could be made to try out clinical trials for the best candidates. In the future, this approach could become even more interactive, using machine learning methods such as Reinforcement Learning to design new molecules which could be useful drugs.</p>
+
+<h2 id="machine-learnings-dirty-not-so-secret">Machine Learning’s Dirty Not-So-Secret</h2>
+
+<p>Machine Learning is powerful, it’s defeating world champions at their own games, it is being used to fly spaceships, drive cars. It is also optimizing addictive click-ability of social media apps and advertisements <em>really, really well</em>. ML is even recently making progress on solving the mind-bogglingly complex challenge of protein folding! What people don’t say out loud as often, is that all of these wonders come almost all entirely from <em>associations</em>! Recall the scientist’s primary warning: “Correlation does not imply causation”. Well, that applies to the majority of supervised Machine Learning approaches, including Deep Learning. It turns out that with enough labelled data, and enough free parameters, correlation, or association if you prefer, is usually very learnable. The question is, what if we wanted more? What if we actually wanted a causal model?</p>
+
+<h1 id="multiple-routes-to-a-causal-model">Multiple Routes to a Causal Model</h1>
+
+<p>Causality is at the very core of the scientific pursuit, so it’s not surprising there are many different ways of approaching it in a reliable, and repeatable way.</p>
+
+<p>The methods of <em>hypothesis testing</em>, also referred to as significance tests, are a core method for many scientists. Often simply referred to as “Controlled Experiments”, these are good approaches for direct and critical causal questions such as, in this case, “Is this vaccine effective at reducing severe outcomes?” or “Do masks make a significant difference in spread rate?”. A controlled experiment means that you attempt to determine a <em>causal link</em> by <em>controlling</em> the input population to be “identical”. Note that “identical” here only means “identical for all relevant variables”. So, for example, if you know that hair colour does not have any impact on the question being studied, then you would not need everyone in your data to belong to the same hair colour group. Since identical examples are often not available, we can weaken this slightly and insist the data are all independently sampled from a known distribution.</p>
+
+<p>The drawbacks of these approaches are their rigid restrictions on allowed questions, their reliance on known questions, and their intuitive difficulties which can lead to confusion and misuse. This inflexibility makes them less useful for answering the following kinds of questions where we cannot run a controlled trial for practical or ethical reasons:</p>
+
+<p>·   Should we close restaurants and gyms?</p>
+
+<p>·   Or should we have closed schools instead?</p>
+
+<p>·   Or maybe we should have kept them all closed longer in the first place?</p>
+
+<h2 id="tiptoeing-towards-causality">Tiptoeing Towards Causality</h2>
+
+<p>A more direct, interventional approach is used in vaccine trials under the title of “Human Challenge Studies” (Walker, 2020) where healthy volunteers are given an experimental vaccine under review and then, once the immune response is expected to be high, say as a month later, to <em>purposely be infected</em> with active virus to see the effect. This is done in a controlled a manner, but it is indeed a case of making your patient sick in order to test out your cure. From the perspective of causal, scientific practice, this is really the gold standard for determining the causal effect of some action. In physics and chemistry, it is the <em>only way</em> to determine causal relationships. In medical problems, it is usually necessary to find ways to <em>infer causality,</em> as well as possible, using less direct methods.</p>
+
+<h2 id="a-note-on-the-sir-model">A Note on the SIR Model</h2>
+
+<p>The classic approaches for epidemiological study and practice are models such as the <em>susceptible-infected-removed (SIR)</em> (Kermack, 1927) model for spread of a virus in a community. These are ODE models that capture the essential, <em>statistical</em> behaviour of a virus and how it spreads across the population.</p>
+
+<p>However, these assumptions are quite extreme, such as fixed population and structure, as well as rigidly defined incubation period and infectivity durations.</p>
+
+<p>Now, these ODEs are inherently already causal. They define how we understand disease to spread from in a population and how distance, risk profiles viral load and recovery/death rates. However, these are also <em>very simple</em> models, they cannot <em>learn what these relationships should be</em> from data. They cannot easily be made to include specific information which we have become so used to discussing now such as the comparative impacts of re-opening various types of services and businesses, such as: exercise gyms, restaurants, or schools. They do not even model the impact of various mask wearing policies directly. There are many other, more advanced forms of SIR that overcome some of these limitations. For example, SEIR (Carcione, 2020) adds an “Exposed” step to the model. The SEIR model uses information such as birth and death rate, specific fatality rate caused by the virus directly or indirectly. The probability of transition for every contact between two people, rates of disease incubation progress and recovery for individuals.</p>
+
+<h2 id="the-causal-hierarchy">The Causal Hierarchy</h2>
+
+<p>A different approach to understanding causal relationships comes from a well-known figure in the field of Artificial Intelligence, and Turing Award winner, Judea Pearl. Pearl describes <strong>the causal hierarchy</strong> as a general relationship between <em>data, labels, knowledge and causality</em> (Pearl, 2009)*. 
+* The hierarchy has three levels:</p>
+
+<p>​        I.     Association – passive observation</p>
+
+<p>​       II.     Intervention – active experiments, interventions</p>
+
+<p>​      III.     Counterfactuals – retrospective analysis, what-if scenarios</p>
+
+<p>These three types of data relationships are described in the Figures 3 and 4 both visually and with the mathematical notation Pearl uses which connects causality directly to conditional probability theory. Pearl was a central figure in the invention of <em>probabilistic graphical models</em> including the widely used Bayesian Network (Pearl, 1988). Even in that seminal paper, he put forward the importance of these models not only prediction and interpretation but also for inferring causal relationships in a system that might not otherwise be discernible, this can have many different uses in modelling some of which are surprising (Crowley, 2013). The “ball and stick” graphs in Figures 3 and 4 are small examples of these graphical models and show one way to represent the three levels of the causal hierarchy. Suffice it to say that Level II reasoning is more difficult to do thank Level I, while Level III is often difficult for people to intuitively grasp, let alone build automated models to do this reasoning on our behalf.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Figure 3: Visual depiction of Level I of the Causal Hierarchy as graphical models. Most Machine Learning results are restricted to this type.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="../assets/clip_image006.png" alt="Visual depiction of Level I of the Causal Hierarchy as graphical models." /></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>Figure 4:</strong> Visual depiction of Levels II and III of the Causal Hierarchy as graphical models. Some Machine Learning result in Decision Making and Reinforcement Learning fall in to Level II, very few methods deal with Level III.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="../assets/clip_image008.png" alt="Visual depiction of Levels II and III of the Causal Hierarchy as graphical models." /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>While causal Inference methods are fairly new, they are being used in fields where causal answers are critical, such as medicine, infectious disease control, safety critical systems. However, in Machine Learning they are not in the “hot” category right now. Deep Learning does not easily answer these questions, or at least, researchers in Deep Learning have not focussed much on enable such abilities. COVID-19 is a perfect moment to explore this further and see what can be achieved on a problem with a lot of data and where causal inferences will actually be critical to success.</p>
+
+<h1 id="using-the-experiment-that-we-already-have">Using the Experiment That We Already Have…</h1>
+
+<p>The global response to COVID in each country, region and city is like <strong>a thousand different experiments</strong> being carried out at once on the same problem. These experiments are, of course, controlled by each region, but they are not <em>controlled experiments</em> in the statistical sense, as we discussed earlier. A critical part of being “controlled” also is that <em>interventions</em>, or actions, are taken which affect the outcome. The whole goal of the experiment is to determine if the intervention has a notable effect which cannot be explained by anything else. This means that we cannot just take the results from Sweden (for example, where there was no mask mandate for many months in 2020) and make inferences about a Province in Canada without doing the following:</p>
+
+<ol>
+  <li>Matching the factors in common in both populations.</li>
+  <li>Analysing the differences and adding that to our model.</li>
+  <li>Using a causal graph structure to work out which questions can be answered based on whether the same actions were taken in both sitations.</li>
+</ol>
+
+<h2 id="let-a-thousand-experiments-bloom">Let a Thousand Experiments Bloom</h2>
+
+<p>So, a grand challenge for Machine Learning in this situation could be put forward based on three questions:</p>
+
+<ol>
+  <li>Can we <em>collect and sensibly represent</em> intervention data, all actions taken against COVID-19, by all levels of government, in different countries and regions?</li>
+  <li>Can we <em>fuse</em> all the demographic, economic, even socio-political information we have into a single, seamless database?</li>
+  <li>Finally, can we then learn a <em>useful</em> model that explains the differences in outcomes automatically?</li>
+</ol>
+
+<p>One of the first questions we should always ask in a data analysis problem is “What are the relevant factors to our target question?” In the case of COVID-19 the usual biological and medical factors are being well-used already. But we’ve all seen how other factors are hugely influential on the way the disease spreads on the ground in any given region or country.</p>
+
+<p>Some of the critical, and difficult factors not always being used include:</p>
+<ul>
+  <li>demographic factors</li>
+  <li>detailed age distribution</li>
+  <li>health care system setup</li>
+  <li>systemic racism, history of trust/distrust of government by segments of the population</li>
+  <li>size of minority groups</li>
+  <li>local temperature, season, weather</li>
+  <li>wealth disparity in general</li>
+  <li>group-specific education levels</li>
+  <li>societal wealth gap</li>
+  <li>dominance of anti-establishment feelings, resistance to strict central rules</li>
+  <li>anti-vaccine culture</li>
+  <li>religious control of state?</li>
+</ul>
+
+<p>These are often difficult factors to define and measure. But they are real, societal factors that could explain why the same control policies don’t have the same effect in different regions. There’s no reason these factors can’t be modelled, but it requires sociological expertise and causal inference to use this information fully.</p>
+
+<p>It is clear there are many factors which could influence reducing the spread of the SARS-CoV-2 virus and the impact of the COVID-19 disease. The most complex epidemiological models are still much simpler than the reality. That is as it should be, since this is the only way to hope to understand the individual factors and to see what kind of data is missing. However, the world is currently undertaking a program of massively parallelized, unintentionally varied, experiments in every country and region of the world as we try to tackle the effects of this deadly disease. This offers us an opportunity for learning more, if we can use the data well.</p>
+
+<p>Of course, the opportunities and challenges, don’t stop there either. Beyond modelling of virus spread and reduction strategies, the same ideas can be used to consider the possible influence factors on vaccine effectiveness itself. This will include Medical and Epidemiological factors such as the particular mutation, the viral load in the population, the susceptibility to infection and serious outcomes of the population. Further, logistical factors will come into play which apply equally at national, regional, and local levels. This includes the political will to distribute vaccines in the most logical way, and the ability to produce, or obtain from others, enough vaccine and to distribute it. Finally, societal factors will also apply, as they have with the strategies to mitigate spread of the disease in the first place. Some members of the public may not be willing to take the vaccine, or it may be difficult to reach or inform everyone about the proper ways to remain healthy until the vaccine deployment reaches where widespread immunity can actually impact the risks of daily life</p>
+
+<p>This is partly a massive exercise in data organization and extraction. Much of this is being done already, the <em>Oxford COVID-19 Government Response Tracker</em> (Oxford, 2021) database being the most notable example. Doing this well will also requires being able to answer all three levels of questions in the causal hierarchy.</p>
+
+<h1 id="conclusion-and-next-steps">Conclusion and Next Steps</h1>
+
+<p>The main point of this article was to highlight how Machine Learning is being used and potentially could be used to do some small part to get humanity through this pandemic. Finally, it is important to remember, in this era of extreme hype in every area of human endeavour, that any analytical method or algorithm, no matter how advanced, is still usually only good at very specific types of questions. For ML to be useful the <em>right questions</em> need to be asked and the <em>data being used needs to align</em> with those questions in some way. In other words, it needs to be reasonable that <em>the answer</em> being sought is actually contained within that data, even if it is deeply hidden. No algorithm can produce information from nothing. Additionally, for the most popular Machine Learning algorithms, most of those questions that they are good at are associational in nature, not causal. So, if we assume that the causal relationships between our mitigation, treatment and vaccination actions and their outcomes is the goal, then we need to expand our idea of what Machine Learning means to include methods such as causal inference.</p>
+
+<h1 id="references">References</h1>
+
+<p>J. Pearl. <em>Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.</em> Morgan Kaufmann, San Mateo, California, 1988.</p>
+
+<p>J. Pearl. <em>Causality: Models, Reasoning and Inference.</em> Cambridge University Press, 2nd edition, 2009.</p>
+
+<p>J. Pearl, “The seven tools of causal inference, with reflections on machine learning,” Communications of the ACM, vol. 62, pp. 54–60, Feb. 2019.</p>
+
+<p>D. Poole and M. Crowley. “Cyclic causal models with discrete variables: Markov chain equilibrium semantics and sample ordering.” In <em>IJCAI International Joint Conference on Artificial Intelligence</em>, pages 1060–1068, Beijing, China, 2013.</p>
+
+<p>J. M. Carcione, J. E. Santos, C. Bagaini, and J. Ba. “A simulation of a covid-19 epidemic based on a deterministic SEIR model.” <em>Frontiers in Public Health</em>, 8:230, 2020.</p>
+
+<p>A. Walker and S. Boseley, “UK Covid1-9 vaccine trial set to infect healthy volunteers with virus,” <em>The Guardian Newspaper</em>, September 23, 2020.</p>
+
+<p>W. O. Kermack and A. G. McKendrick, “A contribution to the mathematical theory of epidemics,” <em>Proceedings of the Royal Society of London.</em> <em>Series A, Containing Papers of a Mathematical and Physical Character</em>, vol. 115, no. 772, pp. 700–721, 1927.</p>
+
+<p>Univ. Oxford, Blavatnik School of Government. “Oxford covid-19 government response tracker (OxCGRT),” 2021. Website: https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#causal-inference" class="page__taxonomy-item p-category" rel="tag">causal-inference</a><span class="sep">, </span>
+    
+      <a href="/tags/#causality" class="page__taxonomy-item p-category" rel="tag">causality</a><span class="sep">, </span>
+    
+      <a href="/tags/#covid-19" class="page__taxonomy-item p-category" rel="tag">COVID-19</a><span class="sep">, </span>
+    
+      <a href="/tags/#machine-learning" class="page__taxonomy-item p-category" rel="tag">machine-learning</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2021-06-01T00:00:00-04:00">June 1, 2021</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Prediction+and+Causality+-+How+Can+Machine+Learning+be+Used+for+COVID-19%3F+Causality%2C+ML+and+COVID-19%20%2FCausality-ML-and-COVID%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2FCausality-ML-and-COVID%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/bloodclotprevalence/" class="pagination--pager" title="Do all COVID Vaccines have the same Blood Clot Risk?
+">Previous</a>
+    
+    
+      <a href="/Is-AI-Just-A-Passing-Fad/" class="pagination--pager" title="Is AI Just a Passing Fad
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Jedi-Master-Dijkstra/" rel="permalink">Jedi Master Dijkstra
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-17T00:00:00-05:00">February 17, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Using ChatGPT Stories as Anchors for Teaching
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Twitter-Isnt-Even-A-Social-Network/" rel="permalink">Twitter Isn’t Even A Social Network
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-12-29T00:00:00-05:00">December 29, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Will-Humans-Control-AI-Tools/" rel="permalink">Will Humans be in Control when using Artificial Intelligence Tools?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-08-02T00:00:00-04:00">August 2, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Some people ask if AI decision tools will always allow human input by 2035, I think that’s two questions in one.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Infinite-Diversity-Infinite-Combinations/" rel="permalink">Infinite Diversity in Infinite Combinations
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-07-31T00:00:00-04:00">July 31, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played chara...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/compthink" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/rateldajer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Computationally Thinking. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

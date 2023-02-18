@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-02-18T00:19:01-05:00</updated><id>/feed.xml</id><title type="html">Computationally Thinking</title><subtitle>explain( world | science, data, computation, experience)</subtitle><author><name>Computationally Thinking</name></author><entry><title type="html">Jedi Master Dijkstra</title><link href="/Jedi-Master-Dijkstra/" rel="alternate" type="text/html" title="Jedi Master Dijkstra" /><published>2023-02-17T00:00:00-05:00</published><updated>2023-02-17T00:00:00-05:00</updated><id>/Jedi-Master-Dijkstra</id><content type="html" xml:base="/Jedi-Master-Dijkstra/">&lt;h2 id=&quot;using-chatgpt-stories-as-anchors-for-teaching&quot;&gt;Using ChatGPT Stories as Anchors for Teaching&lt;/h2&gt;
+
+&lt;p&gt;As I’m teaching a course this term on Algorithms and another on Data Analysis and Machine Learning, I’ve been using ChatGPT to generate some colourful, alternative explanations for some of the topics of both courses and posting them here.&lt;/p&gt;
+
+&lt;p&gt;The “Dijkstra’s Star Wars Scroll” was the very first idea I had of what to ask ChatGPT when it went live, yes I know, it’s the &lt;em&gt;obvious&lt;/em&gt; one to start with isn’t it? Anyways, it’s spiralled on from there, I’ll post others I found later. Hopefully you find it useful, and/or informative about the topics, but also about the kind of things this new system &lt;em&gt;can&lt;/em&gt; do well, and what it &lt;em&gt;cannot yet&lt;/em&gt; do well.&lt;/p&gt;
+
+&lt;h3 id=&quot;dijkstras-algorithm&quot;&gt;Dijkstra’s Algorithm&lt;/h3&gt;
+&lt;figure style=&quot;float: right;  width: 30%; &quot;&gt;
+  	&lt;img src=&quot;/assets/images/pathwars_crawl.jpg&quot; alt=&quot;Image of a playful generated explanation of Dijkstra&apos;s algorithm in the style Star Wars opening text crawl.&quot; /&gt;
+&lt;figcaption&gt;A very different &lt;a href=&quot;https://starwarsintrocreator.kassellabs.io/#!/ENOHVrqsjFhlz3JNNVm7&quot;&gt;Star Wars&lt;/a&gt;  movie...&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;prompt:&lt;/strong&gt; &lt;em&gt;Explain Dijkstra’s algorithm, in the style of a Star Wars opening crawl.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;A long time ago, in a galaxy far, far away…&lt;/p&gt;
+
+  &lt;p&gt;a wise and powerful Jedi master named Dijkstra set out on a quest to find the shortest path between two points in a vast and treacherous universe. Armed with his trusty algorithm, Dijkstra used the power of math and logic to guide him through the unknown, cutting through the chaos and confusion of the galaxy to find the most efficient route.&lt;/p&gt;
+
+  &lt;p&gt;Through the force of his intellect, Dijkstra was able to create a map of the galaxy, with each star representing a different location and each path between stars representing a possible route. He then used his algorithm to systematically explore each path, carefully weighing the costs and benefits of each one to find the path with the lowest total cost.&lt;/p&gt;
+
+  &lt;p&gt;As he journeyed across the galaxy, Dijkstra’s algorithm proved to be a powerful tool, allowing him to navigate even the most complex and challenging of environments. Through its use, he was able to find the shortest path to his destination, outsmarting even the most cunning of foes and emerging victorious.&lt;/p&gt;
+
+  &lt;p&gt;In the end, Dijkstra’s algorithm became a shining example of the power of the Jedi mind, and its principles continue to be used by travellers across the galaxy to this day.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;You can view &lt;a href=&quot;https://starwarsintrocreator.kassellabs.io/#!/ENOHVrqsjFhlz3JNNVm7&quot;&gt;Dijkstra Star Wars Crawl&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Is this a good description of the algorithm? I suppose so, I was very impressed that it turned the idea of shortest paths into a map of the galaxy with nodes between stars and routes. &lt;em&gt;(If only it had actually gotten into the details of Hyperspace routes and the importance of getting your calculations right so you don’t end up inside a star…)&lt;/em&gt; The last few lines seem to stray a bit, but it’s still connected to distances and travel. So, as an initial impression, it did very well.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’ll post some other “Chat GPT’s Tales of Algorithms and Complexity” in a later post.&lt;/em&gt;&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="machine-learning" /><category term="artificial-intelligence" /><category term="algorithms" /><category term="chatgpt" /><category term="nlp" /><category term="large-language-models" /><category term="science-fiction" /><category term="being-nerdy" /><summary type="html">Using ChatGPT Stories as Anchors for Teaching</summary></entry><entry><title type="html">Twitter Isn’t Even A Social Network</title><link href="/Twitter-Isnt-Even-A-Social-Network/" rel="alternate" type="text/html" title="Twitter Isn’t Even A Social Network" /><published>2022-12-29T00:00:00-05:00</published><updated>2022-12-29T00:00:00-05:00</updated><id>/Twitter-Isnt-Even-A-Social-Network</id><content type="html" xml:base="/Twitter-Isnt-Even-A-Social-Network/">&lt;p&gt;I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.&lt;/p&gt;
+
+&lt;h3 id=&quot;discarded-intro-1&quot;&gt;Discarded Intro 1&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sometimes, usually in fact, change is good. Twitter isn’t suddenly bad because Trump is back, and it isn’t all fine now that he says he won’t actually use it. 
+The problems with Twitter are much deeper, some are new but are not.&lt;/p&gt;
+
+  &lt;p&gt;The new problem, that Elon Musk triggered, is trust. and it can’t be fixed because its about trust and arbitrary control.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Trust is &lt;em&gt;still&lt;/em&gt; a problem for sure, but I feel like there is a more urgent message about this whole epic to get to first.&lt;/p&gt;
+
+&lt;h3 id=&quot;discarded-intro-2&quot;&gt;Discarded Intro 2&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So Elon Musk says he’ll step down.&lt;/p&gt;
+
+  &lt;p&gt;But will that fix anything?&lt;/p&gt;
+
+  &lt;p&gt;Is that even the point?&lt;/p&gt;
+
+  &lt;p&gt;Is it possible to fix the loss of trust he created?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Short answer: no, it is not. Longer answer: will he even? ugh.&lt;/p&gt;
+
+&lt;h2 id=&quot;actual-intro-the-twitterness-of-twitter&quot;&gt;Actual Intro: The Twitterness of Twitter&lt;/h2&gt;
+&lt;p&gt;So let’s start with a simple truth, Twitter has never been a bastion of healthy discussion. 
+Yet, what it lacked in civility it gained in access , universality and relevance. 
+Twitter was always there, always available, never part of anyone else’s empire, and all the world was in one place. 
+No other social network has ever been that global, that immediate, and maybe they never will.&lt;/p&gt;
+
+&lt;p&gt;But maybe there is now a contender “the world’s town square” that has a can be something something that none of the other major social Networks ever were, that is, an &lt;em&gt;actual network&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;let-me-explain&quot;&gt;Let Me Explain&lt;/h2&gt;
+&lt;p&gt;The internet is, famously, &lt;a href=&quot;https://en.wikipedia.org/wiki/Series_of_tubes&quot;&gt;“a series of tubes”&lt;/a&gt; for moving around information. This much-ridiculed statement in US Senator Ted Stephens in 2006 was a very misleading description of the internet. But these days I feel like, it wasn’t as bad as how we now use the word “network” to describe Facebook, Twitter, Instagram, Tik Tok, MySpace, WhatsApp, LinkedIn or most other social “networks”.&lt;/p&gt;
+
+&lt;p&gt;The classic architecture of these services is, of course, a network in the sense that it maintains connects between people, its users and who they follow, who they are followed by, their current postings, etc. These connections are formed together into a graph of interactions, and that’s what the social media companies even call it, &lt;strong&gt;The Social Graph&lt;/strong&gt;. In a computing sense, it isn’t a network, it’s a graph, or a database of records representing users, content and interactions. A network is something that transports information between its nodes, which could be computers, phones, drones, or any other computing devices.&lt;/p&gt;
+
+&lt;p&gt;The very foundation of the Internet, and all its protocols, exchange formats, addressing systems, the word “network” does not mean a database of interactions between users.&lt;/p&gt;
+
+&lt;p&gt;In Computer Sceince, a network refer to a system composed of multiple computers that communicate via designated rules and protocols. This “Inter-net” is the global meta- network resulting from many thousands of separate networks communicating with each other.&lt;/p&gt;
+
+&lt;p&gt;These networks are run by companies, internet service providers,
+governments, etc. In this sense of the word, Facebook, Twitter, Tik Tok et. al. &lt;em&gt;are just websites&lt;/em&gt;. 
+Each of them is just a single server destination is a sea of networks in the global ocean of servers that is the whole Internet.&lt;/p&gt;
+
+&lt;h2 id=&quot;hold-on-a-second&quot;&gt;Hold On A Second…&lt;/h2&gt;
+&lt;p&gt;Very large websites such as these are actually run on many servers, on many networks.  So, Facebook of course, &lt;em&gt;has&lt;/em&gt; a network of its own which runs the thing we call Facebook. 
+This network is a major component of the functioning of the entire internet, especially because of its advertising network.&lt;/p&gt;
+
+&lt;p&gt;But that’s not the point. The point is that the &lt;em&gt;nodes&lt;/em&gt; of Facebook’s network are not &lt;em&gt;people&lt;/em&gt; or &lt;em&gt;posts&lt;/em&gt; but just some servers, actual computers that run various parts of the database, the tracking, the communication. The computing network they do run is not social.&lt;/p&gt;
+
+&lt;p&gt;Even more importantly, there is a single address &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://facebook.com&lt;/code&gt; that leads you to a single website, which allows us all to interact with people all over the world via updates to Facebook Inc.’s massive User Information Relational Database.&lt;/p&gt;
+
+&lt;p&gt;That’s what Facebook really is.. 
+And that database is their very valuable, maybe their &lt;em&gt;only&lt;/em&gt; meaningful, asset.&lt;/p&gt;
+
+&lt;h2 id=&quot;mastodon-is-both---it-is-social-and-it-a-network&quot;&gt;Mastodon is both - it is Social and it a Network&lt;/h2&gt;
+
+&lt;p&gt;It is composed of computers on a network that communicate with each other using yet another W3C protocol called &lt;a href=&quot;https://activitypub.rocks/&quot;&gt;ActivityPub&lt;/a&gt;. The webpage for the protocol even says it right up front:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t you miss the days when the web really was the world’s greatest decentralized network? Before everything got locked down into a handful of walled gardens? So do we. – ActivityPub&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Maybe you don’t miss it. One really good and fair reason for that could be that you never even experienced it. Those of us who watched the Web hatch out into the public in the 90s, and then realized there was a wider internet and learned how to use some of it, need to have some humbleness and perspective.&lt;/p&gt;
+
+&lt;p&gt;People born in the last 20 or 30 years only really know one world, the world that contains iPhones, where all music is some form of mp3, where Google is how you surf the internet and where everything on the internet, including our email, our social networks, our shopping, and more, are all served on individual websites. Websites that sometimes pretend to be networks or protocols themselves.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-is-mastodon&quot;&gt;So What is Mastodon?&lt;/h2&gt;
+
+&lt;p&gt;In the past few weeks, this has now been explained hundreds of times over, so I won’t go into detail, but I’ll focus on my main point.
+In mastodon, each network node, called an &lt;em&gt;Instance&lt;/em&gt;, contains &lt;em&gt;Users&lt;/em&gt; and their &lt;em&gt;Posts&lt;/em&gt;. The Users can follow other Users and can like, share or reply to their posts. So, the database I was talking about on the Twitter website, or the Facebook website, also exists on each Mastodon Instance.&lt;/p&gt;
+
+&lt;p&gt;The network of Instances, now operate like a network of Email Servers, or Network of Web Servers, to route messages across the network. Some messages get broadcast to many Instances, some get sent directly to single Instances. Most Instances have a block list of other Instances they never send or receive messages with. A level of control that can’t even exist in most other social database websites, since there is essentially just One Big Instance, the website itself.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-time&quot;&gt;Next Time&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Why does it matter?&lt;/strong&gt; Good question.&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="social-media" /><category term="twitter" /><category term="mastodon" /><category term="internet" /><summary type="html">I’ve tried to write this blog post several times, and each time I get around to it my intro statement is no longer true.</summary></entry><entry><title type="html">Will Humans be in Control when using Artificial Intelligence Tools?</title><link href="/Will-Humans-Control-AI-Tools/" rel="alternate" type="text/html" title="Will Humans be in Control when using Artificial Intelligence Tools?" /><published>2022-08-02T00:00:00-04:00</published><updated>2022-08-02T00:00:00-04:00</updated><id>/Will-Humans-Control-AI-Tools</id><content type="html" xml:base="/Will-Humans-Control-AI-Tools/">&lt;figure style=&quot;float: right;  width: 30%; &quot;&gt;
+  	&lt;img src=&quot;/assets/images/dalle-car-wheel-brain.png&quot; alt=&quot;DALL·E 2022-08-02 17.15.17 - A synthwave style image of person controlling a steering wheel which is connected to a circuit pattern which transforms into a brain.&quot; /&gt;
+&lt;figcaption&gt;DALL·E 2022-08-02 17.15.17 - A synthwave style image of person controlling a steering wheel which is connected to a circuit pattern which transforms into a brain.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I recently filled out a survey on some form of the following question:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Do you think that by 2035 that bots and analysis tools powered by Artificial Intelligence will allow human beings to be in control of important decision making?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My response was that that the itself question really conflates two &lt;em&gt;completely separate issues&lt;/em&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Will scientific advances in AI &lt;em&gt;make it possible&lt;/em&gt; to provide decision making assistance in most human decision making domains by 2035?&lt;/li&gt;
+  &lt;li&gt;Will designers of available, and popular AI, systems such as bots, tools, search engines, cellphones, productivity software, etc, &lt;em&gt;choose to design&lt;/em&gt; their tools in such a way as to give people meaningful control over decision making.
+    &lt;ol&gt;
+      &lt;li&gt;A very related issue is whether larger users, such as industry and government, create or request creation, of tools which enable their employees to have meaningful control. This issue is probably even more important since it will encompass most of the highest impact uses of AI decisions that occur relating to large corporate decisions, government and societal planning and military activities all the way from high-level strategic planning down to on-the-field decisions.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;my-take-on-issue-1--is-it-possible&quot;&gt;My Take on Issue 1 : Is it possible?&lt;/h3&gt;
+
+&lt;p&gt;In my assessment, yes, it’s possible that most fields of human endeavour could have &lt;em&gt;some kind&lt;/em&gt; of meaningful AI powered decision making assistance by 2035, and that it would be possible to allow meaningful human input, oversight, veto and control.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-take-on-issue-2--will-it-happen&quot;&gt;My Take on Issue 2 : Will it happen?&lt;/h3&gt;
+
+&lt;p&gt;I am not confident at all that those who create these tools, or those who pay for them to be created, will do so in a way that supports meaningful input. There is a huge over confidence assigned to the advice coming from AI systems. A sense that if an AI/ML powered system has generated this answer it must be correct, or at least very reasonable. This is actually very far from the truth. AI/ML can be arbitrarily wrong about predictions and advice in ways human beings a have difficult time accepting. We assume systems have some baseline of common sense whereas this is not a given in any software system. Many AI/ML systems do provide very good predictions and advice, but it entirely depends on how hard the engineers/scientists building them have worked to ensure this and to test the boundaries. The current trend of “end-to-end learning” in ML is very exciting and impressive technically, but it also magnifies this risk, since the entire point is that no human prior knowledge is needed. This leads to huge risks of blindspots in the system that are difficult to find.&lt;/p&gt;
+
+&lt;p&gt;For example, the image I use above was generated by &lt;a href=&quot;https://labs.openai.com/&quot;&gt;DALL-E&lt;/a&gt; which I just got access to play with recently. It has been trained on a huge array of images and their descriptions to provide a tool which turns text sentences into reasonable images of the described scene. It often does a good job and some times it does a stupendous job. But an essential part of the process of getting a good image is &lt;em&gt;human iteration&lt;/em&gt; over the output images, tuning the target sentence and trying again. If generating silly images is hard, image how hard it is to provide a viable, safe, fair, cost-effective, etc, etc, policy for making decisions in the real world? Hard, its hard. Don’t take humans out of the loop.&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="autonomous-driving" /><category term="machine-learning" /><category term="artificial-intelligence" /><category term="usability" /><summary type="html">Some people ask if AI decision tools will always allow human input by 2035, I think that&apos;s two questions in one.</summary></entry><entry><title type="html">Infinite Diversity in Infinite Combinations</title><link href="/Infinite-Diversity-Infinite-Combinations/" rel="alternate" type="text/html" title="Infinite Diversity in Infinite Combinations" /><published>2022-07-31T00:00:00-04:00</published><updated>2022-07-31T00:00:00-04:00</updated><id>/Infinite-Diversity-Infinite-Combinations</id><content type="html" xml:base="/Infinite-Diversity-Infinite-Combinations/">&lt;p&gt;This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played characters who stood for hope, caring and kindness. I don’t it’s  a concincidence that good people gravitate to roles about making the world a better place. I wish we all could stand as they did and spread as much joy and hope to the world, because we need it now more than ever.&lt;/p&gt;
+
+&lt;p&gt;May they find peace and joy in whatever level of existence their consciousness now inhabits, and may we all keep memories of their positive influence, and never, ever lose hope that the world can be made better.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;One of my most treasured photos - Godspeed to Nichelle Nichols, champion, warrior and tremendous actor. Her kindness and bravery lit the path for many. May she forever dwell among the stars. &lt;a href=&quot;https://twitter.com/hashtag/RIPNichelle?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#RIPNichelle&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Uhura?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Uhura&lt;/a&gt; &lt;a href=&quot;https://t.co/nFXHif8HEC&quot;&gt;pic.twitter.com/nFXHif8HEC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Stacey Abrams (@staceyabrams) &lt;a href=&quot;https://twitter.com/staceyabrams/status/1553827845201444865?ref_src=twsrc%5Etfw&quot;&gt;July 31, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Russell T Davies pays tribute to Bernard Cribbins &lt;a href=&quot;https://twitter.com/hashtag/DoctorWho?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DoctorWho&lt;/a&gt; &lt;a href=&quot;https://t.co/HOhl9eeDws&quot;&gt;https://t.co/HOhl9eeDws&lt;/a&gt; &lt;a href=&quot;https://t.co/5m1TcfGFad&quot;&gt;pic.twitter.com/5m1TcfGFad&lt;/a&gt;&lt;/p&gt;&amp;mdash; My London (@myldn) &lt;a href=&quot;https://twitter.com/myldn/status/1552599032530456577?ref_src=twsrc%5Etfw&quot;&gt;July 28, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>Computationally Thinking</name></author><category term="humans-suck" /><category term="startrek" /><category term="futurism" /><category term="science-fiction" /><summary type="html">This week the world lost two beautiful people who stood for hope, caring and kindness. These people happened to also be actors who most famously played characters who stood for hope, caring and kindness. I don’t it’s a concincidence that good people gravitate to roles about making the world a better place. I wish we all could stand as they did and spread as much joy and hope to the world, because we need it now more than ever.</summary></entry><entry><title type="html">The Ancient Battle Continues</title><link href="/The-Ancient-Battle-Continues/" rel="alternate" type="text/html" title="The Ancient Battle Continues" /><published>2022-05-14T00:00:00-04:00</published><updated>2022-05-14T00:00:00-04:00</updated><id>/The-Ancient-Battle-Continues</id><content type="html" xml:base="/The-Ancient-Battle-Continues/">&lt;p&gt;Reposting now given &lt;a href=&quot;https://thenextweb.com/news/deepmind-researcher-claims-new-gato-ai-could-lead-to-agi-says-game-is-over&quot;&gt;the latest iteration&lt;/a&gt; of this neverending battle, because this never gets old.
+&lt;img src=&quot;/assets/1__sgwl5gdIbqFAr__bTKsO__rA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="artificial-intelligence" /><category term="artificial-general-intelligence" /><category term="agi" /><category term="machine-learning" /><summary type="html">Reposting now given the latest iteration of this neverending battle, because this never gets old.</summary></entry><entry><title type="html">Why Build a Meta-Verse?</title><link href="/why-build-a-metaverse/" rel="alternate" type="text/html" title="Why Build a Meta-Verse?" /><published>2022-02-26T00:00:00-05:00</published><updated>2022-02-26T00:00:00-05:00</updated><id>/why-build-a-metaverse</id><content type="html" xml:base="/why-build-a-metaverse/">&lt;p&gt;I recently received a survey request from a Pew Research project, usually I ignore these, but today I clicked through. It might have been a combination of avoiding the awful news around the world, or procastrinating on some work I need to get done, or perhaps it was the topic. The survey was about &lt;em&gt;“The Future of the Metaverse”&lt;/em&gt; (!) (:o) (!). I’m &lt;em&gt;very&lt;/em&gt; interested in &lt;strong&gt;multiverses&lt;/strong&gt; you see, and every time I see something about THE Metaverse, I get excited about the philosophical and scientific implications of different kinds of multiverses, and &lt;em&gt;then&lt;/em&gt; realize it’s just something about this new Facebook rebranding initiative. A more severe intellectual let-down is almost not possible for a cosmology/consciousness/math/philosophy-nerd such as myself. So, after clicking through to this survey about “the meta(verse)”, I now found I had opinions!  So here they are, apparently.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-question-from-the-survey-was-something-like&quot;&gt;The question from the survey was something like…&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Will there be a fully functioning Metaverse accessible and actually being used by hundreds of millions of people by 2040?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I answered &lt;strong&gt;no&lt;/strong&gt; to this questioning, here’s my reasoning, unfiltered by too much overthinking, for once.&lt;/p&gt;
+
+&lt;h2 id=&quot;we-could-build-a-metaverse-but-why-would-we&quot;&gt;We could build a MetaVerse, but why would we?&lt;/h2&gt;
+
+&lt;p&gt;I say no, but it’s not a matter of the development for a Meta Verse not being far along enough, or not possible technologically, that will not be the limiting factor. I believe the limiting factor will be that it is &lt;em&gt;unnecessary&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;People think they want this, or that they can make money off of it, but the real world is far richer and more important than any virtual reality and it always will be. I know a great deal about this, I’m an AI researcher myself and I have read most modern science fiction predictions about different types of meta-verse, as well as having used Second Life and other previous attempts at this. The more advanced we become, I think the more we realize that our connection to the real world is important.&lt;/p&gt;
+
+&lt;p&gt;Also, no matter how advanced the options for communication and expression that are available to us, most people always seem to gravitate to the primary expressive forms that ground them in reality, &lt;em&gt;text, images, and maybe videos&lt;/em&gt;. The rise of Instagram and TikTok are prime examples. But for me, one of the most compelling reasons is the, frankly shocking, enduringness of “ancient” computer paradigms such as IRC chat commands, VI keyboard shortcuts, and basic emoticons. Human beings did not evolve communicating and telling stories via three dimensional storyboards. I have no doubt that dedicated and creative people, artists and engineers, will continue to spend huge amounts of time and create incredible content in these new realities. But the average person, will limit themselves to text, images and the occasional video edit. Sure, people share complex remade videos and memes, but this is nothing new, that kind of thing has always existed in different media, but &lt;em&gt;creation is hard&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The METAVerse requires everyone to create constantly and to communicate in ways that go beyond any natural inclination. What you’ll end up with are incredible interactive galleries and event spaces. Spaces where the vast majority of people still simply text, chat and video call with each other to express their ideas just as they do now.&lt;/p&gt;
+
+&lt;p&gt;So why bother?&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-is-the-next-big-thing&quot;&gt;So What &lt;em&gt;IS&lt;/em&gt; the Next Big Thing?&lt;/h2&gt;
+
+&lt;p&gt;I literally do not know, why would I? But here’s a thought.&lt;/p&gt;
+
+&lt;p&gt;If you want to bet on the next transformational communication paradigm enabled by technology, why aren’t we thinking about the most important part of social networks and any communication system, &lt;strong&gt;communication&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;Machine Learning enabled language models have skyrocketed in complexity and accuracy in the past few years. Much of the most impressive results are still locked behind corporate research gardens, but that won’t last forever, and the concepts are all out there for anyone to try. Google Translate is famously “bad” at doing perfect translation, producing funny memes and errors. Type something in to GT, English to Chinese, then take the output and translate Chinese to English, hilarious hijinks ensue.&lt;/p&gt;
+
+&lt;p&gt;But we forget how incredibly impressive it is to do even what Google Translate does &lt;em&gt;that&lt;/em&gt; well, something which was completely impossible more than 10 years ago. What if the &lt;strong&gt;next big thing&lt;/strong&gt; in human communication isn’t a 3D virtual reality idea recycled from previous failed attempts, with a name swiped from a legendary science fiction novel (You &lt;em&gt;have&lt;/em&gt; read &lt;a href=&quot;https://nealstephenson.com/snow-crash.html&quot;&gt;Snow Crash&lt;/a&gt;…haven’t you?).&lt;/p&gt;
+
+&lt;p&gt;What if instead it is something as simple, and revolutionary, as IRC chat plus a &lt;em&gt;nearly perfect universal translator&lt;/em&gt;? Maybe it’s &lt;em&gt;WhatsApp+Translation&lt;/em&gt; or maybe it’s &lt;em&gt;Twitter.AllLanguages&lt;/em&gt;, but whatever it is, once the language models are built to master not just English and Chinese but the top 20 or 50 languages that can reach 90% of human speakers in their &lt;em&gt;native tongue&lt;/em&gt;, what will even happen?&lt;/p&gt;
+
+&lt;p&gt;Trying to build a box, that fits some notion of a virtual world for communication of the future isn’t the way to unlock human creativity. The way to do it to make reliable, usable tools, that are open and available to everyone, and just put them out there.&lt;/p&gt;
+
+&lt;p&gt;Imagine being able to freely communicate in your own language and read the ideas and opinions of anyone else, in your own language as if they are native speakers? There is no way to predict the wonders human creativity and initiative will create with such a technology.&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="metaverse" /><category term="internet" /><category term="social-media" /><category term="natural-language-processing" /><category term="nlp" /><category term="machine-learning" /><category term="automated-translation" /><summary type="html">Some spontaneous thoughts on the multiverse of metaverses and whether it&apos;s all worth the effort.</summary></entry><entry><title type="html">Is AI Just a Passing Fad</title><link href="/Is-AI-Just-A-Passing-Fad/" rel="alternate" type="text/html" title="Is AI Just a Passing Fad" /><published>2022-01-15T00:00:00-05:00</published><updated>2022-01-15T00:00:00-05:00</updated><id>/Is-AI-Just-A-Passing-Fad</id><content type="html" xml:base="/Is-AI-Just-A-Passing-Fad/">&lt;p&gt;Someone important recently expressed a thought to me along the following lines:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sure, Artificial Intelligence is all very popular right now, and I think it’s going to be great, but we shouldn’t pull all our eggs in one basket, these things come and go. – Very Important Person Who’s Totally On Top of Everything&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have to say that initially I didn’t pay any notice to this, I’ve heard it many times over the years myself and reading about the history of research in my field over the past 70 years. Ever since the late, great Marvin Minksy shot down the precursor to Neural Networks, the Perceptron, for being too simple and linear to be of any use. Older AI researchers are fond of recounting numerous “AI Winters” and “AI Springs” that have occurred as public and institutional support waxes and wained for this term.&lt;/p&gt;
+
+&lt;p&gt;In a way, that’s really all Artificial Intelligence is, &lt;em&gt;a term&lt;/em&gt;. The research being carried out today by the thousands upon thousands of academics, developer, entrepeneurs and home tinkerers is worlds away from what was being thought about in the 60s or the 80s or the 90s during various “Spring” and “Winter” phases. They didn’t care whether everyone believed the high level goal of recreating the miracle of human intellgience &lt;em&gt;in sillica&lt;/em&gt;. They didn’t care if people believed a computer could ever beat humans at backgammon, chess, poker, Go, Atari Games or Star Craft. Or for that matter, if they could be better at identifying human faces or writing sports articles than any human being. 
+They just worked on it because it was fascinating to them. And history provides the evaluation, in all these cases, computers &lt;em&gt;can be&lt;/em&gt; better than humans at those tasks.
+Does it matter if any of those algorithms, or the thousands of others that have been developed in the past 70 years, count as “Intelligence”? Is it a “fad” to be pursuing this now, in 2021 as a decade of lightening fast advances make activities which seemed impossible 20 years ago now seems trivial, adorable undergraduate projects?&lt;/p&gt;
+
+&lt;p&gt;Maybe the problem with the field of Artificial Intelligence is in the definition, or lack of definition, that arises from the name itself. Our field is essentially defined by cutting of our understanding of what phrases like “intelligent behaviour”, “understanding”, and “recognition” means. It’s often said that once an AI problem is solved in a reliable and repeatable way, then it ceases to be AI. 
+Examples include many forms of automated planning used in industry, logical theorom provers used in software development, facial recognition used in security, probabilistic modelling tools used for data analysis.
+This is great, in a way, because the field is constantly moving forward onto challenging  problems. It’s also not as if we don’t know our history, as the discussion of “AI Winters” shows. But the result somehow ends up being that for many people, AI has never really shown any useful benefits to “live up to the hype”. This is despite the fact that so many technologies in our daily life that we now take for granted arose out of AI research of the past&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="machine-learning" /><category term="artificial-intelligence" /><category term="artificial-general-intelligence" /><category term="agi" /><summary type="html">Someone important recently expressed a thought to me along the following lines:</summary></entry><entry><title type="html">Prediction and Causality - How Can Machine Learning be Used for COVID-19? Causality, ML and COVID-19</title><link href="/Causality-ML-and-COVID/" rel="alternate" type="text/html" title="Prediction and Causality - How Can Machine Learning be Used for COVID-19? Causality, ML and COVID-19" /><published>2021-06-01T00:00:00-04:00</published><updated>2021-06-01T00:00:00-04:00</updated><id>/Causality-ML-and-COVID</id><content type="html" xml:base="/Causality-ML-and-COVID/">&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Machine Learning is a very popular and very powerful set of analytical and algorithmic tools for helping human beings understand complex datasets and to take action to achieve their goals. This article will attempt to provide some perspective on the relevance of Machine Learning research for the global struggle with the Covid-19 disease, including understanding how machine learning practitioners and researchers view the usefulness of their toolbox and how they approach a problem such as Covid-19. An interesting fact about the current widely available ML tools is that they are especially good at one particular type of learning, supervised learning, where full knowledge of the “correct” inputs and outputs for the problem are fully known. This is a well-known limitation, which many ML researchers are working hard to rectify, but it means that it is often difficult to ML methods to answer questions in a field such as medicine where the datasets are often small and the amount of full knowledge, labelled input-output data needed is even smaller. There is a vocal, and growing, community within ML research that argues that in order to be truly beneficial to scientific pursuits and society at large, what is needed is for ML to have a greater focus on &lt;em&gt;causality&lt;/em&gt;. We provide a basic introduction to the idea behind the causal hierarchy and how the existing ML methods relate to it.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-machine-learning&quot;&gt;What is Machine Learning?&lt;/h1&gt;
+
+&lt;p&gt;They say that when all you have is a hammer, then all the world is a nail. For machine learning (ML) researchers and data scientists, aiming to help the world adapt and respond to the Covid-19 pandemic, the currently popular hammer is called Deep Learning. But in fact, there is a whole toolbox to available to be used and knowing which to choose requires knowledge about the tools and the domain itself. The potential impact ML methods can have here is tremendous, but so are the challenges, since a rapidly changing pandemic involves a number of very difficult questions and constraints that most other domains, where ML is famously being used, do not have.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; An overview of the pipeline from data to human decision making which includes AI/ML and many specific algorithms which are applicable depending on the datatype and situation.&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;../assets/clip_image002.png&quot; alt=&quot;An overview of the pipeline from data to human decision making&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If we start at the beginning, we have to ask what range of techniques and concepts are we talking about when we say, “Machine Learning”, and how do its practitioners see a problem such as the Covid-19 pandemic? Figure 1 provides my own overview of the virtual pipeline from data to human decision making which is the entire point of the study of ML and more broadly, Artificial Intelligence. Data can come in many forms, such as numerical tables, continous signals, gigabytes of images, natural language text documents, etc. For each type of data there are customized ways of preparing, cleaning up, and extracting the essential, or most representative, information to be used for further tasks. There are many specific algorithms which are applicable depending on the datatype and situation. While the field looks vast and complex, there are really only a small number of concepts, or metaphors, underlying most of these algorithms: projections across high dimensional spaces, linear weighted functions with free variables to tune, trees that divide the data dimensions interactively. Of course, most popular right now are models using neural networks, which essentially take the linear weighted functions idea to a combinatorial extreme and add non-linear activation threshold. These are reminiscent of firing neurons triggering in the brain, almost drastically less complex.&lt;/p&gt;
+
+&lt;p&gt;Regardless of the metaphor used, all of these approaches can be thought of as boxes that take inputs data instances (images, patient records, sensor readings,…), represented somehow as a collection of numbers, and produce an output, a collection of numbers which can be interpretted as new data or probabilities. There are two important points to notice here. Firstly, there are many more methods in the “supervised” category of algorithms. Secondly, all of these methods are really meant too help humans make decisions in the end. It is easy to become focussed on the particular abilities and outputs of each algorithm or framework. However, when we chose the tools we are going to use and design this pipeline from data to actionable information, somewhere along the way we should ask ourselves “What does the human decision maker actually need? Is there any way to provide that?”&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-covid-19-to-a-machine-learning-researcher&quot;&gt;What is COVID-19 to a Machine Learning researcher?&lt;/h2&gt;
+
+&lt;p&gt;From the point of view of an ML researcher or data scientist, addressing with Covid-19 amounts to a very challenging problem of gathering widely distributed, and diverse datasets, full of confusing variations in standards, full of uncertainty and errors. Then the task is to make &lt;em&gt;very important predictions&lt;/em&gt; about outcomes to &lt;em&gt;incredibly complex systems&lt;/em&gt; which are &lt;em&gt;not even fully understood&lt;/em&gt; by the scientists studying them. To which most AI/ML people would say, “great!”, we love nothing more than &lt;em&gt;almost&lt;/em&gt; impossible problems. In a way, that’s what the pursuit of Artificial Intelligence is all about.&lt;/p&gt;
+
+&lt;p&gt;However, in the interest of being a bit more practical, there are two aspects here that we’ll highlight. The first, is that we don’t &lt;em&gt;need&lt;/em&gt; to have AI/ML solve this problem fully in order to help people, today, on the ground. This fact is exemplified by the kind of practical work being doing by many researchers already, including ourselves. The second point, is that in order to go beyond these short-term, practical solutions to parts of the problem, we may need to rethink what ML is good for and what we actually need.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Figure 2 : A cartoon schematic of how COVID-19 can be seen as a process to analyze and learn about as a machine learning researcher. The tasks of predicting outcomes and choosing appropriate public policy actions are part of a complex web of factors, some of which are very hard to gather data about and to quantify.&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;../assets/clip_image004.png&quot; alt=&quot;img&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;how-ai-and-ml-are-being-used-right-now&quot;&gt;How AI and ML are being used right now?&lt;/h2&gt;
+
+&lt;p&gt;The fruits of AI/ML research are being used right now for very practical, on-the-ground tasks using approaches that don’t necessarily require very complex AI/ML algorithms:&lt;/p&gt;
+
+&lt;p&gt;·   &lt;em&gt;Spread Prediction:&lt;/em&gt; Improving prediction spread models in one region given model of disease using in-region data. For example, in summer 2020, our lab at Waterloo contributed to an improved regression model for prediction of ICU patient levels in Trillium/Peel region hospitals.&lt;/p&gt;
+
+&lt;p&gt;·   &lt;em&gt;Mutation:&lt;/em&gt; Analyse genetic variation patterns in the disease as it mutates.&lt;/p&gt;
+
+&lt;p&gt;·   &lt;em&gt;Logistics:&lt;/em&gt; Predict and manage shortfalls and of hospital supplies such as PPE, cleaning supplies and basic medicines.&lt;/p&gt;
+
+&lt;p&gt;Of course, more complex challenges and potential solutions exist than these. A particularly promising approach in the prediction/design category is &lt;em&gt;Anti-viral drug discovery&lt;/em&gt; which attempt to aid the search for promising chemicals to test in various stages of drug development to speed up the process. Researchers in Mila[&lt;a href=&quot;#_ftn1&quot;&gt;1]&lt;/a&gt;, the machine learning institute in Montreal, are carrying out research on this with projects on learning relationships between drugs, chemicals, proteins on the outcome for good drugs. The main idea is to use machine learning models to propose new candidates, test them in large experimental setups, perhaps even using robotic drug labs. Data from these tests are then fed back into the ML models. Eventually, once confidence in a candidate is high enough, and after extensive human evaluation of the proposal, the decision could be made to try out clinical trials for the best candidates. In the future, this approach could become even more interactive, using machine learning methods such as Reinforcement Learning to design new molecules which could be useful drugs.&lt;/p&gt;
+
+&lt;h2 id=&quot;machine-learnings-dirty-not-so-secret&quot;&gt;Machine Learning’s Dirty Not-So-Secret&lt;/h2&gt;
+
+&lt;p&gt;Machine Learning is powerful, it’s defeating world champions at their own games, it is being used to fly spaceships, drive cars. It is also optimizing addictive click-ability of social media apps and advertisements &lt;em&gt;really, really well&lt;/em&gt;. ML is even recently making progress on solving the mind-bogglingly complex challenge of protein folding! What people don’t say out loud as often, is that all of these wonders come almost all entirely from &lt;em&gt;associations&lt;/em&gt;! Recall the scientist’s primary warning: “Correlation does not imply causation”. Well, that applies to the majority of supervised Machine Learning approaches, including Deep Learning. It turns out that with enough labelled data, and enough free parameters, correlation, or association if you prefer, is usually very learnable. The question is, what if we wanted more? What if we actually wanted a causal model?&lt;/p&gt;
+
+&lt;h1 id=&quot;multiple-routes-to-a-causal-model&quot;&gt;Multiple Routes to a Causal Model&lt;/h1&gt;
+
+&lt;p&gt;Causality is at the very core of the scientific pursuit, so it’s not surprising there are many different ways of approaching it in a reliable, and repeatable way.&lt;/p&gt;
+
+&lt;p&gt;The methods of &lt;em&gt;hypothesis testing&lt;/em&gt;, also referred to as significance tests, are a core method for many scientists. Often simply referred to as “Controlled Experiments”, these are good approaches for direct and critical causal questions such as, in this case, “Is this vaccine effective at reducing severe outcomes?” or “Do masks make a significant difference in spread rate?”. A controlled experiment means that you attempt to determine a &lt;em&gt;causal link&lt;/em&gt; by &lt;em&gt;controlling&lt;/em&gt; the input population to be “identical”. Note that “identical” here only means “identical for all relevant variables”. So, for example, if you know that hair colour does not have any impact on the question being studied, then you would not need everyone in your data to belong to the same hair colour group. Since identical examples are often not available, we can weaken this slightly and insist the data are all independently sampled from a known distribution.&lt;/p&gt;
+
+&lt;p&gt;The drawbacks of these approaches are their rigid restrictions on allowed questions, their reliance on known questions, and their intuitive difficulties which can lead to confusion and misuse. This inflexibility makes them less useful for answering the following kinds of questions where we cannot run a controlled trial for practical or ethical reasons:&lt;/p&gt;
+
+&lt;p&gt;·   Should we close restaurants and gyms?&lt;/p&gt;
+
+&lt;p&gt;·   Or should we have closed schools instead?&lt;/p&gt;
+
+&lt;p&gt;·   Or maybe we should have kept them all closed longer in the first place?&lt;/p&gt;
+
+&lt;h2 id=&quot;tiptoeing-towards-causality&quot;&gt;Tiptoeing Towards Causality&lt;/h2&gt;
+
+&lt;p&gt;A more direct, interventional approach is used in vaccine trials under the title of “Human Challenge Studies” (Walker, 2020) where healthy volunteers are given an experimental vaccine under review and then, once the immune response is expected to be high, say as a month later, to &lt;em&gt;purposely be infected&lt;/em&gt; with active virus to see the effect. This is done in a controlled a manner, but it is indeed a case of making your patient sick in order to test out your cure. From the perspective of causal, scientific practice, this is really the gold standard for determining the causal effect of some action. In physics and chemistry, it is the &lt;em&gt;only way&lt;/em&gt; to determine causal relationships. In medical problems, it is usually necessary to find ways to &lt;em&gt;infer causality,&lt;/em&gt; as well as possible, using less direct methods.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-note-on-the-sir-model&quot;&gt;A Note on the SIR Model&lt;/h2&gt;
+
+&lt;p&gt;The classic approaches for epidemiological study and practice are models such as the &lt;em&gt;susceptible-infected-removed (SIR)&lt;/em&gt; (Kermack, 1927) model for spread of a virus in a community. These are ODE models that capture the essential, &lt;em&gt;statistical&lt;/em&gt; behaviour of a virus and how it spreads across the population.&lt;/p&gt;
+
+&lt;p&gt;However, these assumptions are quite extreme, such as fixed population and structure, as well as rigidly defined incubation period and infectivity durations.&lt;/p&gt;
+
+&lt;p&gt;Now, these ODEs are inherently already causal. They define how we understand disease to spread from in a population and how distance, risk profiles viral load and recovery/death rates. However, these are also &lt;em&gt;very simple&lt;/em&gt; models, they cannot &lt;em&gt;learn what these relationships should be&lt;/em&gt; from data. They cannot easily be made to include specific information which we have become so used to discussing now such as the comparative impacts of re-opening various types of services and businesses, such as: exercise gyms, restaurants, or schools. They do not even model the impact of various mask wearing policies directly. There are many other, more advanced forms of SIR that overcome some of these limitations. For example, SEIR (Carcione, 2020) adds an “Exposed” step to the model. The SEIR model uses information such as birth and death rate, specific fatality rate caused by the virus directly or indirectly. The probability of transition for every contact between two people, rates of disease incubation progress and recovery for individuals.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-causal-hierarchy&quot;&gt;The Causal Hierarchy&lt;/h2&gt;
+
+&lt;p&gt;A different approach to understanding causal relationships comes from a well-known figure in the field of Artificial Intelligence, and Turing Award winner, Judea Pearl. Pearl describes &lt;strong&gt;the causal hierarchy&lt;/strong&gt; as a general relationship between &lt;em&gt;data, labels, knowledge and causality&lt;/em&gt; (Pearl, 2009)*. 
+* The hierarchy has three levels:&lt;/p&gt;
+
+&lt;p&gt;​        I.     Association – passive observation&lt;/p&gt;
+
+&lt;p&gt;​       II.     Intervention – active experiments, interventions&lt;/p&gt;
+
+&lt;p&gt;​      III.     Counterfactuals – retrospective analysis, what-if scenarios&lt;/p&gt;
+
+&lt;p&gt;These three types of data relationships are described in the Figures 3 and 4 both visually and with the mathematical notation Pearl uses which connects causality directly to conditional probability theory. Pearl was a central figure in the invention of &lt;em&gt;probabilistic graphical models&lt;/em&gt; including the widely used Bayesian Network (Pearl, 1988). Even in that seminal paper, he put forward the importance of these models not only prediction and interpretation but also for inferring causal relationships in a system that might not otherwise be discernible, this can have many different uses in modelling some of which are surprising (Crowley, 2013). The “ball and stick” graphs in Figures 3 and 4 are small examples of these graphical models and show one way to represent the three levels of the causal hierarchy. Suffice it to say that Level II reasoning is more difficult to do thank Level I, while Level III is often difficult for people to intuitively grasp, let alone build automated models to do this reasoning on our behalf.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Figure 3: Visual depiction of Level I of the Causal Hierarchy as graphical models. Most Machine Learning results are restricted to this type.&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;../assets/clip_image006.png&quot; alt=&quot;Visual depiction of Level I of the Causal Hierarchy as graphical models.&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Visual depiction of Levels II and III of the Causal Hierarchy as graphical models. Some Machine Learning result in Decision Making and Reinforcement Learning fall in to Level II, very few methods deal with Level III.&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;../assets/clip_image008.png&quot; alt=&quot;Visual depiction of Levels II and III of the Causal Hierarchy as graphical models.&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;While causal Inference methods are fairly new, they are being used in fields where causal answers are critical, such as medicine, infectious disease control, safety critical systems. However, in Machine Learning they are not in the “hot” category right now. Deep Learning does not easily answer these questions, or at least, researchers in Deep Learning have not focussed much on enable such abilities. COVID-19 is a perfect moment to explore this further and see what can be achieved on a problem with a lot of data and where causal inferences will actually be critical to success.&lt;/p&gt;
+
+&lt;h1 id=&quot;using-the-experiment-that-we-already-have&quot;&gt;Using the Experiment That We Already Have…&lt;/h1&gt;
+
+&lt;p&gt;The global response to COVID in each country, region and city is like &lt;strong&gt;a thousand different experiments&lt;/strong&gt; being carried out at once on the same problem. These experiments are, of course, controlled by each region, but they are not &lt;em&gt;controlled experiments&lt;/em&gt; in the statistical sense, as we discussed earlier. A critical part of being “controlled” also is that &lt;em&gt;interventions&lt;/em&gt;, or actions, are taken which affect the outcome. The whole goal of the experiment is to determine if the intervention has a notable effect which cannot be explained by anything else. This means that we cannot just take the results from Sweden (for example, where there was no mask mandate for many months in 2020) and make inferences about a Province in Canada without doing the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Matching the factors in common in both populations.&lt;/li&gt;
+  &lt;li&gt;Analysing the differences and adding that to our model.&lt;/li&gt;
+  &lt;li&gt;Using a causal graph structure to work out which questions can be answered based on whether the same actions were taken in both sitations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;let-a-thousand-experiments-bloom&quot;&gt;Let a Thousand Experiments Bloom&lt;/h2&gt;
+
+&lt;p&gt;So, a grand challenge for Machine Learning in this situation could be put forward based on three questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Can we &lt;em&gt;collect and sensibly represent&lt;/em&gt; intervention data, all actions taken against COVID-19, by all levels of government, in different countries and regions?&lt;/li&gt;
+  &lt;li&gt;Can we &lt;em&gt;fuse&lt;/em&gt; all the demographic, economic, even socio-political information we have into a single, seamless database?&lt;/li&gt;
+  &lt;li&gt;Finally, can we then learn a &lt;em&gt;useful&lt;/em&gt; model that explains the differences in outcomes automatically?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;One of the first questions we should always ask in a data analysis problem is “What are the relevant factors to our target question?” In the case of COVID-19 the usual biological and medical factors are being well-used already. But we’ve all seen how other factors are hugely influential on the way the disease spreads on the ground in any given region or country.&lt;/p&gt;
+
+&lt;p&gt;Some of the critical, and difficult factors not always being used include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;demographic factors&lt;/li&gt;
+  &lt;li&gt;detailed age distribution&lt;/li&gt;
+  &lt;li&gt;health care system setup&lt;/li&gt;
+  &lt;li&gt;systemic racism, history of trust/distrust of government by segments of the population&lt;/li&gt;
+  &lt;li&gt;size of minority groups&lt;/li&gt;
+  &lt;li&gt;local temperature, season, weather&lt;/li&gt;
+  &lt;li&gt;wealth disparity in general&lt;/li&gt;
+  &lt;li&gt;group-specific education levels&lt;/li&gt;
+  &lt;li&gt;societal wealth gap&lt;/li&gt;
+  &lt;li&gt;dominance of anti-establishment feelings, resistance to strict central rules&lt;/li&gt;
+  &lt;li&gt;anti-vaccine culture&lt;/li&gt;
+  &lt;li&gt;religious control of state?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are often difficult factors to define and measure. But they are real, societal factors that could explain why the same control policies don’t have the same effect in different regions. There’s no reason these factors can’t be modelled, but it requires sociological expertise and causal inference to use this information fully.&lt;/p&gt;
+
+&lt;p&gt;It is clear there are many factors which could influence reducing the spread of the SARS-CoV-2 virus and the impact of the COVID-19 disease. The most complex epidemiological models are still much simpler than the reality. That is as it should be, since this is the only way to hope to understand the individual factors and to see what kind of data is missing. However, the world is currently undertaking a program of massively parallelized, unintentionally varied, experiments in every country and region of the world as we try to tackle the effects of this deadly disease. This offers us an opportunity for learning more, if we can use the data well.&lt;/p&gt;
+
+&lt;p&gt;Of course, the opportunities and challenges, don’t stop there either. Beyond modelling of virus spread and reduction strategies, the same ideas can be used to consider the possible influence factors on vaccine effectiveness itself. This will include Medical and Epidemiological factors such as the particular mutation, the viral load in the population, the susceptibility to infection and serious outcomes of the population. Further, logistical factors will come into play which apply equally at national, regional, and local levels. This includes the political will to distribute vaccines in the most logical way, and the ability to produce, or obtain from others, enough vaccine and to distribute it. Finally, societal factors will also apply, as they have with the strategies to mitigate spread of the disease in the first place. Some members of the public may not be willing to take the vaccine, or it may be difficult to reach or inform everyone about the proper ways to remain healthy until the vaccine deployment reaches where widespread immunity can actually impact the risks of daily life&lt;/p&gt;
+
+&lt;p&gt;This is partly a massive exercise in data organization and extraction. Much of this is being done already, the &lt;em&gt;Oxford COVID-19 Government Response Tracker&lt;/em&gt; (Oxford, 2021) database being the most notable example. Doing this well will also requires being able to answer all three levels of questions in the causal hierarchy.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion-and-next-steps&quot;&gt;Conclusion and Next Steps&lt;/h1&gt;
+
+&lt;p&gt;The main point of this article was to highlight how Machine Learning is being used and potentially could be used to do some small part to get humanity through this pandemic. Finally, it is important to remember, in this era of extreme hype in every area of human endeavour, that any analytical method or algorithm, no matter how advanced, is still usually only good at very specific types of questions. For ML to be useful the &lt;em&gt;right questions&lt;/em&gt; need to be asked and the &lt;em&gt;data being used needs to align&lt;/em&gt; with those questions in some way. In other words, it needs to be reasonable that &lt;em&gt;the answer&lt;/em&gt; being sought is actually contained within that data, even if it is deeply hidden. No algorithm can produce information from nothing. Additionally, for the most popular Machine Learning algorithms, most of those questions that they are good at are associational in nature, not causal. So, if we assume that the causal relationships between our mitigation, treatment and vaccination actions and their outcomes is the goal, then we need to expand our idea of what Machine Learning means to include methods such as causal inference.&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
+
+&lt;p&gt;J. Pearl. &lt;em&gt;Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference.&lt;/em&gt; Morgan Kaufmann, San Mateo, California, 1988.&lt;/p&gt;
+
+&lt;p&gt;J. Pearl. &lt;em&gt;Causality: Models, Reasoning and Inference.&lt;/em&gt; Cambridge University Press, 2nd edition, 2009.&lt;/p&gt;
+
+&lt;p&gt;J. Pearl, “The seven tools of causal inference, with reflections on machine learning,” Communications of the ACM, vol. 62, pp. 54–60, Feb. 2019.&lt;/p&gt;
+
+&lt;p&gt;D. Poole and M. Crowley. “Cyclic causal models with discrete variables: Markov chain equilibrium semantics and sample ordering.” In &lt;em&gt;IJCAI International Joint Conference on Artificial Intelligence&lt;/em&gt;, pages 1060–1068, Beijing, China, 2013.&lt;/p&gt;
+
+&lt;p&gt;J. M. Carcione, J. E. Santos, C. Bagaini, and J. Ba. “A simulation of a covid-19 epidemic based on a deterministic SEIR model.” &lt;em&gt;Frontiers in Public Health&lt;/em&gt;, 8:230, 2020.&lt;/p&gt;
+
+&lt;p&gt;A. Walker and S. Boseley, “UK Covid1-9 vaccine trial set to infect healthy volunteers with virus,” &lt;em&gt;The Guardian Newspaper&lt;/em&gt;, September 23, 2020.&lt;/p&gt;
+
+&lt;p&gt;W. O. Kermack and A. G. McKendrick, “A contribution to the mathematical theory of epidemics,” &lt;em&gt;Proceedings of the Royal Society of London.&lt;/em&gt; &lt;em&gt;Series A, Containing Papers of a Mathematical and Physical Character&lt;/em&gt;, vol. 115, no. 772, pp. 700–721, 1927.&lt;/p&gt;
+
+&lt;p&gt;Univ. Oxford, Blavatnik School of Government. “Oxford covid-19 government response tracker (OxCGRT),” 2021. Website: https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker.&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="causality" /><category term="causal-inference" /><category term="machine-learning" /><category term="COVID-19" /><summary type="html">Abstract</summary></entry><entry><title type="html">Do all COVID Vaccines have the same Blood Clot Risk?</title><link href="/bloodclotprevalence/" rel="alternate" type="text/html" title="Do all COVID Vaccines have the same Blood Clot Risk?" /><published>2021-04-19T00:00:00-04:00</published><updated>2021-04-19T00:00:00-04:00</updated><id>/bloodclotprevalence</id><content type="html" xml:base="/bloodclotprevalence/">&lt;p&gt;So, I’m excited today, because I just got my booking for the Astra-Zenica vaccine for this Friday. For context, I’m over 40 and living in Ontario.&lt;/p&gt;
+
+&lt;p&gt;So why am I excited? Well, because until today our province had been limiting vaccine access to people 55 or older, and 50 in some cases or 18+ for very high risk areas. &lt;em&gt;Apparently&lt;/em&gt;, the Ontario government was under the impression there were not allowed to go against the advice of the &lt;strong&gt;National Advisory Committee on Immunization (NACI)&lt;/strong&gt; and give doses to the general population in lower risk areas until the Federal Government approved it. This weekend, the &lt;a href=&quot;https://www.cbc.ca/news/canada/toronto/ontario-pharamcists-astrazeneca-age-eligibility-1.5992514&quot;&gt;federal government clarified&lt;/a&gt; to them that this was never the case, each province can take the NACI advice as they see fit.&lt;/p&gt;
+
+&lt;p&gt;So now Gen X is jamming the twitter machines, waitlist apps and phone boards to get their vaccine, as well as discussing the ethical and moral implications of doing so when you know others are more at risk than you. The general verdict of these discussions experts in medicine and disease spread seems to be, &lt;em&gt;if you can get the vaccine, and you are not directly taking it from someone at higher risk, then take it!&lt;/em&gt;  Each person who gets vaccinated, no matter what age or risk level, brings us one step closer to &lt;strong&gt;&lt;em&gt;Herd Immunity&lt;/em&gt;&lt;/strong&gt;, which reduces everyone’s risk.&lt;/p&gt;
+
+&lt;p&gt;In Ontario, this means everyone over 40 should try right now, Shopper’s Drug Mart has a great website registration process. Rexall’s is fine too, although you have to add yourself to a waitlist for each individual pharmacy location. I’m not complaining though, I added myself last night and this morning received a bunch of texts for signing up and got one for Friday at my local Rexall. My wife called another indepenent pharmacy locally and got an appointment for tomorrow! So try different approaches. In BC, they are going even further, ramping down the age one decade a week until all adults are eligible. This is the kind of urgency we need. If enough people sign up we should even consider openning 24 hours vaccine clinics for a while to let people get it quicker, assuming there is enough supply.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-about-blood-clots&quot;&gt;So what about Blood Clots?&lt;/h2&gt;
+
+&lt;p&gt;With this new influx of people will come the question of which vaccine to get. Pharmacies in Ontario are giving out only Astra-Zenica right now, so that’s what I’m getting.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But doesn’t that cause blood clots?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Did you say “cause”? I’m so glad, because that’s a very specific word, &lt;em&gt;on which I have opinions&lt;/em&gt;. The short answer is, “we don’t know”. The slightly longer answer is, “maybe, but so do a lot of things”. The really long answer, science takes a long time, we’ll tell you in 5 years.&lt;/p&gt;
+
+&lt;p&gt;On this topic there’s a recent post on &lt;a href=&quot;https://www.marketwatch.com/story/blood-clots-as-prevalent-with-pfizer-and-moderna-vaccine-as-with-astrazenecas-report-2021-04-15&quot;&gt;MarketWatch&lt;/a&gt; that summarizes a study from a psychology group at Oxford:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Taquet, M. (2021, April 15). &lt;a href=&quot;https://osf.io/h2mt7/&quot;&gt;COVID-19 and cerebral venous thrombosis: a retrospective cohort study of 513,284 confirmed COVID-19 cases&lt;/a&gt;. – https://osf.io/h2mt7/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This study looks at existing records from the UK NHS health network since January 2020. They use that data to analyse the number of people who experience the severe blood clotting that everyone is worried it about.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-kind-of-blood-clot&quot;&gt;What Kind of Blood Clot?&lt;/h2&gt;
+
+&lt;p&gt;Blood clots are apparently a standard, but very rare, expected effect from vaccines and flu and coron style viruses. Blood clots can also be associated with age, with pregnancy, birth control pills and many other factors. But people should be aware that the blood clots being talked about related to COVID and the vaccines is a much more severe kind called &lt;a href=&quot;https://www.hopkinsmedicine.org/health/conditions-and-diseases/cerebral-venous-sinus-thrombosis#:~:text=What%20is%20cerebral%20venous%20sinus,brain%20tissues%2C%20forming%20a%20hemorrhage.&quot;&gt;Cerebral Venous Thrombosis&lt;/a&gt; which kills almost half the people who experience it. So it is a very serious condition. That being said, it is &lt;em&gt;extrememly rare&lt;/em&gt;. And I mean, so rare, that you’d never buy a $10 raffle ticket from someone with those odds because you know you’d never get it back.&lt;/p&gt;
+
+&lt;p&gt;It is also sometimes called &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5797620/#:~:text=Cerebral%20venous%20thrombosis%20(CVT)%2C,of%20childbearing%20age%2C%20and%20children.&quot;&gt;called cerebral venous sinus thrombosis (CVST)&lt;/a&gt;. I’m not an expert on the expedemiology, so I don’t know if these are actually different things, the second reference describes CVST with regards to &lt;em&gt;strokes&lt;/em&gt; cause by the blood clots, whereas as &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5797620/#:~:text=Cerebral%20venous%20thrombosis%20(CVT)%2C,of%20childbearing%20age%2C%20and%20children.&quot;&gt;others references&lt;/a&gt; include a varety of less severe conditions in CVT or CVST as well. I’ve broken out the numbers seperately in order to be cautious.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-this-study-look-at&quot;&gt;What did this study look at?&lt;/h2&gt;
+
+&lt;p&gt;The study looks very clear and straightforward, but keep in mind, it is not a study experimenting on people to see a &lt;em&gt;causal effect&lt;/em&gt;. That is, it is not the kind of study we all know about from testing the vaccines themselves for safety and effectiveness. In those studies, thousands of participants are carefully selected from the population, some are given a vaccine, some are not, and they are watched for months to see if they catch the disease randomly in their daily life.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-did-they-find&quot;&gt;So what did they find?&lt;/h2&gt;
+
+&lt;p&gt;The headline result of their study is summarized in the first four rows of the table below, that the other two major vaccines, Pfizer and Moderna, seem to have the same risk of CVT as the Astra-Zenica vaccine which is being investigated and delayed in many countries in Europe. On top of that, the rist of blood clots from COVID-19 itself is much higher.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Event&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://osf.io/a9jdq/&quot;&gt;Odds of Getting CVT/CVTS&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;a href=&quot;https://www.hopkinsmedicine.org/health/conditions-and-diseases/cerebral-venous-sinus-thrombosis#:~:text=What%20is%20cerebral%20venous%20sinus,brain%20tissues%2C%20forming%20a%20hemorrhage.&quot;&gt;Odds of having CVST Caused Stroke&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;Cases&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pfizer Vaccine (BNT162b2) or Moderna Vaccine (mRNA-1273)&lt;/td&gt;
+      &lt;td&gt;4 in 1 million&lt;/td&gt;
+      &lt;td&gt;Unknown&lt;/td&gt;
+      &lt;td&gt;2 CVT cases out of 489,871 people vaccinated&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Astra-Zenica Vaccine (ChAdOx1)&lt;/td&gt;
+      &lt;td&gt;5 in 1 million&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;169 CVT cases out of 34 million vaccinated in Europe&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Catching COVID-19&lt;/td&gt;
+      &lt;td&gt;39 in 1 million&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;20 CVT cases out of 513,284 people with COVID-19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Catching the Flu&lt;/td&gt;
+      &lt;td&gt;0 in 1 million&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;No CVT cases out of 172, 742 people with influenza&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Being a Living Adult Over 18&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;5 in 1 million&lt;/td&gt;
+      &lt;td&gt;about 10,500 per year in USA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Being a Living Youth Under 18&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;10 in 1 million&lt;/td&gt;
+      &lt;td&gt;about 3,200 per year in USA&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;possible-problems-with-this-papers-analysis&quot;&gt;Possible problems with this paper’s analysis&lt;/h2&gt;
+
+&lt;p&gt;I’m no expert in this field, but from a pure data analysis point of view, there are some issues with this study. The authors don’t report their results for Astra-Zenica in the same way they do the mRNA vaccines, so it’s hard to comapre. The “5 in 1 million” results comes from a Europe-wide report they were not involved with. They say in their own data that .4 people per million &lt;em&gt;over any 2-week period&lt;/em&gt;. It’s not clear why this 2-week period caveat isn’t present in the other data.&lt;/p&gt;
+
+&lt;p&gt;Another issue that the media might miss is that the number of cases of people with CVT is so small (20 people, or 2 people, that we &lt;em&gt;cannot generalize&lt;/em&gt; to the larger population based on it). It’s just too small. So, this might be giving us evidence the risk is the same, or it might be noise.&lt;/p&gt;
+
+&lt;p&gt;Whatever the answer, it’s clear the risk of this health event is very low and importantly, much less than from the COVID-19 disease itself. Given the exponential growth of the virus right now in many parts of Canada, your risk of getting this disease and suffering some very harsh short or long term effect is much higher than the tiny chance of getting this rare, but serious, blood clotting condition.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;So, please consider that and get vaccinated as soon as you can, for all our sakes.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Computationally Thinking</name></author><category term="causality" /><category term="covid-19" /><category term="scientific-method" /><category term="understanding-data-analysis" /><summary type="html">TL;DR - Maybe yes, but this study isn&apos;t conclusive, mostly because they are so, incredibly few cases of the blood clot condition.</summary></entry><entry><title type="html">It’s Better to Know about Atmospheric Engineering than Be Surprised Later</title><link href="/Atmospheric-Engineering/" rel="alternate" type="text/html" title="It’s Better to Know about Atmospheric Engineering than Be Surprised Later" /><published>2021-02-08T00:00:00-05:00</published><updated>2021-02-08T00:00:00-05:00</updated><id>/Atmospheric-Engineering</id><content type="html" xml:base="/Atmospheric-Engineering/">&lt;p&gt;The impact atmospheric engineering could be catastrophic or life saving. But the climate emergency is existential for humanity and all life on Earth. We can’t know what is possible without scientific experiment.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/environment/2021/feb/08/solar-geoengineering-test-flight-plan-under-fire-over-environmental-concerns-aoe&quot;&gt;“Balloon test flight plan under fire over solar geoengineering fears”&lt;/a&gt; – Guardian&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don’t know about &lt;a href=&quot;https://www.theguardian.com/environment/2021/feb/08/solar-geoengineering-test-flight-plan-under-fire-over-environmental-concerns-aoe&quot;&gt;this study which is being debated in Sweden&lt;/a&gt;, but…the only way this kind of tech should be used is in a cautious, globally planned way, using methods that last only for a few years at a time. This would be in combination with aggressive reduction of CO2 emissions (more aggressive than we currently are).&lt;/p&gt;
+
+&lt;p&gt;For me, the logic of knowing how this will work and getting in front to understand and regulate it is about saving as much Life and Diversity as possible given what we know about human nature.
+&lt;a href=&quot;https://twitter.com/hashtag/humanssuck?src=hashtag_click&quot;&gt;#humanssuck&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We are failing at reducing CO2 fast enough, and we’ll likely continue to fail.
+    &lt;ul&gt;
+      &lt;li&gt;Every day we lose more species that will never come back. Every day irreversible transition points are being passed which will move our planet to a new equilibrium.&lt;/li&gt;
+      &lt;li&gt;No amount of CO2 reduction will re-freeze the methane vents. So we need to stop ourselves from passing those transitions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Geo engineering is too easy…someday, some nation or some rich individual is going to just do it on their own out of impateince, ego, or any reason.
+    &lt;ul&gt;
+      &lt;li&gt;If we don’t understand the impact and don’t have rules in place it will be chaos.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Computationally Thinking</name></author><category term="climate-emergency" /><category term="geoengineering" /><category term="climate-change" /><category term="humans-suck" /><summary type="html">The impact atmospheric engineering could be catastrophic or life saving. But the climate emergency is existential for humanity and all life on Earth. We can’t know what is possible without scientific experiment.</summary></entry></feed>
