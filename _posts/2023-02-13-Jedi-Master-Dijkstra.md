@@ -1,10 +1,14 @@
 ---
 title:	"Jedi Master Dijkstra"
-date:	2022-02-17
+date:	2023-02-17
 tags: 
 - machine-learning
 - artificial-intelligence
 - algorithms
+- chatgpt
+- nlp
+- large-language-models
+- science-fiction
 - being-nerdy
 show_tags: true
 toc: false
@@ -18,7 +22,7 @@ header:
 
 As I'm teaching a course this term on Algorithms and another on Data Analysis and Machine Learning, I've been using ChatGPT to generate some colourful, alternative explanations for some of the topics of both courses and posting them here.
 
-The "Dijkstra's Star Wars Scroll" was the first idea I had of what to ask ChatGPT when it went live, and it's spiralled on from there. Hopefully you find it useful, and/or informative about the topics, but also about the kind of things this new system *can* do well, and what it *cannot yet* do well.
+The "Dijkstra's Star Wars Scroll" was the very first idea I had of what to ask ChatGPT when it went live, yes I know, it's the *obvious* one to start with isn't it? Anyways, it's spiralled on from there, I'll post others I found later. Hopefully you find it useful, and/or informative about the topics, but also about the kind of things this new system *can* do well, and what it *cannot yet* do well.
 
 
 
