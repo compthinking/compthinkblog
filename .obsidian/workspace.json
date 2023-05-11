@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "8f8942c487989c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "c910aba3743858f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2ee60903c8995e8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/draft-AI4Truth.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4d7cad1ec03fc3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "88d2f122d3cfd2d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e731dae5605b6755",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "52bd41c5d9606eed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/draft-AI4Truth.md"
+              }
+            }
+          },
+          {
+            "id": "5808505b03e673a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#reinforcement-learning",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96378e5f0c7c434b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 395.5
+  },
+  "right": {
+    "id": "8c9e1528a3aa097d",
+    "type": "split",
+    "children": [
+      {
+        "id": "537f516526df7896",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de1400187ad9f743",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "89bb3b1db52cf514",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/draft-AI4Truth.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0c6dbb4b2b0cd512",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/draft-AI4Truth.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": true
+    }
+  },
+  "active": "e2ee60903c8995e8",
+  "lastOpenFiles": [
+    "_posts/draft-AI4Truth.md",
+    "_posts/draft-2023-02-13-chatgpt-stories-for-teaching.md",
+    "_posts/draft-Bill-C-27-AI-and-Data.md",
+    "_posts/2011-08-12-CompSust11---Computational-Sustainability-at-AAAI11-b6759ff7eab8.md",
+    "_posts/2011-09-02-In-Defence-of-Algorithms-53f98efcdbfb.md",
+    "_posts/2011-08-09-AAAI-2011---Day-2-231ad1ec3b5c.md",
+    "_posts/2011-08-08-AAAI-2011---Day-1-1f6a8b390127.md",
+    "_topics/Reinforcement-Learning.md",
+    "_news/2022-09-27-LabNews.md",
+    "_projects/ChemGymRL.md",
+    "_news/2022-12-20-LabNews.md",
+    "_topics/causality.md",
+    "_courses/ECE457C_S23_outline.md",
+    "_news/draft-2023-05-10-IJCAI2023.md",
+    "_topics/MARL.md"
+  ]
+}
