@@ -1,8 +1,9 @@
-_site
-.sass-cache
+.DS_Store
+.obsidian/
+.jekyll-cache/
 .jekyll-metadata
-Gemfile.lock
-.swp
-*.*.swp
-*.DS_Store
+.sass-cache
+*.swp
 .tmp.driveupload/
+Gemfile.lock
+_site/
