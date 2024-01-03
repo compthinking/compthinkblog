@@ -1,11 +1,10 @@
 ---
 
-date:	2019-10-04
+date: 2019-10-04
 title: Testing Driving the Current Assisted Driving Contenders in Canada
 description: >-
   My wife and I love our old Golf, never had any major problems in 17 years, but
   it’s got to fail sometime… So we’re looking for a new car…
-date: ''
 tags: autonomous-driving
 show_tags: true
 aside: 

@@ -1,19 +1,19 @@
 ---
-title:	"Path Wars Bonus : The End Credits"
-date:	2023-02-18
-tags: 
-- machine-learning
-- artificial-intelligence
-- algorithms
-- chatgpt
-- nlp
-- large-language-models
-- science-fiction
-- being-nerdy
+title: "Path Wars Bonus : The End Credits"
+date: 2023-02-18
+tags:
+  - machine-learning
+  - artificial-intelligence
+  - algorithms
+  - chatgpt
+  - nlp
+  - large-language-models
+  - science-fiction
+  - being-nerdy
 show_tags: true
 toc: false
 header:
-    image: /assets/images/pathwars.jpg
+  image: /assets/images/pathwars.jpg
 ---
 
 
@@ -21,7 +21,7 @@ header:
 ## Path Wars II : The End Credits
 
 
-> As I'm teaching a course this term on Algorithms and another on Data Analysis and Machine Learning, I've been using ChatGPT to generate some colourful, alternative explanations for some of the topics of both courses and posting them here. ([Part 1](/Jedi-Master-Dijkstra/), **[Part 2](/PathWarsBonus-The-End-Credits)**, Part 3)
+> As I'm teaching a course this term on Algorithms and another on Data Analysis and Machine Learning, I've been using ChatGPT to generate some colourful, alternative explanations for some of the topics of both courses and posting them here. ([Part 1](/Jedi-Master-D[Part 2](2023-02-18-PathWarsBonus-The-End-Credits.md)d-Credits.md)**, Part 3)
 
 ---
 
@@ -97,6 +97,8 @@ Oh, this feels right.
 
 >
 > Thanks to all the graph theorists and computer scientists who contributed to the development of these algorithms.
+
+
 
 
 

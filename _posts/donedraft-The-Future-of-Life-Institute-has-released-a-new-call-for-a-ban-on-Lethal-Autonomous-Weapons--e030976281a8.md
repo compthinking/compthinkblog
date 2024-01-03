@@ -5,9 +5,6 @@ title: >-
 description: >-
   People often express fears about the impacts of Artificial Intelligence on
   society which extrapolate from a few facts to unrealistic…
-date: ''
-
-tags: []
 ---
 
 The Future of Life Institute has released a new call for a [ban on Lethal Autonomous Weapons](https://futureoflife.org/lethal-autonomous-weapons-pledge/?submitted=1#confirmation). Here is the response I attached after I signed it:

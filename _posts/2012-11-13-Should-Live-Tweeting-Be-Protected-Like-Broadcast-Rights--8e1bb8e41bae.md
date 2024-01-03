@@ -1,8 +1,13 @@
 ---
 title: Should Live Tweeting Be Protected Like Broadcast Rights?
 description: ''
-date: '2012-11-13T19:32:00.000Z'
-tags: []
+date: 2012-11-13
+tags:
+- live-blogging
+- review
+- movie-review
+- ai-doom
+
 ---
 
 Interesting question here about tweeting sporting events: [Should Live Tweeting Be Protected Like Broadcast Rights?](http://mashable.com/2012/11/12/live-tweeting-broadcast-rights/#comment-18382531)  

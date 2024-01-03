@@ -21,7 +21,7 @@ header:
 
 ## Using ChatGPT Stories as Anchors for Teaching
 
-> As I'm teaching a course this term on Algorithms and another on Data Analysis and Machine Learning, I've been using ChatGPT to generate some colourful, alternative explanations for some of the topics of both courses and posting them here. (**[Part 1](/Jedi-Master-Dijkstra/)**, [Part 2](/PathWarsBonus-The-End-Credits), Part 3)
+> As I'm teaching a course this term on Algorithms and another on Data Analysis and Machine Learning, I've been using ChatGPT to generate some colourful, alternative explanations for some of the topics of both courses and posting them here. (**[Part 1](/Jedi-Master-Dijkstra/)**, [Part 2](2023-02-18-PathWarsBonus-The-End-Credits.md), Part 3)
 
 ---
 

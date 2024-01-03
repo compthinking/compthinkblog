@@ -1,11 +1,12 @@
 ---
-title:	"Infinite Diversity in Infinite Combinations"
-date:	2022-07-31
-tags: 
-- humans-suck
-- startrek
-- futurism
-- science-fiction
+title: Infinite Diversity in Infinite Combinations
+date: 2022-07-31
+tags:
+  - humans-suck
+  - startrek
+  - futurism
+  - science-fiction
+  - doctor-who
 show_tags: true
 toc: false
 ---
