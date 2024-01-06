@@ -7,3 +7,5 @@
 .tmp.driveupload/
 Gemfile.lock
 _site/
+blog_local_list.md
+start.sh

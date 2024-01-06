@@ -1,6 +1,7 @@
 ---
 title:	"Using ChatGPT to Create Exam Questions"
 date:	2023-04-25
+permalink: /chatgptexam/
 tags: 
 - machine-learning
 - artificial-intelligence

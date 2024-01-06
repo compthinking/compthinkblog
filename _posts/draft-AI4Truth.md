@@ -1,16 +1,17 @@
 ---
-title:	"AI for Truth"
-date:	2021-03-15
-tags: 
-- ai4truth
-- generative-models
-- large-language-models
-- machine-learning
-- artificial-intelligence
-- reinforcement-learning
-- natural-language-processing 
+title: AI for Truth
+date: 2021-03-15
+tags:
+  - ai4truth
+  - generative-models
+  - large-language-models
+  - machine-learning
+  - artificial-intelligence
+  - reinforcement-learning
+  - natural-language-processing
 show_tags: true
 show_bib: true
+permalink: /test/
 ---
 
 

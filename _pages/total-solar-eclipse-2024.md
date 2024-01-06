@@ -1,20 +1,20 @@
 ---
 title: Total Solar Eclipse 2024
+layout: single
 date: 2023-12-30
-permalink: /solar-eclipse-2024/
-description: 
+permalink: /eclipse/
+description: Links and information about the amazing Total Solar Eclipse in 2024 crossing through North America.
 tags:
   - science
   - astronomy
   - education
 show_tags: true
-show_bib: true
-status: draft
-nav: false
+toc: true
+toc_sticky: true
 ---
 # The Great Total Solar Eclipse of 2024
 
-### Eclipse Viewing Instructions and Resources
+## Eclipse Viewing Instructions and Resources
 This great page has lots of links from the American Astronomical Society about finding the eclipse and viewing it safely.
 
 https://eclipse2024.org/instructions/instructions.html
@@ -28,13 +28,13 @@ http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html
 - Toronto, Canada
 
 ## Fredricksburg, Texas
-**Bending Oak RV Camp** at coords (30.22381°, -98.80293°)
 
-This is where Mark and Lily plan to be.
+*This is where Mark and Lily will to be:*
+**Bending Oak RV Camp** at coords (30.22381°, -98.80293°)
 
 ### Local Timetable
 | Event                           | Date       | Time (UT)  | Time (Texas) | Alt    | Azi    |
-| ---                             | ---        | ---        |              | ---    | ---    |
+| ---                             | ---        | ---                     | ---    | ---    |
 | *Start of partial eclipse (C1)* | 2024/04/08 | 17:15:35.6 | 12:15:35     | +60.4° | 135.8° |
 | *Start of total eclipse (C2)*   | 2024/04/08 | 18:33:01.7 | 13:33:01     | +67.4° | 177.5° |
 | *Maximum eclipse (MAX)*         | 2024/04/08 | 18:35:11.8 | 13:35:11     | +67.4° | 178.9° |

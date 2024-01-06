@@ -7,7 +7,7 @@ tags:
   - ai-doom
 show_tags: true
 show_bib: true
-status: draft
+type: draft
 ---
 
 (I'm going to watch it and write as a I watch

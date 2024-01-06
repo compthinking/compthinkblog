@@ -1,6 +1,8 @@
 ---
-title: "Posts by Year"
+title: Posts by Year
+layout: posts
 permalink: /posts/
-layout: pages
+classes: wide
 author_profile: true
+entries_layout: grid
 ---

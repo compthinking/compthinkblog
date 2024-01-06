@@ -105,10 +105,14 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rateldajer"
 
+
+
+
 defaults:
   # _posts
-  - scope:
-      path: ""
+  - 
+    scope:
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -119,10 +123,22 @@ defaults:
       comments: false
       share: true
       related: true
-      toc: true
+      toc: true #maybe turn this off?
       show_tags: true
     #header:
       #image: /assets/conferences/wurzburgpalace_small.jpg
+  - 
+    scope:
+      path: ""
+      type: draft
+    values:
+      published: false
+  -
+    scope:
+      path: "_drafts"
+    values:
+      type: draft
+      published: false
   # _pages
   - scope:
       path: "_pages"
@@ -130,10 +146,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
+      comments: false
+      share: true
+      related: true
+      toc: true #maybe turn this off?
+      show_tags: true
 
-#category_archive:
-#  type: liquid
-#  path: /categories/
+# category_archive:
+#   type: liquid
+#   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
