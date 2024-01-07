@@ -1,17 +1,18 @@
 ---
 title: RLDM 2019 Conference Summary
-name: RLDM 2019 Conference Summary
+date: 2019-07-25
 tags:
   - reinforcement-learning
   - conference-review
 description: I attended the fourth bi-annual RLDM conference in Montreal in July 2019, these are some notes I took.
-showtitle: true
-date: 2019-07-25
 showtopics: true
-aside:
-  toc: true
+toc: true
+toc_sticky: true
+classes: narrow
 ---
 # Reinforcement Learning and Decision Making Conference
+
+> Note: this is {.}
 
 The fourth iteration of this conference was held in Montreal July 7-10, 2019.
 
@@ -165,10 +166,6 @@ then analyse their strategies and heuristics they use
 - Practice doesn't help under time pressure but in slow learning it helps a lot to be robust.
 
 
-##Instance Based Learning
-
-![20190707_160550](/Users/mcrowley/Downloads/rldm2019/20190707_160550.jpg)*(Gordon, Lerch and Le biene, 2003)*
-
 ## ACT-R 
 
 *(Andersons Lebiere, 1998)* 
@@ -244,19 +241,16 @@ If your state representation is *too simple* for the domain then the problem is 
 So, if your models are bad then picking the MLE for the dynamics isn't a good idea
 even using importance sampling has problems because it can have very high variance even though it isn't biased.
 
-##A Big Idea
+## A Big Idea
 
 Unlike in supervised learning these are really hard in RL:
 
 - structural risk minimization
-
 - cross validation
-
-  
 
 ![20190707_174155](/Users/mcrowley/Downloads/rldm2019/20190707_174155.jpg)
 
-There are promising methods for dealing with this in non i. i. d. domains but it's hard.
+There are promising methods for dealing with this in non i.i.d. domains but it's hard.
 
 ## Moving the Goalpost
 
@@ -505,18 +499,13 @@ They look at actual human social interactions for compelx dynamics between choic
   - Economists think there is not existing theory to explain this
 - Psychological Game Theory can explain this
   - one agent has *second order* theory about other player and they converge on a solution 
-  - this involves thikning about the dissapointment the other person is going to experience and this is partially valid. If the money is higher obviously this weight is higher.
-  - [TODO](TODO): see image
+  - this involves thinking about the disappointment the other person is going to experience and this is partially valid. If the money is higher obviously this weight is higher.
   - They also find support for this by looking at brain scans
-
-## Moral Strategy Model
-![20190709_144501](/Users/mcrowley/Downloads/rldm2019/Photos/20190709_144501.jpg)
-
 
 
 ## Theory of Mind
 
-Many existing modles of theory of mind are low dimensional, a few main types of quealities and that they are static over time.
+Many existing models of theory of mind are low dimensional, a few main types of qualities and that they are static over time.
 
 There is a push to explore this using *Inverse Reinforcement Learning* and *Bayesian Learning*
 
@@ -703,7 +692,7 @@ These are all *subproblems* that are not essentially about reward or value. How 
 
 He thinks **play** is an important way to look at it.
 
-Three key open quetsions about subproblems in RL:
+Three key open questions about subproblems in RL:
 
 1. Q1 - what should subproblems be
 2. Q2 - where do they come from
@@ -714,12 +703,8 @@ Three key open quetsions about subproblems in RL:
 
 Some settled issues:
 
-- subproblems are a reward in themselves an dmay be terminal, planning stops
-- solving a subproblem can be done with an option, a seperately subpolicy 
-
-![20190710_113310](20190710_113310.jpg)
-
-![20190710_114403](20190710_114403.jpg)
+- subproblems are a reward in themselves and may be terminal, planning stops
+- solving a subproblem can be done with an option, a separately subpolicy 
 
 
 
