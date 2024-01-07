@@ -33,6 +33,7 @@ http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html
 **Bending Oak RV Camp** at coords (30.22381°, -98.80293°)
 
 ### Local Timetable
+
 | Event                           | Date       | Time (UT)  | Time (Texas) | Alt    | Azi    |
 | ---                             | ---        | ---                     | ---    | ---    |
 | *Start of partial eclipse (C1)* | 2024/04/08 | 17:15:35.6 | 12:15:35     | +60.4° | 135.8° |
@@ -48,9 +49,7 @@ Toronto, Canada will not get a total solar eclipse, only an *Annular Solar Eclip
 
 ## So, will *you* be able to see the eclipse?
 
-This google map from Xavier Jubier lets you check different total solar eclipses against a precise location:
-
-http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html
+This [google map from Xavier Jubier](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html) lets you check different total solar eclipses against a precise location.
 
 ## Viewing the Eclipse
 Everyone knows that you shouldn't look at the sun directly for more than a second. But during a total solar eclipse there is a few minutes where you really can look at the sun, because the Moon is covering it completely!
@@ -60,14 +59,11 @@ When the eclipse comes, you'll need your solar eclipse glasses to let you watch 
 Here is some information about safe viewing of solar eclipses to go with your glasses.
 
 ### Safety Page from the American Astronomical Society
-See this page for lots of useful information about how to view the eclipse safely.
+- See this [Eclipse Safety Page](https://eclipse.aas.org/eye-safety) for lots of useful information about how to view the eclipse safely.
+- Solar glasses instructions : https://eclipse2024.org/instructions/translations/English.pdf
+- **If you are in Toronto** or anywhere else that is **not on the path of totality**, then [you can make a pinhole camera instead, here's how](https://eclipse.aas.org/eye-safety/projection)! 
 
-- https://eclipse.aas.org/eye-safety
-- solar glasses instructions : https://eclipse2024.org/instructions/translations/English.pdf
-- **If you are in Toronto** or anywhere else that is **not on the path of totality**, then you can make a pinhole camera instead:
-  - https://eclipse.aas.org/eye-safety/projection
-
-# The Next Next Eclipse - Spain! 2026
+# The *Next* Next Eclipse - Spain! 2026
 - https://en.wikipedia.org/wiki/Camino_de_Santiago#Compostela
 - http://xjubier.free.fr/en/site_pages/SolarEclipsesGoogleMaps.html
 
