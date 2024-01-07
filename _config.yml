@@ -72,11 +72,11 @@ plugins:
 author:
   name   : "Computationally Thinking"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Mark Crowley (he/him)<br>Assoc. Professor in AI at Univ. Waterloo<br>Opinions on Democracy, Environment and Science<br>Opinions are all my own, and no one else's"
+  bio    : "Mark Crowley (he/him)<br><br>Associate Professor in AI at the University of Waterloo<br/><br/>My Thoughts on <i>AI/ML, Consciousness, Technology, Science,</i> and <i>Society</i><br>Opinions are my own, and no one else's.<br/><br/><tt>Never Cruel or Cowardly, Never Give Up, Never Give In.</tt>"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/compthink"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://sigmoid.social/@compthink"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rateldajer"
@@ -89,15 +89,12 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/rateldajer"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://sigmoid.social/@compthink"
+    - label: "Twitter (phasing out)"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/compthink"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/compthink"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://sigmoid.social/@compthink"
@@ -116,28 +113,28 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: wide # note this will remove the toc and make text wider
+      #classes: wide # note this will remove the toc and make text wider
       author_profile: true
       read_time: true
       show_date: true
       comments: false
       share: true
       related: true
-      toc: true #maybe turn this off?
+      toc: false #maybe turn this off?
       show_tags: true
     #header:
       #image: /assets/conferences/wurzburgpalace_small.jpg
   - 
     scope:
       path: ""
-      type: draft
+      type: drafts
     values:
       published: false
   -
     scope:
       path: "_drafts"
     values:
-      type: draft
+      type: drafts
       published: false
   # _pages
   - scope:
@@ -159,3 +156,5 @@ defaults:
 tag_archive:
   type: liquid
   path: /tags/
+
+
