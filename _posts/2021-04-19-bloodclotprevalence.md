@@ -7,7 +7,6 @@ tags:
 - covid-19
 - scientific-method
 - understanding-data-analysis
-show_tags: true
 toc: true
 ---
 

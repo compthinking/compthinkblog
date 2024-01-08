@@ -1,10 +1,9 @@
 ---
-title:	"Why Does it Matter that Mastodon is a Network?"
-date:	2022-12-29
-tags: 
-- social-media
-- twitter
-- mastodon
+title: Why Does it Matter that Mastodon is a Network?
+date: 2022-12-29
+tags:
+  - social-media/twitter
+  - social-media/mastodon
 show_tags: true
 toc: false
 ---

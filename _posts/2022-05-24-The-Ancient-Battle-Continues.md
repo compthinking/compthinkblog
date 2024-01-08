@@ -7,7 +7,6 @@ date: '2022-05-14'
 tags:
 - artificial-intelligence
 - artificial-general-intelligence
-- agi
 - machine-learning
 show_tags: true
 ---

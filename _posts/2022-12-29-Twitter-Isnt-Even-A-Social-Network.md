@@ -1,11 +1,10 @@
 ---
-title:	"Twitter Isn't Even A Social Network"
-date:	2022-12-29
-tags: 
-- social-media
-- twitter
-- mastodon
-- internet
+title: Twitter Isn't Even A Social Network
+date: 2022-12-29
+tags:
+  - social-media/twitter
+  - social-media/mastodon
+  - internet
 show_tags: true
 toc: false
 ---

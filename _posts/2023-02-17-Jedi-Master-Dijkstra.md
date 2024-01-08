@@ -1,20 +1,19 @@
 ---
-title:	"Jedi Master Dijkstra"
-date:	2023-02-17
-tags: 
-- machine-learning
-- artificial-intelligence
-- algorithms
-- chatgpt
-- nlp
-- large-language-models
-- science-fiction
-- being-nerdy
-- natural-language-processing
+title: Jedi Master Dijkstra
+date: 2023-02-17
+tags:
+  - machine-learning
+  - artificial-intelligence
+  - algorithms
+  - chatgpt
+  - large-language-models
+  - science-fiction
+  - being-nerdy
+  - natural-language-processing
 show_tags: true
 toc: false
 header:
-    image: /assets/images/pathwars.jpg
+  image: /assets/images/pathwars.jpg
 ---
 
 

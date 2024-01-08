@@ -5,8 +5,8 @@ tags:
 - machine-learning
 - artificial-intelligence
 - politics
-- cdnpoli
-- canadian-politics
+- politics/canadian-politics/cdnpoli
+- politics/canadian-politics
 - government-policy
 show_tags: true
 toc: true

@@ -1,15 +1,13 @@
 ---
-title:	"Why Build a Meta-Verse?"
-date:	2022-02-26
+title: Why Build a Meta-Verse?
+date: 2022-02-26
 excerpt: Some spontaneous thoughts on the multiverse of metaverses and whether it's all worth the effort.
-tags: 
-- metaverse
-- internet
-- social-media
-- natural-language-processing
-- nlp
-- machine-learning
-- automated-translation
+tags:
+  - social-media/metaverse
+  - internet
+  - natural-language-processing
+  - machine-learning
+  - automated-translation
 toc: true
 classes: false
 ---

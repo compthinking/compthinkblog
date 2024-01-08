@@ -6,10 +6,10 @@ tags:
   - artificial-intelligence
   - algorithms
   - chatgpt
-  - nlp
   - large-language-models
   - science-fiction
   - being-nerdy
+  - natural-language-processing
 show_tags: true
 toc: false
 header:

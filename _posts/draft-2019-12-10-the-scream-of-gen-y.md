@@ -1,6 +1,6 @@
 ---
 title: The Scream of Gen Y
-tags: climate_change
+tags: climate-change
 date: '2020-09-01'
 show_tags: true
 aside: 

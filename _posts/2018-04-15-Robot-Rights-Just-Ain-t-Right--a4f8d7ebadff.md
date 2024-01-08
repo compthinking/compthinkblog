@@ -7,11 +7,9 @@ description: >-
 date: '2018-04-15T13:31:00.822Z'
 
 tags:
-- artificial-intellgience
-- artificial-general-intellgience
-- agi
-- regulation
-- europe
+- artificial-intelligence
+- artificial-general-intelligence
+- ai-society/ai-regulation
 ---
 
 The European Parliament has apparently been discussing giving rights to machines.

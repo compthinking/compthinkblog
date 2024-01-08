@@ -2,7 +2,6 @@
 title: The use of automated news writing algorithms is growing
 date: 2014-03-18
 show_tags: true
-toc: true
 ---
 
 This is interesting. The first story online from a major newspaper about the earthquake this week in LA [was generated automatically by an algorithm](http://www.slate.com/blogs/future_tense/2014/03/17/quakebot_los_angeles_times_robot_journalist_writes_article_on_la_earthquake.html). In the past few decades we’ve increased our knowledge of language and ability to process data to the point where reliably generating descriptive text about events that makes sense is now possible.  
