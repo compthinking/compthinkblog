@@ -8,6 +8,8 @@ tags:
   - large-language-models
 show_tags: true
 status: published
+date: 2024-01-10
+toc: true
 ---
 In William Shakespeare's *Tempest*, the old wizard Prospero at one point famously opines...
 
@@ -64,7 +66,6 @@ So I would say that one thing a corporation needs to do at that point is conside
 
 OpenAI's dismissal of some possibly "interesting experiments" is particularly troubling though. Using smaller, controlled datasets could have other benefits such as reducing the need to coach LLMs to avoid harmful outputs. Or if they are trained only on trusted, validated sources, there will be less ways for false statements to be generated
 
-On Mastodon, [Dr. Holly Waters noted a valid irony](https://mastodon.social/@Manigarm/111721703349367950)) about that this as well. 
-
-![[manigarm-mastodon-2024-01-09.png]]
+On Mastodon, [Dr. Holly Waters noted a valid irony](https://mastodon.social/@Manigarm/111721703349367950) about this as well:
+> ![Mastodon Post from Dr. Holly Walters. Content: Honestly, the real story should be about billionaires conducting a plagiarism panic against non-white, female university presidents all the while they remain completely invested in the Plagiarism Machine.](/assets/images/manigarm-mastodon-2024-01-09.png)
 
