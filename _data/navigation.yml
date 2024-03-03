@@ -1,4 +1,6 @@
 main:
+  - title: "Eclipse 2024"
+    url: /eclipse/
   - title: "Posts"
     url: /posts/
   - title: "Tags"

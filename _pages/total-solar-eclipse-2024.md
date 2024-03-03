@@ -1,7 +1,7 @@
 ---
 title: Total Solar Eclipse 2024
 layout: single
-date: 2023-12-30
+date: 2024-03-03
 permalink: /eclipse/
 description: Links and information about the amazing Total Solar Eclipse in 2024 crossing through North America.
 tags:
@@ -11,70 +11,194 @@ tags:
 show_tags: true
 toc: true
 toc_sticky: true
+author_profile: false
+header:
+  image: ../assets/eclipse/header-zoom-3-erie-ontario.png
+gallery:
+  - image_path: ../assets/eclipse/zoom-1-horeshoe.png
+    alt: "Toronto zoom 1 - the golden horshoe"
+    title: "Toronto zoom 1 - the golden horshoe"
+  - image_path: ../assets/eclipse/zoom-2-buffalo.png
+    alt: "Toronto zoom 1 - Buffalo"
+    title: "Toronto zoom 1 - Buffalo"
+  - image_path: ../assets/eclipse/zoom-3-erie-ontario.png
+    alt: "Toronto zoom 1 - Lakes Erie and Ontario"
+    title: "Toronto zoom 1 - Lakes Erie and Ontario"
+  - image_path: ../assets/eclipse/zoom-4-great-lakes.png
+    alt: "Toronto zoom 1 - All Five Great Lakes"
+    title: "Toronto zoom 1 - All Five Great Lakes"
 ---
+
 # The Great Total Solar Eclipse of 2024
 
+My personal page of links and info about the eclipse for all the kids and families in my life in and around the Toronto area. If you have a question about anything just ask and I can try to add it here.
+
+## When is the Eclipse?
+
+If you live in and arount Toronto...
+
+When? **Monday, April 8, 2024 at 2:19pm ET** 
+
+|  |  |
+| --- | --- |
+| How Long is the Total Eclipse? | From **zero** up to **three and a half** minutes, depending where you are. |
+|  How about the partial coverage? | About 2.5 hours, from around **1pm to 3:30pm** |
+
 ## Eclipse Viewing Instructions and Resources
-This great page has lots of links from the American Astronomical Society about finding the eclipse and viewing it safely.
 
-https://eclipse2024.org/instructions/instructions.html
-
-Take a look at this google map to zoom in and see whether you are in the Zone of Totality of not!
-
-http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html
-
-# Info for Different Locations
+- This great page has lots of [links from the American Astronomical Society](https://eclipse2024.org) about finding the eclipse and viewing it safely.
+  
+- Take a look at this [Interactive Total Solar Eclipse Map](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html) to zoom in and see whether you are in the Zone of Totality of not!
+  
+- There's lots more Information from the official [Solar Eclipse Across America](https://eclipse.aas.org/resources/downloads) site with background books, pinhole camera instructions, maps and more.
 
 
 
+# Viewing the Eclipse Safely
 
-## Info for Toronto
-Toronto, Canada will not get a total solar eclipse, only an *Annular Solar Eclipse*. This means the will be partially covered by the moon, but never entirely blocked. If you look at the sun through your special solar viewing glasses, it will look like a cookie monster has taken a big bite out of the sun! Since the sun will be still visible, the glasses  **ALWAYS NEEDS TO USE** to view the eclipse directly in Toronto. But also take a look at making your own ***Pin-hole Camera!***
+Everyone knows that you shouldn't look at the sun directly for more than a second. But during a Total Solar Eclipse there is a few minutes where you really can look at the sun, because the Moon is covering it completely! Now, **Toronto itself won't get a total solar eclipse, so you'll need to keep your glasses on if you stay in town**, or build a solar camera! Here is some information about safe viewing of solar eclipses to go with your glasses.
 
-### Local Timetable (to update)
+## Safety Page from the American Astronomical Society
 
-| Event                           | Date       | Time (UT)  | Time (Texas) | Alt    | Azi    |
-| ---                             | ---        | ---                     | ---    | ---    |
-| *Start of partial eclipse (C1)* | 2024/04/08 | 17:15:35.6 | 12:15:35     | +60.4° | 135.8° |
-| *Start of total eclipse (C2)*   | 2024/04/08 | 18:33:01.7 | 13:33:01     | +67.4° | 177.5° |
-| *Maximum eclipse (MAX)*         | 2024/04/08 | 18:35:11.8 | 13:35:11     | +67.4° | 178.9° |
-| *End of total eclipse (C3)*     | 2024/04/08 | 18:37:21.9 | 13:37:21     | +67.4° | 180.3° |
-| *End of partial eclipse (C4)*   | 2024/04/08 | 19:56:20.2 | 14:56:20     | +60.7° | 223.5° |
--->
+- See this [Eclipse Safety Page](https://eclipse.aas.org/eye-safety) for lots of useful information about how to view the eclipse safely.
+- Solar glasses instructions : https://eclipse2024.org/instructions/translations/English.pdf
+- **If you are in Toronto** or anywhere else that is **not on the path of totality**, then read on to see how you can make a pinhole camera!
 
 
 
-
-
-## Info for (Hamilton)
-### Local Timetable (to update)
-
-| Event                           | Date       | Time (UT)  | Time (Texas) | Alt    | Azi    |
-| ---                             | ---        | ---                     | ---    | ---    |
-| *Start of partial eclipse (C1)* | 2024/04/08 | 17:15:35.6 | 12:15:35     | +60.4° | 135.8° |
-| *Start of total eclipse (C2)*   | 2024/04/08 | 18:33:01.7 | 13:33:01     | +67.4° | 177.5° |
-| *Maximum eclipse (MAX)*         | 2024/04/08 | 18:35:11.8 | 13:35:11     | +67.4° | 178.9° |
-| *End of total eclipse (C3)*     | 2024/04/08 | 18:37:21.9 | 13:37:21     | +67.4° | 180.3° |
-| *End of partial eclipse (C4)*   | 2024/04/08 | 19:56:20.2 | 14:56:20     | +60.7° | 223.5° |
--->
+## Easy to Make Pinhole Camera for Kids
 
 
 
+### The Basic
 
-## Info for Fredricksburg, Texas
-<!-- *This is where Mark and Lily will to be:* -->
-**Bending Oak RV Camp** at coords (30.22381°, -98.80293°)
+Some fundamental information on how to make a pinhole camera instead, here's how](https://eclipse.aas.org/eye-safety/projection)! This page from NASA tells you [how to make a simple pinhole camera](https://www.jpl.nasa.gov/edu/learn/project/how-to-make-a-pinhole-camera/)  with just paper, alumnium foil and tape, so you can see the full shape of the sun as the moon slowely covers it up.
 
-### Local Timetable
+### The Mod
 
-| Event                           | Date       | Time (UT)  | Time (Texas) | Alt    | Azi    |
-| ---                             | ---        | ---                     | ---    | ---    |
-| *Start of partial eclipse (C1)* | 2024/04/08 | 17:15:35.6 | 12:15:35     | +60.4° | 135.8° |
-| *Start of total eclipse (C2)*   | 2024/04/08 | 18:33:01.7 | 13:33:01     | +67.4° | 177.5° |
-| *Maximum eclipse (MAX)*         | 2024/04/08 | 18:35:11.8 | 13:35:11     | +67.4° | 178.9° |
-| *End of total eclipse (C3)*     | 2024/04/08 | 18:37:21.9 | 13:37:21     | +67.4° | 180.3° |
-| *End of partial eclipse (C4)*   | 2024/04/08 | 19:56:20.2 | 14:56:20     | +60.7° | 223.5° |
--->
+You can improve the view you get from that using a big box to make it darker. 
+
+These [instructions from Sky and Telescope](https://skyandtelescope.org/observing/celestial-objects-to-watch/how-to-watch-a-partial-solar-eclipse-safely/) give some information on how to make your own safe, peronsal solar observatory:
+
+![pinhole_projection_m](../assets/eclipse/pinhole_projection_m.jpg)
+
+### Getting Fancy...
+
+If you want to see the shadow the sun a bit bigger, you'll need some kind of lense in the pinhole to make the image bigger, and focus it on the right spot to be clear. You could also use binoculars as your lense to project it outwards and just look at the picture. The [instructions from Sky and Telescope](https://skyandtelescope.org/observing/celestial-objects-to-watch/how-to-watch-a-partial-solar-eclipse-safely/) give a bit more information. 
+
+![telescope_projection_m](../assets/eclipse/telescope_projection_m.jpg)
+
+
+
+
+
+# Where to See the Eclipse
+
+Every total solar eclipse is amazing, but this year's one is special because it just happens to pass over where so many people live! If you are lucky to have a clear sky, then you can use this [Interactive Map of the 2024 Total Solar Eclipse](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html?Lat=43.76317&Lng=-79.74578&Elv=232.0&Zoom=10&LC=1) to find out exactly what time to elcipse with start and end where you are that day.
+
+## Toronto
+
+Toronto will *not* get an actual total solar eclipse, only what is called an *Annular Solar Eclipse*. This means the will be partially covered by the moon, but never entirely blocked. If you look at the sun through your special solar viewing glasses, it will look like a Cookie Monster has taken a big bite out of the sun! 
+
+Since **the raw sun will be still visible in Toronto**, you  **ALWAYS NEEDS TO USE** to view the eclipse directly in Toronto. But also take a look at making your own ***Pin-hole Camera!*** (see instructions and links below)
+
+![gta-brampton](../assets/eclipse/gta-brampton.png)
+
+![toronto](../assets/eclipse/toronto.png)
+
+
+
+### Toronto zoom
+
+
+{% include gallery caption="Toronto Zoom" colomn="half" %}
+
+
+## Oakville
+
+The closest place near Toronto that will actually get Totality, weather permitting, is just past Oakville. 
+
+
+
+
+
+![Oakville Eclipse Map](../assets/eclipse/oakville.png)
+
+
+## Understanding the Data Tables
+
+Let's look at the Oakville Data table from the map website to understand what it's telling us.
+
+![oakbville-data](../assets/eclipse/oakville-data.png)
+
+Look at the areas highlighted in red and yellow for the most important information:
+
+| In the Table     | What is it?                                                  | What does it mean?                                           |
+| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| "1m 27.7s"       | Duration. How long the eclipse will be at that spot.         | 1 minute and 27.7 seconds of Totality!                       |
+| Obscuration 100% | How much of the sun is covered by the moon.                  | If this is 100%, then you have a full Total Solar Eclipse! Note that toronto only has |
+| C2               | The moment with the last piece of sun is covered by the moon. | It's now safe to look at with your eye's unprotected at this location. |
+| UT               | Universal Time                                               | The times are given in UT/Zulu/GMT time. So you need to subtract **5 hours** to get the time for Toronto.  So, the total eclipse starts at **2:19 pm**. |
+| MAX              | The middle point of the total eclipse.                       | Still safe to look! Do you notice how the air is colder now? Are the birds acting funny? |
+| C3               | The sun is about to peek back out, the moon has moved on.    | Time to look away or put your glasses back on!               |
+
+**Other Information in the table:**
+
+| In the table | What is it?                                                  | What does it mean?                                           |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| C1           | "First Contact", the first moment the moon covers any of the sun. | Only look at it with your eclipse glasses on! But you should start to see a bigger bite being taken out of the sun. |
+| C4           | Last contact, the moon is now no longer in front of the sun at all. | Just a normal day Earth, sigh.                               |
+
+## Going Further
+
+So technically, I guess Kerr Village in Oakville gets the first bit of totality. If it's clear skies there you'll just 30 seconds of totality. Just enough time to take off you glasses, see it, and put them back on.
+
+But if you're getting in the car anyways...you might as well go a bit futher :)
+
+### Grimsby
+
+![grimbsy-data](../assets/eclipse/grimbsy-data.png)
+
+### St. Catherines
+
+![st-catherines-data](../assets/eclipse/st-catherines-data.png)
+
+### Port Colborne - Maybe the best spot in Canada? weather permitting
+
+Again, the *only thing that matters* is clouds. If there is no clear sky then it's not worth the trip anywhere. But if you are driving somewhere, the longest duration total solar elcipse anywhere in Canada will be around Port Colborne near Buffalo.
+
+![port-colberne-data](../assets/eclipse/port-colberne-data.png)
+
+Yes...even better than Point Pelee which is further south, but not as near to the line of totality.
+
+### Buffalo - whole city in full totality, longest duration line cuts through downtown
+
+Niagara Falls itself or Buffalo would be neat, because the whole of the entire cities will have a total solar eclipse. Buffalo gets you even closer to the MAX line, but don't rush there yet...
+
+![buffalo-high](../assets/eclipse/buffalo-high.png)
+
+Notice, that Buffalo gets only *3 seconds* more totality time than Port Colborne, and only *40 seconds* more than St. Catherines, which still gets 3 minutes and 6 seconds. That, on top of the unimaginable traffic madness at the border (and everywhere?) that day means **it's not worth the drive to Buffalo**.
+
+![buffalo-data](../assets/eclipse/buffalo-data.png)
+
+## Other Places of Interest
+
+Ask me and I'll add up info for any places people want, all from the [interactive map](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html?Lat=32.76718&Lng=-96.79552&Elv=141.0&Zoom=11&LC=1)
+
+### Indianapolis
+
+![indi-data](../assets/eclipse/indi-data.png)
+
+### Dallas
+
+![dallas-data](../assets/eclipse/dallas-data.png)
+
+## Fredricksburg, Texas
+
+![texas-high](../assets/eclipse/texas-high.png)
+
+![fredricksburg-data](../assets/eclipse/fredricksburg-data.png)
+
 
 
 # Questions About the Eclipse
@@ -83,19 +207,52 @@ Toronto, Canada will not get a total solar eclipse, only an *Annular Solar Eclip
 
 This [google map from Xavier Jubier](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html) lets you check different total solar eclipses against a precise location.
 
-## Viewing the Eclipse
-Everyone knows that you shouldn't look at the sun directly for more than a second. But during a total solar eclipse there is a few minutes where you really can look at the sun, because the Moon is covering it completely!
 
-When the eclipse comes, you'll need your solar eclipse glasses to let you watch until that moment arrives, and to leave you watch the sun return after the eclipse is over!
 
-Here is some information about safe viewing of solar eclipses to go with your glasses.
+## When is the *Next* Next Eclipse?
 
-### Safety Page from the American Astronomical Society
-- See this [Eclipse Safety Page](https://eclipse.aas.org/eye-safety) for lots of useful information about how to view the eclipse safely.
-- Solar glasses instructions : https://eclipse2024.org/instructions/translations/English.pdf
-- **If you are in Toronto** or anywhere else that is **not on the path of totality**, then [you can make a pinhole camera instead, here's how](https://eclipse.aas.org/eye-safety/projection)! 
+- You could catch it 2026!
+  - In Spain, say at [Camino de Santiago](https://en.wikipedia.org/wiki/Camino_de_Santiago#Compostela)
+  - Or in Iceland
 
-# The *Next* Next Eclipse - Spain! 2026
-- https://en.wikipedia.org/wiki/Camino_de_Santiago#Compostela
-- http://xjubier.free.fr/en/site_pages/SolarEclipsesGoogleMaps.html
+- [Interactive maps for all future eclipses](http://xjubier.free.fr/en/site_pages/SolarEclipsesGoogleMaps.html)
 
+![2026-spain](../assets/eclipse/2026-spain.png)
+
+![2026-iceland](../assets/eclipse/2026-iceland.png)
+
+
+
+# Other Questions for Kids
+
+There *might* be a colouring packge coming soon with these in them...
+
+## What's an orbit?
+
+
+
+### Which direction does the moon orbit the Earth?
+
+
+
+### Which direction does the Earth orbit the Sun?
+
+
+
+### So...which fairground ride is that like?
+
+- [ ] roller coaster?
+- [ ] spinning strawberry seats?
+- [ ] merry-go-round?
+- [ ] ferris wheel?
+- [ ] spinny space capsule thing?
+
+## How big will the moon's shadow be?
+
+
+
+## How fast will the moon's shadow be moving?!
+
+
+
+## Could you fly with the eclipse and see it for more than 4 minutes?!!!!

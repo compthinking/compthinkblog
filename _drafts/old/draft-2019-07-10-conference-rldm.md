@@ -8,7 +8,6 @@ description: I attended the fourth bi-annual RLDM conference in Montreal in July
 showtopics: true
 toc: true
 toc_sticky: true
-classes: narrow
 ---
 # Reinforcement Learning and Decision Making Conference
 

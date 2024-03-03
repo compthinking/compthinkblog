@@ -7,7 +7,7 @@ tags:
 - machine-learning
 - artificial-intelligence
 - usability
-classes: false
+classes: wide
 thumbnail: /assets/images/dalle-car-wheel-brain.png"
 ---
 
