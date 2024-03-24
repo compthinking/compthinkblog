@@ -77,6 +77,8 @@ Note that points between these will vary fairly smoothly as you approach the tot
   
 - There's lots more Information from the official [Solar Eclipse Across America](https://eclipse.aas.org/resources/downloads) site with background books, pinhole camera instructions, maps and more.
 
+- Printed 2up pdf of this webpage for reference : [Total Solar Eclipse 2024.pdf](../assets/eclipse/Total Solar Eclipse 2024.pdf)
+
 
 
 ***Notice**: Due to the madness that is daylight saving's time adjustments, this page previously stated the max eclipse time was 2:19pm, so you've got one more hour!*{: .notice--danger}
@@ -263,7 +265,13 @@ This [google map from Xavier Jubier](http://xjubier.free.fr/en/site_pages/solar_
 - [printable pdf](../assets/eclipse/zoom-toronto-v2.pdf)
 - [viewable png](../assets/eclipse/zoom-toronto-v2.png)
 
-![](../assets/eclipse/zoom-toronto-v2.png)
+![100](../assets/eclipse/zoom-toronto-v2.png)
 
+## What is a Total Solar Eclipse?
 
+Kinda like the Moon is photobombing the Earth and the Sun?
 
+- [printable pdf](../assets/eclipse/eclipse drawingv2-reduced-sized.pdf)
+- [viewable png](../assets/eclipse/eclipse drawingv2-reduced-sized.png)
+
+![100](../assets/eclipse/eclipse drawingv2-reduced-sized.png)
