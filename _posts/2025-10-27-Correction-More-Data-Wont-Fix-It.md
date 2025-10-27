@@ -13,7 +13,7 @@ status: published
 date: 2025-10-27
 ---
 
-## To the Editor,
+**To the Editor,**
 I'd like to point out a misleading statement in this article about the sources of AI model hallucinations. 
 - **Title:** Top AI assistants misrepresent news content, study finds CBC News
 - **Link:** https://www.cbc.ca/news/world/ai-assistants-news-misrepresented-study-9.6947735
@@ -39,3 +39,4 @@ As put best in 2023 by Andrej Karpathy, a foundational AI guru at Tesla and Open
 All this to merely say, it would be better if the CBC, and other responsible news organizations were more careful when ascribing the hallucinations or errors of AI systems to some fixable, known problem, rather than the challenging research topics that it is. 
 
 Otherwise, I worry **our society will continue sleep-walking** forward to the marketing tunes of a few corporations claiming that **safe and responsible use of these systems in all walks of life is well on its way to being perfected**, which is far from the truth. 
+

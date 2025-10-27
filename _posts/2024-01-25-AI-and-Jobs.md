@@ -12,6 +12,7 @@ show_tags: true
 status: published
 date: 2024-01-25
 ---
+
 This is in reply to reading this article from the BBC, ["AI to hit 40% of jobs and worsen inequality, IMF says"](https://www.bbc.com/news/business-67977967) *(January 15, 2024, Annabelle Liang, BBC)*
 
 Some quotes and my responses:
