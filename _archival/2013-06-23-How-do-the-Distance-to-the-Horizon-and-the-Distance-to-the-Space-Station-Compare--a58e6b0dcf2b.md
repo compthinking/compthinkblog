@@ -1,6 +1,6 @@
 ---
 title: How do the Distance to the Horizon and the Distance to the Space Station Compare?
-date: 2013-06-23
+date: '2013-06-23'
 ---
 
 ![](/assets/0__sXJUMZQER44LiFyv.jpg)

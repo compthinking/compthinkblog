@@ -1,6 +1,6 @@
 ---
-title:	"It's Made of People!"
-date:	2023-04-12
+title: "It's Made of People!"
+date: 2023-04-12
 tags: 
 - machine-learning
 - artificial-intelligence

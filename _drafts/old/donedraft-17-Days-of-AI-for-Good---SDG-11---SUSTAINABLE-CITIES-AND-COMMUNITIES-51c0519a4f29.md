@@ -1,9 +1,6 @@
-[](---)
+---
 title: 17 Days of AI for Good — SDG 11 — SUSTAINABLE CITIES AND COMMUNITIES
-
 description: 'Make cities and human settlements inclusive, safe, resilient and sustainable'
-date: ''
-
 tags: []
 ---
 

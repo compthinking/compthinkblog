@@ -1,5 +1,5 @@
 ---
-title: Correction - More Data Won't Fix It
+title: More Data Won't Fix It
 tags:
   - machine-learning
   - artificial-inteligence

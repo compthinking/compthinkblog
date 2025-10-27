@@ -1,6 +1,6 @@
 ---
 title:	"The More Things Change..."
-date:	2023-05-14
+date: 2023-05-14
 tags:
 - machine-learning
 - artificial-intelligence
