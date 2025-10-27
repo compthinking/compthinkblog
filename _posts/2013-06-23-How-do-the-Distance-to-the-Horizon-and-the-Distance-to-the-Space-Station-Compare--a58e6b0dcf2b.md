@@ -1,11 +1,6 @@
 ---
-title: >-
-  How do the Distance to the Horizon and the Distance to the Space Station
-  Compare?
-description: ''
-date: '2013-06-23T19:14:00.000Z'
-
-tags: []
+title: How do the Distance to the Horizon and the Distance to the Space Station Compare?
+date: 2013-06-23
 ---
 
 ![](/assets/0__sXJUMZQER44LiFyv.jpg)

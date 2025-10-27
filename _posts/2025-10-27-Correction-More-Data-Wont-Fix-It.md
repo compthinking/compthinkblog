@@ -10,9 +10,9 @@ tags:
 show_tags: true
 show_bib: true
 status: published
-date-create: 2025-10-27
 date: 2025-10-27
 ---
+
 ## To the Editor,
 I'd like to point out a misleading statement in this article about the sources of AI model hallucinations. 
 - **Title:** Top AI assistants misrepresent news content, study finds CBC News
