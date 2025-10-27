@@ -42,7 +42,10 @@ I think that's the wrong message to take from it.
 
 *To wit...*
 
-> Earlier this month, Andrej Karpathy, the former head of AI at Tesla and now at OpenAI, tweeted similar remarks. “I always struggle a bit when I’m asked about the ‘hallucination problem’ in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.”  
+## Dream Machines
+> Earlier this month, Andrej Karpathy, the former head of AI at Tesla and now at OpenAI, tweeted similar remarks. 
+> > “I always struggle a bit when I’m asked about the ‘hallucination problem’ in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.”  
+> > -- [Andrej Karpathy @karpathy on Twitter Dec 8, 2023](https://x.com/karpathy/status/1733299213503787018)
 
 Andrej is right on point here, of course. Hallucination isn't actually a problem with LLMs, it's *how they work*. We just happen to like it when they hallucinate something we agree with. Mathematically "hallucination" is identical to "regression" or "prediction". 
 

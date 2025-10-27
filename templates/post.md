@@ -11,4 +11,5 @@ tags:
 show_tags: true
 show_bib: true
 status: draft
+date: {date}
 ---
