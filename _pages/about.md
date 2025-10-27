@@ -27,7 +27,8 @@ This is my blog about the world from a computational point of view, which is, *i
 ### Social:  
   -  <a href="https://sigmoid.social/@compthink" rel="me">@compthink@sigmoid.social</a> (new hotness!)
   - [LinkedIn](http://www.linkedin.com/in/markanthonycrowley) 
-  - [Twitter](https://twitter.com/compthink) (archival...almost)
+  - [Bluesky](https://bsky.app/profile/compthink.bsky.social)
+
 
   
     
